@@ -1,0 +1,61 @@
+OUTPUT_DIR: 'OUTPUT/'
+WORKERS: 6
+PRINT_FREQ: 100
+AMP:
+  ENABLED: True
+
+AUG:
+  MIXCUT: 1.0
+LOSS:
+  LABEL_SMOOTHING: 0.1
+
+MODEL:
+  NAME: cls_resnet
+  NUM_CLASSES: 21842
+  SPEC:
+    NUM_LAYERS: 101
+    KERNEL_SIZE_STEM: 3
+    NUM_GROUPS: 32
+    AVG_DOWN: true
+    WIDTH_PER_GROUP: 16
+    WITH_SE: true
+    STEM_FACTOR: 2
+    DEEP_STEM: True
+  PRETRAINED: ''
+  PRETRAINED_LAYERS:
+    - conv1
+    - conv2
+    - conv3
+    - bn1
+    - bn2
+    - bn3
+    - layer1
+    - layer2
+    - layer3
+    - layer4
+DATASET:
+  DATASET: 'imagenet22k'
+  DATA_FORMAT: 'tsv'
+  ROOT: 'DATASET/imagenet22k-tsv/'
+  TEST_SET: 'val22k'
+  TRAIN_SET: 'train'
+TEST:
+  BATCH_SIZE_PER_GPU: 16
+  IMAGE_SIZE: [480, 480]
+  CENTER_CROP: False
+  MODEL_FILE: ''
+TRAIN:
+  BATCH_SIZE_PER_GPU: 16
+  IMAGE_SIZE: [480, 480]
+  LR_SCHEDULER:
+    METHOD: 'BitHyperRule'
+  OPTIMIZER: sgd
+  WD: 0.0001
+  MOMENTUM: 0.9
+  NESTEROV: true
+  SHUFFLE: true
+FINETUNE:
+  FINETUNE: true
+  EVAL_EVERY: 2000
+DEBUG:
+  DEBUG: false

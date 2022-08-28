@@ -1,0 +1,30 @@
+# GPUS: (0,)
+OUTPUT_DIR: 'OUTPUT/RESNET50/'
+
+INPUT:
+  MEAN: [0.485, 0.456, 0.406]
+  STD: [0.229, 0.224, 0.225]
+
+MODEL:
+  NAME: resnet50
+# Fowwling configuration is needed for runing linear probe with Pytorch based linear model.
+  SPEC:
+    EMBED_DIM: 2048
+
+TEST:
+  BATCH_SIZE_PER_GPU: 128
+  MODEL_FILE: ''
+
+TRAIN:
+  BATCH_SIZE_PER_GPU: 64
+  BEGIN_EPOCH: 0
+  END_EPOCH: 10
+  EXTRA_FINAL_TRAIN_EPOCH: 0
+  OPTIMIZER: sgd
+  WD: 0.
+  MOMENTUM: 0.9
+  NESTEROV: false
+  SHUFFLE: true
+  LR_SCHEDULER:
+    METHOD: 'WarmupCosine'
+    WARMUP_EPOCH: 5

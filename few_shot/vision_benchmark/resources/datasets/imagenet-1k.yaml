@@ -1,0 +1,6 @@
+DATASET:
+  DATASET: 'imagenet-1k'
+  ROOT: '../DATASET/imagenet-1k/'
+  NUM_CLASSES: 1000
+TEST:
+  METRIC: 'accuracy'

@@ -1,0 +1,6 @@
+BASE: ['se-x101-32x16d-ds3sf2a-drop0.1-aug4-w5c120-bnwd0-larc.yaml']
+SWA:
+  ENABLED: True
+  BEGIN_EPOCH: 90
+  LR_RATIO: 0.125
+  ANNEAL_EPOCHS: 5

@@ -1,0 +1,87 @@
+DATALOADER:
+  ASPECT_RATIO_GROUPING: false
+  SIZE_DIVISIBILITY: 32
+DATASETS:
+  CAPTION_PROMPT: '[{"prefix": " ", "name": "fish", "suffix": ""}, {"prefix": "",
+    "name": "jellyfish", "suffix": ""}, {"prefix": "", "name": "penguin", "suffix":
+    " , which is black and white"}, {"prefix": "", "name": "puffin", "suffix": " with
+    orange beaks "}, {"prefix": "", "name": "shark", "suffix": ""}, {"prefix": "",
+    "name": "starfish", "suffix": ""}, {"prefix": "", "name": "stingray", "suffix":
+    " which is flat and round"}, ]'
+  GENERAL_COPY: 16
+  KNOWLEDGE: '[{"id": 1, "name": "fish", "supercategory": "creatures", "def_wiki":
+    "A cold-blooded vertebrate animal that lives in water, moving with the help of
+    fins and breathing with gills.", "path_wn": ["fish", "aquatic_vertebrate", "vertebrate",
+    "chordate", "animal", "organism", "living_thing", "whole", "object", "physical_entity",
+    "entity"], "def_wn": "any of various mostly cold-blooded aquatic vertebrates usually
+    having scales and breathing through gills"}, {"id": 2, "name": "jellyfish", "supercategory":
+    "creatures", "def_wiki": "An almost transparent aquatic animal; any one of the
+    acalephs, especially one of the larger species, having a jellylike appearance.",
+    "path_wn": ["Portuguese_man-of-war", "siphonophore", "hydrozoan", "coelenterate",
+    "invertebrate", "animal", "organism", "living_thing", "whole", "object", "physical_entity",
+    "entity"], "def_wn": "large siphonophore having a bladderlike float and stinging
+    tentacles"}, {"id": 3, "name": "penguin", "supercategory": "creatures", "def_wiki":
+    "Any of several flightless sea birds, of order Sphenisciformes, found in the Southern
+    Hemisphere, marked by their usual upright stance, walking on short legs, and (generally)
+    their stark black and white plumage.", "path_wn": ["penguin", "sphenisciform_seabird",
+    "seabird", "aquatic_bird", "bird", "vertebrate", "chordate", "animal", "organism",
+    "living_thing", "whole", "object", "physical_entity", "entity"], "def_wn": "short-legged
+    flightless birds of cold southern especially Antarctic regions having webbed feet
+    and wings modified as flippers"}, {"id": 4, "name": "puffin", "supercategory":
+    "creatures", "def_wiki": "The young of the Manx shearwater (Puffinus puffinus),
+    especially eaten as food.", "path_wn": ["puffin", "seabird", "aquatic_bird", "bird",
+    "vertebrate", "chordate", "animal", "organism", "living_thing", "whole", "object",
+    "physical_entity", "entity"], "def_wn": "any of two genera of northern seabirds
+    having short necks and brightly colored compressed bills"}, {"id": 5, "name":
+    "shark", "supercategory": "creatures", "def_wiki": "A scaleless, predatory fish
+    of the superorder Selachimorpha, with a cartilaginous skeleton and 5 to 7 gill
+    slits on each side of its head.", "path_wn": ["shark", "elasmobranch", "cartilaginous_fish",
+    "fish", "aquatic_vertebrate", "vertebrate", "chordate", "animal", "organism",
+    "living_thing", "whole", "object", "physical_entity", "entity"], "def_wn": "any
+    of numerous elongate mostly marine carnivorous fishes with heterocercal caudal
+    fins and tough skin covered with small toothlike scales"}, {"id": 6, "name": "starfish",
+    "supercategory": "creatures", "def_wiki": "Any of various asteroids or other echinoderms
+    (not in fact fish) with usually five arms, many of which eat bivalves or corals
+    by everting their stomach.", "path_wn": ["starfish", "echinoderm", "invertebrate",
+    "animal", "organism", "living_thing", "whole", "object", "physical_entity", "entity"],
+    "def_wn": "echinoderms characterized by five arms extending from a central disk"},
+    {"id": 7, "name": "stingray", "supercategory": "creatures", "def_wiki": "Any of
+    various large, venomous rays, of the orders Rajiformes and Myliobatiformes, having
+    a barbed, whiplike tail.", "path_wn": ["stingray", "ray", "elasmobranch", "cartilaginous_fish",
+    "fish", "aquatic_vertebrate", "vertebrate", "chordate", "animal", "organism",
+    "living_thing", "whole", "object", "physical_entity", "entity"], "def_wn": "large
+    venomous ray with large barbed spines near the base of a thin whiplike tail capable
+    of inflicting severe wounds"}]'
+  PREDEFINED_TEXT: odinw/pothole/category_description.json
+  REGISTER:
+    Aquarium_Test:
+      ann_file: odinw/original/Aquarium/Aquarium Combined.v2-raw-1024.coco/test/annotations_without_background.json
+      img_dir: odinw/original/Aquarium/Aquarium Combined.v2-raw-1024.coco/test
+    Aquarium_Train:
+      ann_file: odinw/original/Aquarium/Aquarium Combined.v2-raw-1024.coco/train/annotations_without_background.json
+      img_dir: odinw/original/Aquarium/Aquarium Combined.v2-raw-1024.coco/train
+    Aquarium_Val:
+      ann_file: odinw/original/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid/annotations_without_background.json
+      img_dir: odinw/original/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid
+  TEST: ("Aquarium_Test",)
+  TRAIN: ("Aquarium_Train",)
+INPUT:
+  MAX_SIZE_TEST: 1333
+  MAX_SIZE_TRAIN: 1333
+  MIN_SIZE_TEST: 800
+  MIN_SIZE_TRAIN: 800
+MODEL:
+  ATSS:
+    NUM_CLASSES: 8
+  DYHEAD:
+    NUM_CLASSES: 8
+  FCOS:
+    NUM_CLASSES: 8
+  ROI_BOX_HEAD:
+    NUM_CLASSES: 8
+SOLVER:
+  CHECKPOINT_PERIOD: 100
+  MAX_EPOCH: 12
+  WARMUP_ITERS: 0
+TEST:
+  IMS_PER_BATCH: 8

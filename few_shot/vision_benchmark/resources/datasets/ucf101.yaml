@@ -1,0 +1,14 @@
+# GPUS: (0,)
+DATA_DIR: ''
+
+DATASET:
+  DATASET: 'ucf101'
+  DATA_FORMAT: 'jpg'
+  ROOT: '../DATASET/ucf101-image/'
+  TRAIN_SET: 'train'
+  TEST_SET: 'test'
+  NUM_CLASSES: 101
+TEST:
+  METRIC: 'accuracy'
+DEBUG:
+  DEBUG: false

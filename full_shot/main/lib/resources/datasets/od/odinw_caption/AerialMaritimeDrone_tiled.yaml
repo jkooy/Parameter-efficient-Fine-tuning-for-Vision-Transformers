@@ -1,0 +1,39 @@
+DATALOADER:
+  ASPECT_RATIO_GROUPING: false
+  SIZE_DIVISIBILITY: 32
+DATASETS:
+  GENERAL_COPY: 16
+  # OVERRIDE_CATEGORY: '[{"id": 1, "name": "boat", "supercategory": "movable-objects"}, {"id": 2, "name": "car", "supercategory": "movable-objects"}, {"id": 3, "name": "dock", "supercategory": "movable-objects"}, {"id": 4, "name": "jetski", "supercategory": "movable-objects"}, {"id": 5, "name": "white rectangle", "supercategory": "movable-objects"}]'
+  PREDEFINED_TEXT: odinw/pothole/category_description.json
+  REGISTER:
+    AerialMaritimeDrone_Tiled_Test:
+      ann_file: odinw/original/AerialMaritimeDrone/tiled/test/annotations_without_background.json
+      img_dir: odinw/original/AerialMaritimeDrone/tiled/test
+    AerialMaritimeDrone_Tiled_Train:
+      ann_file: odinw/original/AerialMaritimeDrone/tiled/train/annotations_without_background.json
+      img_dir: odinw/original/AerialMaritimeDrone/tiled/train
+    AerialMaritimeDrone_Tiled_Val:
+      ann_file: odinw/original/AerialMaritimeDrone/tiled/valid/annotations_without_background.json
+      img_dir: odinw/original/AerialMaritimeDrone/tiled/valid
+  TEST: ("AerialMaritimeDrone_Tiled_Val",)
+  TRAIN: ("AerialMaritimeDrone_Tiled_Train",)
+INPUT:
+  MAX_SIZE_TEST: 1333
+  MAX_SIZE_TRAIN: 1333
+  MIN_SIZE_TEST: 800
+  MIN_SIZE_TRAIN: 800
+MODEL:
+  ATSS:
+    NUM_CLASSES: 6
+  DYHEAD:
+    NUM_CLASSES: 6
+  FCOS:
+    NUM_CLASSES: 6
+  ROI_BOX_HEAD:
+    NUM_CLASSES: 6
+SOLVER:
+  CHECKPOINT_PERIOD: 100
+  MAX_EPOCH: 12
+  WARMUP_ITERS: 0
+TEST:
+  IMS_PER_BATCH: 8

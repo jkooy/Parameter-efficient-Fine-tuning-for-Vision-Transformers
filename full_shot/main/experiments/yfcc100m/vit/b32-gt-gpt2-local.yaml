@@ -1,0 +1,14 @@
+BASE: ['b32-gpt2.yaml']
+MODEL:
+  SPEC:
+    GATHER_TENSORS: True
+    POOL_TYPE: 'linear'
+    SKIP_CLS: True
+DATASET:
+  DATASET: 'image_text_pairs'
+  DATA_FORMAT: 'tsv'
+  ROOT: '/home/ncodella/yfcc_local'
+  TEST_SET: 'coco-caption-val2017'
+  TRAIN_SET: 'train'
+TRAIN:
+  SAMPLER: 'default'

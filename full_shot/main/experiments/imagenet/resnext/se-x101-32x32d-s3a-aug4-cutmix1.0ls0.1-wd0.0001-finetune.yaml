@@ -1,0 +1,8 @@
+BASE: ['se-x101-32x32d-s3a-cutmix1.0ls0.1-wd0.0001-finetune.yaml']
+
+AUG:
+  GRAY_SCALE: 0.2
+  COLOR_JITTER: [0.4, 0.4, 0.4, 0.1, 0.8]
+
+FINETUNE:
+  USE_TRAIN_AUG: True

@@ -1,0 +1,11 @@
+BASE: ['r50s3a-aug4-w5c300-bnwd0.yaml']
+AMP:
+  ENABLED: True
+MODEL:
+  SPEC:
+    WITH_SE: true
+
+TRAIN:
+  LARC: True
+  BATCH_SIZE_PER_GPU: 256
+  LR: 0.1

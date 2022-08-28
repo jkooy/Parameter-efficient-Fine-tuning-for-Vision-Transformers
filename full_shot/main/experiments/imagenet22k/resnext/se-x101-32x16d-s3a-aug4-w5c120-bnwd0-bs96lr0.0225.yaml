@@ -1,0 +1,7 @@
+BASE: ['se-x101-32x16d-s3a-aug4-w5c300-bnwd0.yaml']
+TRAIN:
+  END_EPOCH: 120
+  BATCH_SIZE_PER_GPU: 96
+  LR: 0.0225
+TEST:
+  BATCH_SIZE_PER_GPU: 32

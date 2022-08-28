@@ -1,0 +1,14 @@
+BASE: ['r50s3a-aug4-w5c300-bnwd0.yaml']
+SWA:
+  ENABLED: True
+  BEGIN_EPOCH: 0
+MODEL:
+  PRETRAINED: 'DATASET/models/IN-1k/r50-s3a1-224x224-cj0.4_0.4_0.4_0.1_0.8gs0.2gb0.0-labelsmooth0.0mixcut1.0sgd-lr0.2wd0.0001bnwd0bs64X8-WarmupCosine5Ep300/final_state.pth'
+  PRETRAINED_LAYERS: ['*']
+TRAIN:
+  END_EPOCH: 30
+  BATCH_SIZE_PER_GPU: 64
+  LR_SCHEDULER:
+    METHOD: CyclicLR
+    BASE_LR: 0.0000025
+    MAX_LR: 0.00025

@@ -1,0 +1,4 @@
+BASE: ['se-x101-32x8d-ds3a-aug4-w5c120-bnwd0-larc.yaml']
+MODEL:
+  SPEC:
+    DROPOUT: 0.1

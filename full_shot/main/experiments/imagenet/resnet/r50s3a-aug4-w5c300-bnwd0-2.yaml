@@ -1,0 +1,42 @@
+description: probe
+
+target:
+  service: amlk8s
+  # run "amlt target list amlk8s" to list the names of available AMLK8s targets
+  name:  itplabrr1cl1
+  vc: resrchvc
+
+environment:
+  image: jw2yang/video-pytorch1.7:v0.1
+  registry: docker.io # any public registry can be specified here
+  setup:
+    - pip install tensorboard --user
+
+storage:
+  output_storage:
+    storage_account_name: xuehaivl
+    container_name: amulet
+  chunyleu_data_storage:
+    storage_account_name: chunyleu
+    container_name: selflearning
+
+code:
+  # local directory of the code. this will be uploaded to the server.
+  # $CONFIG_DIR is expanded to the directory of this config file
+  local_dir: $CONFIG_DIR/
+
+search:
+  job_template:
+  # list of jobs to run, we run 2 jobs in this example
+    name: probe
+    # one gpu
+    # sku: G4
+    sku: G8
+    command: 
+    - bash -x run.sh
+
+  max_trials: 36
+  type: grid  
+
+
+

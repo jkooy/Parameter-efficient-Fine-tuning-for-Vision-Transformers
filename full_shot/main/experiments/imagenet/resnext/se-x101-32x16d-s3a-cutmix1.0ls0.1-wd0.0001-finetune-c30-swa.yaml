@@ -1,0 +1,15 @@
+BASE: ['se-x101-32x16d-s3a-cutmix1.0ls0.1-wd0.0001-finetune.yaml']
+SWA:
+  ENABLED: True
+  BEGIN_EPOCH: 0
+MODEL:
+  PRETRAINED: 'DATASET/models/IN-1k-finetune/se-x101-32x16d-s3a-cutmix1.0ls0.1-wd0.0001-finetune/final_state.pth'
+  PRETRAINED_LAYERS: ['*']
+TRAIN:
+  END_EPOCH: 30
+  BATCH_SIZE_PER_GPU: 16
+  LARC: False
+  LR_SCHEDULER:
+    METHOD: CyclicLR
+    BASE_LR: 0.000000625
+    MAX_LR: 0.0000625

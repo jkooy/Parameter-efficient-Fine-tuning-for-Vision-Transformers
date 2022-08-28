@@ -1,0 +1,7 @@
+BASE: ['se-x101-32x16d-ds3sf2a-drop0.1-aug4-w5c120-bnwd0-larc.yaml']
+MODEL:
+  SPEC:
+    NUM_LAYERS: 152
+TRAIN:
+  BATCH_SIZE_PER_GPU: 64
+  LR: 0.025

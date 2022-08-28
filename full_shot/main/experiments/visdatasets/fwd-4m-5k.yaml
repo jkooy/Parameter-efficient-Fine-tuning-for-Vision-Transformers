@@ -1,0 +1,11 @@
+BASE: ['base/r50s3a-aug4-w5c300-bnwd0.yaml']
+PRINT_FREQ: 1000
+
+MODEL:
+  NUM_CLASSES: 4943
+DATASET:
+  LABELMAP: 'imagenet_5k.label2idx'
+  ROOT: 'DATASET/msdatav200/'
+  TRAIN_TSV_LIST: ['FWD-4M-5K.tsv']
+TRAIN:
+  END_EPOCH: 300

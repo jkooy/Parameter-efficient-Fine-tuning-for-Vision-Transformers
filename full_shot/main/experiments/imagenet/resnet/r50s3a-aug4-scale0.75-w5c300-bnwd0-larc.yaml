@@ -1,0 +1,3 @@
+BASE: ['r50s3a-aug4-w5c300-bnwd0-larc.yaml']
+AUG:
+  SCALE: (0.75, 1.0)

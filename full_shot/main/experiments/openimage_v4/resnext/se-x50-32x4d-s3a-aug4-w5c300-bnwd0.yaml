@@ -1,0 +1,18 @@
+BASE: ['../../imagenet/resnext/se-x50-32x4d-s3a-aug4-w5c300-bnwd0.yaml']
+
+LOSS:
+  LOSS: multisoftmax
+
+MODEL:
+  NUM_CLASSES: 6963
+
+DATASET:
+  DATASET: 'openimage_v4'
+  DATA_FORMAT: 'tsv'
+  ROOT: 'DATASET/openimage-v4-256/'
+  TRAIN_SET: 'train.tsv:train.balance_min1000.lineidx:train.label.verify_20191102.tsv:train.label.verify_20191102.6962.tag.labelmap'
+  TEST_SET: 'trainval.tsv:trainval.lineidx:trainval.label.tag.fix.tsv:train.label.verify_20191102.6962.tag.labelmap'
+
+TRAIN:
+  BATCH_SIZE_PER_GPU: 128
+  LR: 0.05

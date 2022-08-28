@@ -1,0 +1,52 @@
+OUTPUT_DIR: 'OUTPUT/'
+WORKERS: 6
+PRINT_FREQ: 100
+
+MODEL:
+  NAME: cls_resnet
+  PRETRAINED: 'DATASET/models/IN-22k/r50stem3-224x224-sgd-lr0.8wd0.0001bs64X32-MultiStep30_60_90factor0.1ep100/model_best.pth'
+  PRETRAINED_LAYERS:
+    - conv1
+    - conv2
+    - bn1
+    - bn2
+    - layer1
+    - layer2
+    - layer3
+    - layer4
+  SPEC:
+    NUM_LAYERS: 50
+    KERNEL_SIZE_STEM: 3
+    AVG_DOWN: false
+    NUM_GROUPS: 1
+    WIDTH_PER_GROUP: 64
+CUDNN:
+  BENCHMARK: true
+  DETERMINISTIC: false
+  ENABLED: true
+DATASET:
+  DATASET: 'imagenet'
+  DATA_FORMAT: 'tsv'
+  ROOT: 'DATASET/imagenet-tsv/'
+  TEST_SET: 'val'
+  TRAIN_SET: 'train'
+TEST:
+  BATCH_SIZE_PER_GPU: 16
+  IMAGE_SIZE: [480, 480]
+  CENTER_CROP: False
+  MODEL_FILE: ''
+TRAIN:
+  BATCH_SIZE_PER_GPU: 16
+  IMAGE_SIZE: [480, 480]
+  LR_SCHEDULER:
+    METHOD: 'BitHyperRule'
+  OPTIMIZER: sgd
+  WD: 0.0
+  MOMENTUM: 0.9
+  NESTEROV: false
+  SHUFFLE: true
+FINETUNE:
+  FINETUNE: true
+  EVAL_EVERY: 2000
+DEBUG:
+  DEBUG: false

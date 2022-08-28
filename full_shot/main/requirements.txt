@@ -1,0 +1,17 @@
+opencv-python
+pyyaml
+json_tricks
+tensorboardX==1.8
+yacs
+pycocotools
+scikit-learn
+tensorwatch
+pandas
+timm==0.3.2
+numpy==1.19.3
+ftfy
+regex
+transformers
+sharedmem
+git+https://github.com/openai/CLIP.git
+deepspeed==0.3.10

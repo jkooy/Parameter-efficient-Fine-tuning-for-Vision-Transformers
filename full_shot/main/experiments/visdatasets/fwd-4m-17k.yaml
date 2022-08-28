@@ -1,0 +1,13 @@
+BASE: ['base/r50s3a-aug4-w5c300-bnwd0.yaml']
+PRINT_FREQ: 1000
+
+MODEL:
+  NUM_CLASSES: 17270
+DATASET:
+  LABELMAP: 'mswebdata.label2idx'
+  ROOT: 'DATASET/mswebdata/'
+  TRAIN_TSV_LIST: ['FWD-4M-17K.tsv']
+  TEST_TSV_LIST: ['val-imagenet-4partitions.tsv', 'val-places.tsv', 'val-food101.tsv']
+TRAIN:
+  SAMPLER: 'default'
+  END_EPOCH: 300

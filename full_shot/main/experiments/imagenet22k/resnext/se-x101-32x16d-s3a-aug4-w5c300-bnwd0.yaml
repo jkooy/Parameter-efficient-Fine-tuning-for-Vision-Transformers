@@ -1,0 +1,18 @@
+BASE: ['se-x101-64x4d-s3a-aug4-w5c300-bnwd0.yaml']
+
+MODEL:
+  NAME: cls_resnet
+  NUM_CLASSES: 21842
+  SPEC:
+    NUM_LAYERS: 101
+    KERNEL_SIZE_STEM: 3
+    AVG_DOWN: true
+    NUM_GROUPS: 32
+    WIDTH_PER_GROUP: 16
+    WITH_SE: true
+
+TEST:
+  BATCH_SIZE_PER_GPU: 96
+TRAIN:
+  BATCH_SIZE_PER_GPU: 96
+  LR: 0.0375

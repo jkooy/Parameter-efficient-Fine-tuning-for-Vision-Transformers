@@ -1,0 +1,43 @@
+OUTPUT_DIR: OUTPUT/VITB16/
+INPUT:
+  MEAN:
+  - 0.485
+  - 0.456
+  - 0.406
+  STD:
+  - 0.229
+  - 0.224
+  - 0.225
+MODEL:
+  INIT_WEIGHTS: true
+  NAME: vit_base_patch16_224
+  NUM_CLASSES: 1000
+  PRETRAINED: ''
+  PRETRAINED_LAYERS:
+  - '*'
+  SPEC:
+    ATTN_DROP_RATE: 0.0
+    DEPTH: 12
+    DROP_PATH_RATE: 0.1
+    DROP_RATE: 0.0
+    EMBED_DIM: 768
+    MLP_RATIO: 4.0
+    NUM_HEADS: 12
+    PATCH_SIZE: 16
+    QKV_BIAS: true
+    USE_CLS_TOKEN: true
+TRAIN:
+  BATCH_SIZE_PER_GPU: 64
+  BEGIN_EPOCH: 0
+  END_EPOCH: 400
+  EXTRA_FINAL_TRAIN_EPOCH: 100
+  OPTIMIZER: sgd
+  WD: 0.
+  MOMENTUM: 0.9
+  NESTEROV: false
+  SHUFFLE: true
+  LR_SCHEDULER:
+    METHOD: 'WarmupCosine'
+    WARMUP_EPOCH: 5
+TEST:
+  MODEL_FILE: './OUTPUT/vit/base-ra/model_best.pth'

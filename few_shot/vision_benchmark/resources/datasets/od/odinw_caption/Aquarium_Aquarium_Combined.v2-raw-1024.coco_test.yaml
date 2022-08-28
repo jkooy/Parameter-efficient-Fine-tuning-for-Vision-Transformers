@@ -1,0 +1,45 @@
+DATALOADER:
+  ASPECT_RATIO_GROUPING: false
+  SIZE_DIVISIBILITY: 32
+DATASETS:
+  GENERAL_COPY: 16
+  # OVERRIDE_CATEGORY: '[{"id": 1, "name": "fish", "supercategory": "creatures"}, {"id":
+  #   2, "name": "round and transparent jellyfish", "supercategory": "creatures"}, {"id": 3, "name": "penguin",
+  #   "supercategory": "creatures"}, {"id": 4, "name": "puffin", "supercategory": "creatures"},
+  #   {"id": 5, "name": "shark", "supercategory": "creatures"}, {"id": 6, "name": "starfish",
+  #   "supercategory": "creatures"}, {"id": 7, "name": "round flat stingray", "supercategory":
+  #   "creatures"}]'
+  CAPTION_PROMPT: '[{"prefix": " ", "name": "fish", "suffix": ""}, {"prefix": "", "name": "jellyfish", "suffix": ""}, {"prefix": "", "name": "penguin", "suffix": " , which is black and white"}, {"prefix": "", "name": "puffin", "suffix": " with orange beaks "}, {"prefix": "", "name": "shark", "suffix": ""}, {"prefix": "", "name": "starfish", "suffix": ""}, {"prefix": "", "name": "stingray", "suffix": " which is flat and round"}, ]' # '[{"prefix": "there are some ", "name": "fish", "suffix": " swimming"}, {"prefix": "there are some ", "name": "jellyfish", "suffix": " floating around"}, {"prefix": "there are some ", "name": "penguin", "suffix": " , which is black and white"}, {"prefix": "there are some ", "name": "puffin", "suffix": " , which has orange beaks "}, {"prefix": "there are some ", "name": "shark", "suffix": " swimming "}, {"prefix": "there are some ", "name": "starfish", "suffix": " on the rock "}, {"prefix": "there are some ", "name": "stingray", "suffix": " which is flat and round fish"}, ]'
+  PREDEFINED_TEXT: odinw/pothole/category_description.json
+  REGISTER:
+    Aquarium_Test:
+      ann_file: odinw/original/Aquarium/Aquarium Combined.v2-raw-1024.coco/test/annotations_without_background.json
+      img_dir: odinw/original/Aquarium/Aquarium Combined.v2-raw-1024.coco/test
+    Aquarium_Train:
+      ann_file: odinw/original/Aquarium/Aquarium Combined.v2-raw-1024.coco/train/annotations_without_background.json
+      img_dir: odinw/original/Aquarium/Aquarium Combined.v2-raw-1024.coco/train
+    Aquarium_Val:
+      ann_file: odinw/original/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid/annotations_without_background.json
+      img_dir: odinw/original/Aquarium/Aquarium Combined.v2-raw-1024.coco/valid
+  TEST: ("Aquarium_Test",)
+  TRAIN: ("Aquarium_Train",)
+INPUT:
+  MAX_SIZE_TEST: 1333
+  MAX_SIZE_TRAIN: 1333
+  MIN_SIZE_TEST: 800
+  MIN_SIZE_TRAIN: 800
+MODEL:
+  ATSS:
+    NUM_CLASSES: 8
+  DYHEAD:
+    NUM_CLASSES: 8
+  FCOS:
+    NUM_CLASSES: 8
+  ROI_BOX_HEAD:
+    NUM_CLASSES: 8
+SOLVER:
+  CHECKPOINT_PERIOD: 100
+  MAX_EPOCH: 12
+  WARMUP_ITERS: 0
+TEST:
+  IMS_PER_BATCH: 8

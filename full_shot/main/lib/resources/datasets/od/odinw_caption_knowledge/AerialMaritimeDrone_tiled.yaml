@@ -1,0 +1,61 @@
+DATALOADER:
+  ASPECT_RATIO_GROUPING: false
+  SIZE_DIVISIBILITY: 32
+DATASETS:
+  GENERAL_COPY: 16
+  KNOWLEDGE: '[{"id": 1, "name": "boat", "supercategory": "movable-objects", "def_wiki":
+    "A craft used for transportation of goods, fishing, racing, recreational cruising,
+    or military use on or in the water, propelled by oars or outboard motor or inboard
+    motor or by wind.", "path_wn": ["boat", "vessel", "craft", "vehicle", "conveyance",
+    "instrumentality", "artifact", "whole", "object", "physical_entity", "entity"],
+    "def_wn": "a small vessel for travel on water"}, {"id": 2, "name": "car", "supercategory":
+    "movable-objects", "def_wiki": "A wheeled vehicle that moves independently, with
+    at least three wheels, powered mechanically, steered by a driver and mostly for
+    personal transportation.", "path_wn": ["car", "motor_vehicle", "self-propelled_vehicle",
+    "wheeled_vehicle", "container", "instrumentality", "artifact", "whole", "object",
+    "physical_entity", "entity"], "def_wn": "a motor vehicle with four wheels; usually
+    propelled by an internal combustion engine"}, {"id": 3, "name": "dock", "supercategory":
+    "movable-objects", "def_wiki": "Any of the genus Rumex of coarse weedy plants
+    with small green flowers related to buckwheat, especially bitter dock (Rumex obtusifolius),
+    and used as potherbs and in folk medicine, especially in curing nettle rash.",
+    "path_wn": ["dock", "enclosure", "area", "structure", "artifact", "whole", "object",
+    "physical_entity", "entity"], "def_wn": "an enclosure in a court of law where
+    the defendant sits during the trial"}, {"id": 4, "name": "jetski", "supercategory":
+    "movable-objects", "def_wiki": "A powered watercraft with a seat and handlebars
+    in a style similar to a motorbike.", "path_wn": "", "def_wn": ""}, {"id": 5, "name":
+    "lift", "supercategory": "movable-objects", "def_wiki": "To raise or rise.", "path_wn":
+    ["lift", "aid", "activity", "act", "event", "psychological_feature", "abstraction",
+    "entity"], "def_wn": "the act of giving temporary assistance"}]'
+  PREDEFINED_TEXT: odinw/pothole/category_description.json
+  REGISTER:
+    AerialMaritimeDrone_Tiled_Test:
+      ann_file: odinw/original/AerialMaritimeDrone/tiled/test/annotations_without_background.json
+      img_dir: odinw/original/AerialMaritimeDrone/tiled/test
+    AerialMaritimeDrone_Tiled_Train:
+      ann_file: odinw/original/AerialMaritimeDrone/tiled/train/annotations_without_background.json
+      img_dir: odinw/original/AerialMaritimeDrone/tiled/train
+    AerialMaritimeDrone_Tiled_Val:
+      ann_file: odinw/original/AerialMaritimeDrone/tiled/valid/annotations_without_background.json
+      img_dir: odinw/original/AerialMaritimeDrone/tiled/valid
+  TEST: ("AerialMaritimeDrone_Tiled_Val",)
+  TRAIN: ("AerialMaritimeDrone_Tiled_Train",)
+INPUT:
+  MAX_SIZE_TEST: 1333
+  MAX_SIZE_TRAIN: 1333
+  MIN_SIZE_TEST: 800
+  MIN_SIZE_TRAIN: 800
+MODEL:
+  ATSS:
+    NUM_CLASSES: 6
+  DYHEAD:
+    NUM_CLASSES: 6
+  FCOS:
+    NUM_CLASSES: 6
+  ROI_BOX_HEAD:
+    NUM_CLASSES: 6
+SOLVER:
+  CHECKPOINT_PERIOD: 100
+  MAX_EPOCH: 12
+  WARMUP_ITERS: 0
+TEST:
+  IMS_PER_BATCH: 8

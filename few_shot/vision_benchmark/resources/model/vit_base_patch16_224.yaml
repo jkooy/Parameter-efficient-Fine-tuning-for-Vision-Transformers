@@ -1,0 +1,13 @@
+# GPUS: (0,)
+OUTPUT_DIR: 'OUTPUT/VIT_BASE_PATCH16_224/'
+
+MODEL:
+  NAME: vit_base_patch16_224
+  NUM_PARAMS_IN_M: 86.5
+  AUTHOR: 'timm'
+  PRETRAINED_DATA: 'ImageNet22K'
+  CREATION_TIME: '2020-10-13'
+
+INPUT:
+  MEAN: [0.5, 0.5, 0.5]
+  STD: [0.5, 0.5, 0.5]

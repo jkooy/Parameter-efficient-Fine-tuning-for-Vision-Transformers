@@ -1,0 +1,16 @@
+BASE: ['../base/aug4-w5c300-bnwd0.yaml']
+MODEL:
+  NAME: cls_rexnet
+  SPEC:
+    INPUT_CH: 16
+    FINAL_CH: 180
+    WIDTH_MULT: 1.0
+    DEPTH_MULT: 1.0
+    WITH_SE: True
+    SE_RATIO: 12
+    DROPOUT: 0.2
+
+TRAIN:
+  BATCH_SIZE_PER_GPU: 128
+  LR: 0.05
+  WD: 0.00001

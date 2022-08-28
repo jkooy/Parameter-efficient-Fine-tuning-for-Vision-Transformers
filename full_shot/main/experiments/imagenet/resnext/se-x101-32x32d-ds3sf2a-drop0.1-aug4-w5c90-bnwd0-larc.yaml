@@ -1,0 +1,3 @@
+BASE: ['se-x101-32x32d-ds3sf2a-drop0.1-aug4-w5c60-bnwd0-larc.yaml']
+TRAIN:
+  END_EPOCH: 90

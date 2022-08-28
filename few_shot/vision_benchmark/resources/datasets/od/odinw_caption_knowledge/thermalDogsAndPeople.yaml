@@ -1,0 +1,52 @@
+DATALOADER:
+  ASPECT_RATIO_GROUPING: false
+  SIZE_DIVISIBILITY: 32
+DATASETS:
+  GENERAL_COPY: 16
+  KNOWLEDGE: '[{"id": 1, "name": "dog", "supercategory": "dogs-person", "def_wiki":
+    "A mammal, Canis familiaris or Canis lupus familiaris, that has been domesticated
+    for thousands of years, of highly variable appearance due to human breeding.",
+    "path_wn": ["dog", "canine", "carnivore", "placental", "mammal", "vertebrate",
+    "chordate", "animal", "organism", "living_thing", "whole", "object", "physical_entity",
+    "entity"], "def_wn": "a member of the genus Canis (probably descended from the
+    common wolf) that has been domesticated by man since prehistoric times; occurs
+    in many breeds"}, {"id": 2, "name": "person", "supercategory": "dogs-person",
+    "def_wiki": "An individual; usually a human being. [from 13th c.]\n\nEach person
+    is unique, both mentally and physically.", "path_wn": ["person", "causal_agent",
+    "physical_entity", "entity"], "def_wn": "a human being"}]'
+  PREDEFINED_TEXT: odinw/pothole/category_description.json
+  REGISTER:
+    thermalDogsAndPeople_Test:
+      ann_file: odinw/original/thermalDogsAndPeople/test/annotations_without_background.json
+      img_dir: odinw/original/thermalDogsAndPeople/test
+    thermalDogsAndPeople_Train:
+      ann_file: odinw/original/thermalDogsAndPeople/train/annotations_without_background.json
+      img_dir: odinw/original/thermalDogsAndPeople/train
+    thermalDogsAndPeople_Val:
+      ann_file: odinw/original/thermalDogsAndPeople/valid/annotations_without_background.json
+      img_dir: odinw/original/thermalDogsAndPeople/valid
+  SUPRESS_QUERY: '[''bird'', ''plane'', ''bicycle'', ''boat'', ''bus'', ''car'', ''motorbike'',
+    ''train'', ''bottle'', ''chair'', ''dining table'', ''potted plant'', ''sofa'',
+    ''tv'', ''cloud'']'
+  TEST: ("thermalDogsAndPeople_Val",)
+  TRAIN: ("thermalDogsAndPeople_Train",)
+INPUT:
+  MAX_SIZE_TEST: 1333
+  MAX_SIZE_TRAIN: 1333
+  MIN_SIZE_TEST: 800
+  MIN_SIZE_TRAIN: 800
+MODEL:
+  ATSS:
+    NUM_CLASSES: 3
+  DYHEAD:
+    NUM_CLASSES: 3
+  FCOS:
+    NUM_CLASSES: 3
+  ROI_BOX_HEAD:
+    NUM_CLASSES: 3
+SOLVER:
+  CHECKPOINT_PERIOD: 100
+  MAX_EPOCH: 12
+  WARMUP_ITERS: 0
+TEST:
+  IMS_PER_BATCH: 8

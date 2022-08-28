@@ -1,0 +1,7 @@
+BASE: ['r50s3a-aug4-w5c120-bnwd0-larc.yaml']
+
+AUG:
+  GRAY_SCALE: 0.0
+  COLOR_JITTER: [0.4, 0.4, 0.4, 0.1, 0.0]
+  MIXCUT: 0.0
+  MIXUP: 0.2

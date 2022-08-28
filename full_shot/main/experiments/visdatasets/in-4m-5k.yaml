@@ -1,0 +1,12 @@
+BASE: ['base/r50s3a-aug4-w5c300-bnwd0.yaml']
+PRINT_FREQ: 1000
+
+MODEL:
+  NUM_CLASSES: 4999
+DATASET:
+  LABELMAP: 'imagenet-5k.label2idx'
+  ROOT: 'DATASET/imagenet-subset/'
+  TRAIN_TSV_LIST: ['IN-4M-5K.tsv']
+  TEST_TSV_LIST: ['val-1k.tsv', 'val-1k-5k.tsv']
+TRAIN:
+  END_EPOCH: 300

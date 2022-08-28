@@ -1,0 +1,5452 @@
+? ''
+: clean_name: ''
+  def_wiki: null
+  def_wn: ''
+  name: ''
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+'0':
+  clean_name: '0'
+  def_wiki: '0.'
+  def_wn: a mathematical element that when added to another number yields the same
+    number
+  name: '0'
+  path_wn:
+  - nothing
+  - relative_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - nothing
+  - relative_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - nothing
+  - relative_quantity
+  - measure
+'1':
+  clean_name: '1'
+  def_wiki: The number one (1).
+  def_wn: the smallest whole number or a numeral representing this number
+  name: '1'
+  path_wn:
+  - one
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - one
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - one
+  - digit
+  - integer
+'10':
+  clean_name: '10'
+  def_wiki: null
+  def_wn: the cardinal number that is the sum of nine and one; the base of the decimal
+    system
+  name: '10'
+  path_wn:
+  - ten
+  - large_integer
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - ten
+  - large_integer
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - ten
+  - large_integer
+  - integer
+'11':
+  clean_name: '11'
+  def_wiki: A cricket team of eleven players.
+  def_wn: the cardinal number that is the sum of ten and one
+  name: '11'
+  path_wn:
+  - eleven
+  - large_integer
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - eleven
+  - large_integer
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - eleven
+  - large_integer
+  - integer
+'12':
+  clean_name: '12'
+  def_wiki: null
+  def_wn: the cardinal number that is the sum of eleven and one
+  name: '12'
+  path_wn:
+  - twelve
+  - large_integer
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - twelve
+  - large_integer
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - twelve
+  - large_integer
+  - integer
+'13':
+  clean_name: '13'
+  def_wiki: null
+  def_wn: the cardinal number that is the sum of twelve and one
+  name: '13'
+  path_wn:
+  - thirteen
+  - large_integer
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - thirteen
+  - large_integer
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - thirteen
+  - large_integer
+  - integer
+'14':
+  clean_name: '14'
+  def_wiki: null
+  def_wn: the cardinal number that is the sum of thirteen and one
+  name: '14'
+  path_wn:
+  - fourteen
+  - large_integer
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - fourteen
+  - large_integer
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - fourteen
+  - large_integer
+  - integer
+'2':
+  clean_name: '2'
+  def_wiki: A particle used for marking the following verb as an infinitive.
+  def_wn: the cardinal number that is the sum of one and one or a numeral representing
+    this number
+  name: '2'
+  path_wn:
+  - two
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - two
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - two
+  - digit
+  - integer
+'3':
+  clean_name: '3'
+  def_wiki: null
+  def_wn: the cardinal number that is the sum of one and one and one
+  name: '3'
+  path_wn:
+  - three
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - three
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - three
+  - digit
+  - integer
+'4':
+  clean_name: '4'
+  def_wiki: Because, as, since.
+  def_wn: the cardinal number that is the sum of three and one
+  name: '4'
+  path_wn:
+  - four
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - four
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - four
+  - digit
+  - integer
+'5':
+  clean_name: '5'
+  def_wiki: null
+  def_wn: the cardinal number that is the sum of four and one
+  name: '5'
+  path_wn:
+  - five
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - five
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - five
+  - digit
+  - integer
+'6':
+  clean_name: '6'
+  def_wiki: MI6; the agency or a particular agent.
+  def_wn: the cardinal number that is the sum of five and one
+  name: '6'
+  path_wn:
+  - six
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - six
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - six
+  - digit
+  - integer
+'7':
+  clean_name: '7'
+  def_wiki: null
+  def_wn: the cardinal number that is the sum of six and one
+  name: '7'
+  path_wn:
+  - seven
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - seven
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - seven
+  - digit
+  - integer
+'8':
+  clean_name: '8'
+  def_wiki: To ingest; to be ingested.
+  def_wn: the cardinal number that is the sum of seven and one
+  name: '8'
+  path_wn:
+  - eight
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - eight
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - eight
+  - digit
+  - integer
+'9':
+  clean_name: '9'
+  def_wiki: null
+  def_wn: the cardinal number that is the sum of eight and one
+  name: '9'
+  path_wn:
+  - nine
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - nine
+  - digit
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - nine
+  - digit
+  - integer
+A:
+  clean_name: A
+  def_wiki: The first letter of the English alphabet, written in the Latin script.
+  def_wn: a metric unit of length equal to one ten billionth of a meter (or 0.0001
+    micron); used to specify wavelengths of electromagnetic radiation
+  name: A
+  path_wn:
+  - angstrom
+  - metric_linear_unit
+  - linear_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - angstrom
+  - metric_linear_unit
+  - linear_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - angstrom
+  - metric_linear_unit
+  - linear_unit
+Ambulance:
+  clean_name: Ambulance
+  def_wiki: An emergency vehicle designed for transporting seriously ill or injured
+    people to a hospital.
+  def_wn: a vehicle that takes people to and from hospitals
+  name: Ambulance
+  path_wn:
+  - ambulance
+  - car
+  - motor_vehicle
+  - self-propelled_vehicle
+  - wheeled_vehicle
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - ambulance
+  - car
+  - motor_vehicle
+  - self-propelled_vehicle
+  - wheeled_vehicle
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  path_wn3:
+  - ambulance
+  - car
+  - motor_vehicle
+American Typewriter:
+  clean_name: American Typewriter
+  def_wiki: A device, at least partially mechanical, used to print text by pressing
+    keys that cause type to be impressed through an inked ribbon onto paper.
+  def_wn: ''
+  name: American Typewriter
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Andale Mono:
+  clean_name: Andale Mono
+  def_wiki: A viral infection marked by extreme fatigue, high fever, and swollen lymph
+    nodes.
+  def_wn: ''
+  name: Andale Mono
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Apple Chancery:
+  clean_name: Apple Chancery
+  def_wiki: In England, formerly, the highest court of judicature next to the Parliament,
+    exercising jurisdiction at law, but chiefly in equity; but under the jurisdiction
+    act of 1873 it became the chancery division of the High Court of Justice, and
+    now exercises jurisdiction only in equity.
+  def_wn: ''
+  name: Apple Chancery
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Apple Scab Leaf:
+  clean_name: Apple Scab Leaf
+  def_wiki: The usually green and flat organ that represents the most prominent feature
+    of most vegetative plants.
+  def_wn: ''
+  name: Apple Scab Leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Apple leaf:
+  clean_name: Apple leaf
+  def_wiki: The usually green and flat organ that represents the most prominent feature
+    of most vegetative plants.
+  def_wn: ''
+  name: Apple leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Apple rust leaf:
+  clean_name: Apple rust leaf
+  def_wiki: The usually green and flat organ that represents the most prominent feature
+    of most vegetative plants.
+  def_wn: ''
+  name: Apple rust leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Arial:
+  clean_name: Arial
+  def_wiki: A sans serif typeface designed by Monotype as a clone of Helvetica.
+  def_wn: ''
+  name: Arial
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Avenir:
+  clean_name: Avenir
+  def_wiki: null
+  def_wn: ''
+  name: Avenir
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+B:
+  clean_name: B
+  def_wiki: The second letter of the English alphabet, called bee and written in the
+    Latin script.
+  def_wn: aerobic rod-shaped spore-producing bacterium; often occurring in chainlike
+    formations; found primarily in soil
+  name: B
+  path_wn:
+  - bacillus
+  - eubacteria
+  - bacteria
+  - microorganism
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - bacillus
+  - eubacteria
+  - bacteria
+  - microorganism
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - bacillus
+  - eubacteria
+  - bacteria
+Baskerville:
+  clean_name: Baskerville
+  def_wiki: A surname, from Anglo-Norman​.
+  def_wn: ''
+  name: Baskerville
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Bell_pepper leaf:
+  clean_name: Bell_pepper leaf
+  def_wiki: The usually green and flat organ that represents the most prominent feature
+    of most vegetative plants.
+  def_wn: ''
+  name: Bell_pepper leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Bell_pepper leaf spot:
+  clean_name: Bell_pepper leaf spot
+  def_wiki: Any of various fungal or bacterial diseases of plants that cause blemishes
+    on their leaves.
+  def_wn: ''
+  name: Bell_pepper leaf spot
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Big Caslon:
+  clean_name: Big Caslon
+  def_wiki: A surname​.
+  def_wn: ''
+  name: Big Caslon
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Blueberry leaf:
+  clean_name: Blueberry leaf
+  def_wiki: The usually green and flat organ that represents the most prominent feature
+    of most vegetative plants.
+  def_wn: ''
+  name: Blueberry leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Bradley Hand:
+  clean_name: Bradley Hand
+  def_wiki: The part of the forelimb below the forearm or wrist in a human, and the
+    corresponding part in many other animals.
+  def_wn: ''
+  name: Bradley Hand
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Brush Script MT:
+  clean_name: Brush Script MT
+  def_wiki: Abbreviation of mitochondrial.
+  def_wn: ''
+  name: Brush Script MT
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Bus:
+  clean_name: Bus
+  def_wiki: A motor vehicle for transporting large numbers of people along roads.
+  def_wn: a vehicle carrying many passengers; used for public transport
+  name: Bus
+  path_wn:
+  - bus
+  - public_transport
+  - conveyance
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - bus
+  - public_transport
+  - conveyance
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - bus
+  - public_transport
+  - conveyance
+C:
+  clean_name: C
+  def_wiki: The third letter of the English alphabet, called cee and written in the
+    Latin script.
+  def_wn: a degree on the centigrade scale of temperature
+  name: C
+  path_wn:
+  - degree_centigrade
+  - degree
+  - temperature_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - degree_centigrade
+  - degree
+  - temperature_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - degree_centigrade
+  - degree
+  - temperature_unit
+Car:
+  clean_name: Car
+  def_wiki: A wheeled vehicle that moves independently, with at least three wheels,
+    powered mechanically, steered by a driver and mostly for personal transportation.
+  def_wn: a motor vehicle with four wheels; usually propelled by an internal combustion
+    engine
+  name: Car
+  path_wn:
+  - car
+  - motor_vehicle
+  - self-propelled_vehicle
+  - wheeled_vehicle
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - car
+  - motor_vehicle
+  - self-propelled_vehicle
+  - wheeled_vehicle
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  path_wn3:
+  - car
+  - motor_vehicle
+  - self-propelled_vehicle
+Chalkboard:
+  clean_name: Chalkboard
+  def_wiki: A slate or enamel board for writing on with chalk; a predecessor to a
+    whiteboard.
+  def_wn: sheet of slate; for writing with chalk
+  name: Chalkboard
+  path_wn:
+  - blackboard
+  - sheet
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - blackboard
+  - sheet
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - blackboard
+  - sheet
+  - artifact
+Cherry leaf:
+  clean_name: Cherry leaf
+  def_wiki: The usually green and flat organ that represents the most prominent feature
+    of most vegetative plants.
+  def_wn: ''
+  name: Cherry leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Comic Sans MS:
+  clean_name: Comic Sans MS
+  def_wiki: handwritten, or by extension manually typewritten, as opposed to being
+    mechanically reproduced.
+  def_wn: ''
+  name: Comic Sans MS
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Copperplate:
+  clean_name: Copperplate
+  def_wiki: A copper plate, either etched or engraved, to make a recessed pattern.
+  def_wn: a graceful style of handwriting based on the writing used on copperplate
+    engravings
+  name: Copperplate
+  path_wn:
+  - copperplate
+  - longhand
+  - handwriting
+  - writing
+  - written_communication
+  - communication
+  - abstraction
+  - entity
+  path_wn10:
+  - copperplate
+  - longhand
+  - handwriting
+  - writing
+  - written_communication
+  - communication
+  - abstraction
+  - entity
+  path_wn3:
+  - copperplate
+  - longhand
+  - handwriting
+Corn Gray leaf spot:
+  clean_name: Corn Gray leaf spot
+  def_wiki: Any of various fungal or bacterial diseases of plants that cause blemishes
+    on their leaves.
+  def_wn: ''
+  name: Corn Gray leaf spot
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Corn leaf blight:
+  clean_name: Corn leaf blight
+  def_wiki: A rapid and complete chlorosis, browning, then death of plant tissues
+    such as leaves, branches, twigs, or floral organs.
+  def_wn: ''
+  name: Corn leaf blight
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Corn rust leaf:
+  clean_name: Corn rust leaf
+  def_wiki: The usually green and flat organ that represents the most prominent feature
+    of most vegetative plants.
+  def_wn: ''
+  name: Corn rust leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Courier:
+  clean_name: Courier
+  def_wiki: a person who looks after and guides tourists
+  def_wn: a person who carries a message
+  name: Courier
+  path_wn:
+  - messenger
+  - traveler
+  - person
+  - causal_agent
+  - physical_entity
+  - entity
+  path_wn10:
+  - messenger
+  - traveler
+  - person
+  - causal_agent
+  - physical_entity
+  - entity
+  path_wn3:
+  - messenger
+  - traveler
+  - person
+Crab:
+  clean_name: Crab
+  def_wiki: A crustacean of the infraorder Brachyura, having five pairs of legs, the
+    foremost of which are in the form of claws, and a carapace.
+  def_wn: decapod having eyes on short stalks and a broad flattened carapace with
+    a small abdomen folded under the thorax and pincers
+  name: Crab
+  path_wn:
+  - crab
+  - decapod_crustacean
+  - crustacean
+  - arthropod
+  - invertebrate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - crab
+  - decapod_crustacean
+  - crustacean
+  - arthropod
+  - invertebrate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  path_wn3:
+  - crab
+  - decapod_crustacean
+  - crustacean
+D:
+  clean_name: D
+  def_wiki: The fourth letter of the English alphabet, called dee and written in the
+    Latin script.
+  def_wn: a fat-soluble vitamin that prevents rickets
+  name: D
+  path_wn:
+  - vitamin_D
+  - fat-soluble_vitamin
+  - vitamin
+  - nutriment
+  - food
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - vitamin_D
+  - fat-soluble_vitamin
+  - vitamin
+  - nutriment
+  - food
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - vitamin_D
+  - fat-soluble_vitamin
+  - vitamin
+Didot:
+  clean_name: Didot
+  def_wiki: null
+  def_wn: ''
+  name: Didot
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+E:
+  clean_name: E
+  def_wiki: The fifth letter of the English alphabet, called e and written in the
+    Latin script.
+  def_wn: a fat-soluble vitamin that is essential for normal reproduction; an important
+    antioxidant that neutralizes free radicals in the body
+  name: E
+  path_wn:
+  - vitamin_E
+  - antioxidant
+  - inhibitor
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - vitamin_E
+  - antioxidant
+  - inhibitor
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - vitamin_E
+  - antioxidant
+  - inhibitor
+F:
+  clean_name: F
+  def_wiki: The sixth letter of the English alphabet, called ef and written in the
+    Latin script.
+  def_wn: a degree on the Fahrenheit scale of temperature
+  name: F
+  path_wn:
+  - degree_Fahrenheit
+  - degree
+  - temperature_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - degree_Fahrenheit
+  - degree
+  - temperature_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - degree_Fahrenheit
+  - degree
+  - temperature_unit
+Futura:
+  clean_name: Futura
+  def_wiki: A particular sans-serif typeface
+  def_wn: ''
+  name: Futura
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+G:
+  clean_name: G
+  def_wiki: The seventh letter of the English alphabet, called gee and written in
+    the Latin script.
+  def_wn: a metric unit of weight equal to one thousandth of a kilogram
+  name: G
+  path_wn:
+  - gram
+  - metric_weight_unit
+  - mass_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - gram
+  - metric_weight_unit
+  - mass_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - gram
+  - metric_weight_unit
+  - mass_unit
+Geneva:
+  clean_name: Geneva
+  def_wiki: Gin, especially jenever.
+  def_wn: a city in southwestern Switzerland at the western end of Lake Geneva; it
+    is the headquarters of various international organizations
+  name: Geneva
+  path_wn:
+  - Geneva
+  path_wn10:
+  - Geneva
+  path_wn3:
+  - Geneva
+Georgia:
+  clean_name: Georgia
+  def_wiki: A country, in the South Caucasus region of Europe and Asia, on the coast
+    of the Black Sea.
+  def_wn: a state in southeastern United States; one of the Confederate states during
+    the American Civil War
+  name: Georgia
+  path_wn:
+  - Georgia
+  path_wn10:
+  - Georgia
+  path_wn3:
+  - Georgia
+Gill Sans:
+  clean_name: Gill Sans
+  def_wiki: An easy-to-read style of sans-serif typeface designed by Eric Gill.
+  def_wn: ''
+  name: Gill Sans
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+H:
+  clean_name: H
+  def_wiki: The eighth letter of the English alphabet, called aitch and written in
+    the Latin script.
+  def_wn: a nonmetallic univalent element that is normally a colorless and odorless
+    highly flammable diatomic gas; the simplest and lightest and most abundant element
+    in the universe
+  name: H
+  path_wn:
+  - hydrogen
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - hydrogen
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - hydrogen
+  - chemical_element
+  - substance
+Helvetica:
+  clean_name: Helvetica
+  def_wiki: A sans-serif typeface.
+  def_wn: a typeface in which characters have no serifs
+  name: Helvetica
+  path_wn:
+  - sans_serif
+  - font
+  - type
+  - character
+  - written_symbol
+  - symbol
+  - signal
+  - communication
+  - abstraction
+  - entity
+  path_wn10:
+  - sans_serif
+  - font
+  - type
+  - character
+  - written_symbol
+  - symbol
+  - signal
+  - communication
+  - abstraction
+  - entity
+  path_wn3:
+  - sans_serif
+  - font
+  - type
+Herculanum:
+  clean_name: Herculanum
+  def_wiki: null
+  def_wn: ''
+  name: Herculanum
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+I:
+  clean_name: I
+  def_wiki: The ninth letter of the English alphabet, called i and written in the
+    Latin script.
+  def_wn: a nonmetallic element belonging to the halogens; used especially in medicine
+    and photography and in dyes; occurs naturally only in combination in small quantities
+    (as in sea water or rocks)
+  name: I
+  path_wn:
+  - iodine
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - iodine
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - iodine
+  - chemical_element
+  - substance
+Impact:
+  clean_name: Impact
+  def_wiki: The striking of one body against another; collision.
+  def_wn: the striking of one body against another
+  name: Impact
+  path_wn:
+  - impact
+  - contact
+  - happening
+  - event
+  - psychological_feature
+  - abstraction
+  - entity
+  path_wn10:
+  - impact
+  - contact
+  - happening
+  - event
+  - psychological_feature
+  - abstraction
+  - entity
+  path_wn3:
+  - impact
+  - contact
+  - happening
+J:
+  clean_name: J
+  def_wiki: The tenth letter of the English alphabet, called jay and written in the
+    Latin script.
+  def_wn: a unit of electrical energy equal to the work done when a current of one
+    ampere passes through a resistance of one ohm for one second
+  name: J
+  path_wn:
+  - joule
+  - work_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - joule
+  - work_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - joule
+  - work_unit
+  - unit_of_measurement
+K:
+  clean_name: K
+  def_wiki: The eleventh letter of the English alphabet, called kay and written in
+    the Latin script.
+  def_wn: the basic unit of thermodynamic temperature adopted under the Systeme International
+    d'Unites
+  name: K
+  path_wn:
+  - kelvin
+  - temperature_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - kelvin
+  - temperature_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - kelvin
+  - temperature_unit
+  - unit_of_measurement
+Kefa:
+  clean_name: Kefa
+  def_wiki: null
+  def_wn: ''
+  name: Kefa
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+L:
+  clean_name: L
+  def_wiki: The twelfth letter of the English alphabet, called el and written in the
+    Latin script.
+  def_wn: a metric unit of capacity, formerly defined as the volume of one kilogram
+    of pure water under standard conditions; now equal to 1,000 cubic centimeters
+    (or approximately 1.75 pints)
+  name: L
+  path_wn:
+  - liter
+  - metric_capacity_unit
+  - metric_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - liter
+  - metric_capacity_unit
+  - metric_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - liter
+  - metric_capacity_unit
+  - metric_unit
+Lobster:
+  clean_name: Lobster
+  def_wiki: red-colored, especially from a sunburn.
+  def_wn: flesh of a lobster
+  name: Lobster
+  path_wn:
+  - lobster
+  - shellfish
+  - seafood
+  - food
+  - solid
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - lobster
+  - shellfish
+  - seafood
+  - food
+  - solid
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - lobster
+  - shellfish
+  - seafood
+Lucida Grande:
+  clean_name: Lucida Grande
+  def_wiki: 'Of a cup of coffee: smaller than venti but larger than tall, usually
+    16 ounces.'
+  def_wn: ''
+  name: Lucida Grande
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Luminari:
+  clean_name: Luminari
+  def_wiki: null
+  def_wn: ''
+  name: Luminari
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+M:
+  clean_name: M
+  def_wiki: The thirteenth letter of the English alphabet, called em and written in
+    the Latin script.
+  def_wn: the basic unit of length adopted under the Systeme International d'Unites
+    (approximately 1.094 yards)
+  name: M
+  path_wn:
+  - meter
+  - metric_linear_unit
+  - linear_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - meter
+  - metric_linear_unit
+  - linear_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - meter
+  - metric_linear_unit
+  - linear_unit
+Marker Felt:
+  clean_name: Marker Felt
+  def_wiki: To use or experience the sense of touch.
+  def_wn: ''
+  name: Marker Felt
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Menlo:
+  clean_name: Menlo
+  def_wiki: A city in Georgia, United States.
+  def_wn: ''
+  name: Menlo
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Monaco:
+  clean_name: Monaco
+  def_wiki: 'A city-state in Western Europe. Official name: Principality of Monaco.'
+  def_wn: a constitutional monarchy in a tiny enclave on the French Riviera
+  name: Monaco
+  path_wn:
+  - Monaco
+  path_wn10:
+  - Monaco
+  path_wn3:
+  - Monaco
+Motorcycle:
+  clean_name: Motorcycle
+  def_wiki: An open-seated motor vehicle with handlebars instead of a steering wheel,
+    and having two (or sometimes three) wheels.
+  def_wn: a motor vehicle with two wheels and a strong frame
+  name: Motorcycle
+  path_wn:
+  - motorcycle
+  - motor_vehicle
+  - self-propelled_vehicle
+  - wheeled_vehicle
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - motorcycle
+  - motor_vehicle
+  - self-propelled_vehicle
+  - wheeled_vehicle
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  path_wn3:
+  - motorcycle
+  - motor_vehicle
+  - self-propelled_vehicle
+N:
+  clean_name: N
+  def_wiki: The fourteenth letter of the English alphabet, called en and written in
+    the Latin script.
+  def_wn: a common nonmetallic element that is normally a colorless odorless tasteless
+    inert diatomic gas; constitutes 78 percent of the atmosphere by volume; a constituent
+    of all living tissues
+  name: N
+  path_wn:
+  - nitrogen
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - nitrogen
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - nitrogen
+  - chemical_element
+  - substance
+Noteworthy:
+  clean_name: Noteworthy
+  def_wiki: Deserving attention; notable; worthy of notice.
+  def_wn: worthy of notice
+  name: Noteworthy
+  path_wn:
+  - noteworthy
+  path_wn10:
+  - noteworthy
+  path_wn3:
+  - noteworthy
+O:
+  clean_name: O
+  def_wiki: The fifteenth letter of the English alphabet, called o and written in
+    the Latin script.
+  def_wn: a nonmetallic bivalent element that is normally a colorless odorless tasteless
+    nonflammable diatomic gas; constitutes 21 percent of the atmosphere by volume;
+    the most abundant element in the earth's crust
+  name: O
+  path_wn:
+  - oxygen
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - oxygen
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - oxygen
+  - chemical_element
+  - substance
+Optima:
+  clean_name: Optima
+  def_wiki: The best or most favorable condition, or the greatest amount or degree
+    possible under specific sets of comparable circumstances.
+  def_wn: most favorable conditions or greatest degree or amount possible under given
+    circumstances
+  name: Optima
+  path_wn:
+  - optimum
+  - good
+  - quality
+  - attribute
+  - abstraction
+  - entity
+  path_wn10:
+  - optimum
+  - good
+  - quality
+  - attribute
+  - abstraction
+  - entity
+  path_wn3:
+  - optimum
+  - good
+  - quality
+P:
+  clean_name: P
+  def_wiki: The sixteenth letter of the English alphabet, called pee and written in
+    the Latin script.
+  def_wn: a multivalent nonmetallic element of the nitrogen family that occurs commonly
+    in inorganic phosphate rocks and as organic phosphates in all living cells; is
+    highly reactive and occurs in several allotropic forms
+  name: P
+  path_wn:
+  - phosphorus
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - phosphorus
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - phosphorus
+  - chemical_element
+  - substance
+PT Sans:
+  clean_name: PT Sans
+  def_wiki: A letter of the Archaic Greek alphabet (uppercase Ϻ, lowercase ϻ) that
+    came after pi and before qoppa.
+  def_wn: ''
+  name: PT Sans
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+PT Serif:
+  clean_name: PT Serif
+  def_wiki: A short line added to the end of a stroke in traditional typefaces, such
+    as Times New Roman.
+  def_wn: ''
+  name: PT Serif
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Palatino:
+  clean_name: Palatino
+  def_wiki: null
+  def_wn: ''
+  name: Palatino
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Papyrus:
+  clean_name: Papyrus
+  def_wiki: A plant (Cyperus papyrus) in the sedge family, native to the Nile river
+    valley, paper reed.
+  def_wn: paper made from the papyrus plant by cutting it in strips and pressing it
+    flat; used by ancient Egyptians and Greeks and Romans
+  name: Papyrus
+  path_wn:
+  - papyrus
+  - paper
+  - material
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - papyrus
+  - paper
+  - material
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - papyrus
+  - paper
+  - material
+Peach leaf:
+  clean_name: Peach leaf
+  def_wiki: Whose leaves resemble those of the peach.
+  def_wn: ''
+  name: Peach leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Phosphate:
+  clean_name: Phosphate
+  def_wiki: Any salt or ester of phosphoric acid.
+  def_wn: a salt of phosphoric acid
+  name: Phosphate
+  path_wn:
+  - phosphate
+  - salt
+  - compound
+  - chemical
+  - material
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - phosphate
+  - salt
+  - compound
+  - chemical
+  - material
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - phosphate
+  - salt
+  - compound
+Platelets:
+  clean_name: Platelets
+  def_wiki: A small colorless disk-shaped particle found in the blood of mammals,
+    which plays an important role in the formation of blood clots.
+  def_wn: tiny bits of protoplasm found in vertebrate blood; essential for blood clotting
+  name: Platelets
+  path_wn:
+  - platelet
+  - protoplasm
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - platelet
+  - protoplasm
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - platelet
+  - protoplasm
+  - substance
+Potato leaf:
+  clean_name: Potato leaf
+  def_wiki: The usually green and flat organ that represents the most prominent feature
+    of most vegetative plants.
+  def_wn: ''
+  name: Potato leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Potato leaf early blight:
+  clean_name: Potato leaf early blight
+  def_wiki: A disease of tomato and potato plants caused by the fungus Alternaria
+    solani, producing distinctive bullseye-patterned leaf spots, stem lesions, fruit
+    rot on tomato and tuber blight on potato.
+  def_wn: ''
+  name: Potato leaf early blight
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Potato leaf late blight:
+  clean_name: Potato leaf late blight
+  def_wiki: A rapid and complete chlorosis, browning, then death of plant tissues
+    such as leaves, branches, twigs, or floral organs.
+  def_wn: ''
+  name: Potato leaf late blight
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Q:
+  clean_name: Q
+  def_wiki: The seventeenth letter of the English alphabet, called cue and written
+    in the Latin script.
+  def_wn: the 17th letter of the Roman alphabet
+  name: Q
+  path_wn:
+  - Q
+  - letter
+  - character
+  - written_symbol
+  - symbol
+  - signal
+  - communication
+  - abstraction
+  - entity
+  path_wn10:
+  - Q
+  - letter
+  - character
+  - written_symbol
+  - symbol
+  - signal
+  - communication
+  - abstraction
+  - entity
+  path_wn3:
+  - Q
+  - letter
+  - character
+R:
+  clean_name: R
+  def_wiki: The eighteenth letter of the English alphabet, called ar and written in
+    the Latin script.
+  def_wn: a unit of radiation exposure; the dose of ionizing radiation that will produce
+    1 electrostatic unit of electricity in 1 cc of dry air
+  name: R
+  path_wn:
+  - roentgen
+  - radioactivity_unit
+  - electromagnetic_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - roentgen
+  - radioactivity_unit
+  - electromagnetic_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - roentgen
+  - radioactivity_unit
+  - electromagnetic_unit
+RBC:
+  clean_name: RBC
+  def_wiki: Initialism of Royal Bank of Canada.
+  def_wn: a mature blood cell that contains hemoglobin to carry oxygen to the bodily
+    tissues; a biconcave disc that has no nucleus
+  name: RBC
+  path_wn:
+  - red_blood_cell
+  - blood_cell
+  - somatic_cell
+  - cell
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - red_blood_cell
+  - blood_cell
+  - somatic_cell
+  - cell
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - red_blood_cell
+  - blood_cell
+  - somatic_cell
+Raspberry leaf:
+  clean_name: Raspberry leaf
+  def_wiki: The usually green and flat organ that represents the most prominent feature
+    of most vegetative plants.
+  def_wn: ''
+  name: Raspberry leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Rockwell:
+  clean_name: Rockwell
+  def_wiki: A surname​.
+  def_wn: United States illustrator whose works present a sentimental idealized view
+    of everyday life (1894-1978)
+  name: Rockwell
+  path_wn:
+  - Rockwell
+  path_wn10:
+  - Rockwell
+  path_wn3:
+  - Rockwell
+S:
+  clean_name: S
+  def_wiki: The nineteenth letter of the English alphabet, called ess and written
+    in the Latin script.
+  def_wn: 1/60 of a minute; the basic unit of time adopted under the Systeme International
+    d'Unites
+  name: S
+  path_wn:
+  - second
+  - time_unit
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - second
+  - time_unit
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - second
+  - time_unit
+  - measure
+SF Pro:
+  clean_name: SF Pro
+  def_wiki: An advantage of something, especially when contrasted with its disadvantages
+    (cons).
+  def_wn: ''
+  name: SF Pro
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Shrimp:
+  clean_name: Shrimp
+  def_wiki: Any of many swimming, often edible, crustaceans, chiefly of the infraorder
+    Caridea or the suborder Dendrobranchiata, with slender legs, long whiskers and
+    a long abdomen.
+  def_wn: disparaging terms for small people
+  name: Shrimp
+  path_wn:
+  - runt
+  - small_person
+  - person
+  - causal_agent
+  - physical_entity
+  - entity
+  path_wn10:
+  - runt
+  - small_person
+  - person
+  - causal_agent
+  - physical_entity
+  - entity
+  path_wn3:
+  - runt
+  - small_person
+  - person
+SignPainter:
+  clean_name: SignPainter
+  def_wiki: Someone who paints signs
+  def_wn: ''
+  name: SignPainter
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Skia:
+  clean_name: Skia
+  def_wiki: null
+  def_wn: ''
+  name: Skia
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Snell Roundhand:
+  clean_name: Snell Roundhand
+  def_wiki: A style of handwriting in which the letters are well rounded and free.
+  def_wn: ''
+  name: Snell Roundhand
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Soyabean leaf:
+  clean_name: Soyabean leaf
+  def_wiki: The usually green and flat organ that represents the most prominent feature
+    of most vegetative plants.
+  def_wn: ''
+  name: Soyabean leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Soybean leaf:
+  clean_name: Soybean leaf
+  def_wiki: The usually green and flat organ that represents the most prominent feature
+    of most vegetative plants.
+  def_wn: ''
+  name: Soybean leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Squash Powdery mildew leaf:
+  clean_name: Squash Powdery mildew leaf
+  def_wiki: The usually green and flat organ that represents the most prominent feature
+    of most vegetative plants.
+  def_wn: ''
+  name: Squash Powdery mildew leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Strawberry leaf:
+  clean_name: Strawberry leaf
+  def_wiki: 'Used other than figuratively or idiomatically: see strawberry,‎ leaf.'
+  def_wn: ''
+  name: Strawberry leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+T:
+  clean_name: T
+  def_wiki: The twentieth letter of the English alphabet, called tee and written in
+    the Latin script.
+  def_wn: a base found in DNA (but not in RNA) and derived from pyrimidine; pairs
+    with adenine
+  name: T
+  path_wn:
+  - thymine
+  - pyrimidine
+  - base
+  - compound
+  - chemical
+  - material
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - thymine
+  - pyrimidine
+  - base
+  - compound
+  - chemical
+  - material
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - thymine
+  - pyrimidine
+  - base
+Tahoma:
+  clean_name: Tahoma
+  def_wiki: A census-designated place in El Dorado County and Placer County, California,
+    United States.
+  def_wn: ''
+  name: Tahoma
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Times New Roman:
+  clean_name: Times New Roman
+  def_wiki: A serif typeface.
+  def_wn: ''
+  name: Times New Roman
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Tomato Early blight leaf:
+  clean_name: Tomato Early blight leaf
+  def_wiki: The usually green and flat organ that represents the most prominent feature
+    of most vegetative plants.
+  def_wn: ''
+  name: Tomato Early blight leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Tomato Septoria leaf spot:
+  clean_name: Tomato Septoria leaf spot
+  def_wiki: Any of various fungal or bacterial diseases of plants that cause blemishes
+    on their leaves.
+  def_wn: ''
+  name: Tomato Septoria leaf spot
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Tomato leaf:
+  clean_name: Tomato leaf
+  def_wiki: The usually green and flat organ that represents the most prominent feature
+    of most vegetative plants.
+  def_wn: ''
+  name: Tomato leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Tomato leaf bacterial spot:
+  clean_name: Tomato leaf bacterial spot
+  def_wiki: A round or irregular patch on the surface of a thing having a different
+    color, texture etc. and generally round in shape.
+  def_wn: ''
+  name: Tomato leaf bacterial spot
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Tomato leaf late blight:
+  clean_name: Tomato leaf late blight
+  def_wiki: A rapid and complete chlorosis, browning, then death of plant tissues
+    such as leaves, branches, twigs, or floral organs.
+  def_wn: ''
+  name: Tomato leaf late blight
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Tomato leaf mosaic virus:
+  clean_name: Tomato leaf mosaic virus
+  def_wiki: Any plant virus that causes the leaves to have a speckled appearance.
+  def_wn: ''
+  name: Tomato leaf mosaic virus
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Tomato leaf yellow virus:
+  clean_name: Tomato leaf yellow virus
+  def_wiki: A submicroscopic, non-cellular structure consisting of a core of DNA or
+    RNA surrounded by a protein coat, that requires a living host cell to replicate,
+    and often causes disease in the host organism; such agents are often classed as
+    nonliving infectious particles and less often as microorganisms.
+  def_wn: ''
+  name: Tomato leaf yellow virus
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Tomato mold leaf:
+  clean_name: Tomato mold leaf
+  def_wiki: The usually green and flat organ that represents the most prominent feature
+    of most vegetative plants.
+  def_wn: ''
+  name: Tomato mold leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Tomato two spotted spider mites leaf:
+  clean_name: Tomato two spotted spider mites leaf
+  def_wiki: The usually green and flat organ that represents the most prominent feature
+    of most vegetative plants.
+  def_wn: ''
+  name: Tomato two spotted spider mites leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Trebuchet MS:
+  clean_name: Trebuchet MS
+  def_wiki: handwritten, or by extension manually typewritten, as opposed to being
+    mechanically reproduced.
+  def_wn: ''
+  name: Trebuchet MS
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+Truck:
+  clean_name: Truck
+  def_wiki: A small wheel or roller, specifically the wheel of a gun carriage.
+  def_wn: an automotive vehicle suitable for hauling
+  name: Truck
+  path_wn:
+  - truck
+  - motor_vehicle
+  - self-propelled_vehicle
+  - wheeled_vehicle
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - truck
+  - motor_vehicle
+  - self-propelled_vehicle
+  - wheeled_vehicle
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  path_wn3:
+  - truck
+  - motor_vehicle
+  - self-propelled_vehicle
+U:
+  clean_name: U
+  def_wiki: The twenty-first letter of the English alphabet, called u and written
+    in the Latin script.
+  def_wn: a base containing nitrogen that is found in RNA (but not in DNA) and derived
+    from pyrimidine; pairs with adenine
+  name: U
+  path_wn:
+  - uracil
+  - nucleotide
+  - ester
+  - organic_compound
+  - compound
+  - chemical
+  - material
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - uracil
+  - nucleotide
+  - ester
+  - organic_compound
+  - compound
+  - chemical
+  - material
+  - substance
+  - matter
+  - physical_entity
+  path_wn3:
+  - uracil
+  - nucleotide
+  - ester
+V:
+  clean_name: V
+  def_wiki: The twenty-second letter of the English alphabet, called vee and written
+    in the Latin script.
+  def_wn: a unit of potential equal to the potential difference between two points
+    on a conductor carrying a current of 1 ampere when the power dissipated between
+    the two points is 1 watt; equivalent to the potential difference across a resistance
+    of 1 ohm when 1 ampere of current flows through it
+  name: V
+  path_wn:
+  - volt
+  - potential_unit
+  - electromagnetic_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - volt
+  - potential_unit
+  - electromagnetic_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - volt
+  - potential_unit
+  - electromagnetic_unit
+Verdana:
+  clean_name: Verdana
+  def_wiki: null
+  def_wn: ''
+  name: Verdana
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+W:
+  clean_name: W
+  def_wiki: The twenty-third letter of the English alphabet, called double-u and written
+    in the Latin script.
+  def_wn: a heavy grey-white metallic element; the pure form is used mainly in electrical
+    applications; it is found in several ores including wolframite and scheelite
+  name: W
+  path_wn:
+  - tungsten
+  - metallic_element
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - tungsten
+  - metallic_element
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - tungsten
+  - metallic_element
+  - chemical_element
+WBC:
+  clean_name: WBC
+  def_wiki: Initialism of white blood cell.
+  def_wn: blood cells that engulf and digest bacteria and fungi; an important part
+    of the body's defense system
+  name: WBC
+  path_wn:
+  - leukocyte
+  - blood_cell
+  - somatic_cell
+  - cell
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - leukocyte
+  - blood_cell
+  - somatic_cell
+  - cell
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - leukocyte
+  - blood_cell
+  - somatic_cell
+X:
+  clean_name: X
+  def_wiki: The twenty-fourth letter of the English alphabet, called ex and written
+    in the Latin script.
+  def_wn: the cardinal number that is the sum of nine and one; the base of the decimal
+    system
+  name: X
+  path_wn:
+  - ten
+  - large_integer
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - ten
+  - large_integer
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - ten
+  - large_integer
+  - integer
+Y:
+  clean_name: Y
+  def_wiki: The twenty-fifth letter of the English alphabet, called wy or wye and
+    written in the Latin script.
+  def_wn: a silvery metallic element that is common in rare-earth minerals; used in
+    magnesium and aluminum alloys
+  name: Y
+  path_wn:
+  - yttrium
+  - metallic_element
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - yttrium
+  - metallic_element
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - yttrium
+  - metallic_element
+  - chemical_element
+Z:
+  clean_name: Z
+  def_wiki: The twenty-sixth letter of the English alphabet, called zed or zee and
+    written in the Latin script.
+  def_wn: the ending of a series or sequence; --Revelation
+  name: Z
+  path_wn:
+  - omega
+  - ending
+  - happening
+  - event
+  - psychological_feature
+  - abstraction
+  - entity
+  path_wn10:
+  - omega
+  - ending
+  - happening
+  - event
+  - psychological_feature
+  - abstraction
+  - entity
+  path_wn3:
+  - omega
+  - ending
+  - happening
+a:
+  clean_name: a
+  def_wiki: The first letter of the English alphabet, written in the Latin script.
+  def_wn: a metric unit of length equal to one ten billionth of a meter (or 0.0001
+    micron); used to specify wavelengths of electromagnetic radiation
+  name: a
+  path_wn:
+  - angstrom
+  - metric_linear_unit
+  - linear_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - angstrom
+  - metric_linear_unit
+  - linear_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - angstrom
+  - metric_linear_unit
+  - linear_unit
+aeroplane:
+  clean_name: aeroplane
+  def_wiki: A powered heavier-than-air aircraft with fixed wings.
+  def_wn: an aircraft that has a fixed wing and is powered by propellers or jets
+  name: aeroplane
+  path_wn:
+  - airplane
+  - heavier-than-air_craft
+  - aircraft
+  - craft
+  - vehicle
+  - conveyance
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - airplane
+  - heavier-than-air_craft
+  - aircraft
+  - craft
+  - vehicle
+  - conveyance
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  path_wn3:
+  - airplane
+  - heavier-than-air_craft
+  - aircraft
+an:
+  clean_name: an
+  def_wiki: Form of a (all article senses).
+  def_wn: an associate degree in nursing
+  name: an
+  path_wn:
+  - Associate_in_Nursing
+  - associate_degree
+  - academic_degree
+  - award
+  - symbol
+  - signal
+  - communication
+  - abstraction
+  - entity
+  path_wn10:
+  - Associate_in_Nursing
+  - associate_degree
+  - academic_degree
+  - award
+  - symbol
+  - signal
+  - communication
+  - abstraction
+  - entity
+  path_wn3:
+  - Associate_in_Nursing
+  - associate_degree
+  - academic_degree
+b:
+  clean_name: b
+  def_wiki: The second letter of the English alphabet, called bee and written in the
+    Latin script.
+  def_wn: aerobic rod-shaped spore-producing bacterium; often occurring in chainlike
+    formations; found primarily in soil
+  name: b
+  path_wn:
+  - bacillus
+  - eubacteria
+  - bacteria
+  - microorganism
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - bacillus
+  - eubacteria
+  - bacteria
+  - microorganism
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - bacillus
+  - eubacteria
+  - bacteria
+bicycle:
+  clean_name: bicycle
+  def_wiki: A vehicle that has two wheels, one behind the other, a steering handle,
+    and a saddle seat or seats and is usually propelled by the action of a rider’s
+    feet upon pedals.
+  def_wn: a wheeled vehicle that has two wheels and is moved by foot pedals
+  name: bicycle
+  path_wn:
+  - bicycle
+  - wheeled_vehicle
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - bicycle
+  - wheeled_vehicle
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - bicycle
+  - wheeled_vehicle
+  - container
+biker:
+  clean_name: biker
+  def_wiki: A person whose lifestyle is centered on motorcycles, sometimes a member
+    of a motorcycle club.
+  def_wn: ''
+  name: biker
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+bird:
+  clean_name: bird
+  def_wiki: A member of the class of animals Aves in the phylum Chordata, characterized
+    by being warm-blooded, having feathers and wings usually capable of flight, having
+    a beaked mouth, and laying eggs.
+  def_wn: warm-blooded egg-laying vertebrates characterized by feathers and forelimbs
+    modified as wings
+  name: bird
+  path_wn:
+  - bird
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - bird
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - bird
+  - vertebrate
+  - chordate
+black bishop:
+  clean_name: black bishop
+  def_wiki: 'An overseer of congregations: either any such overseer, generally speaking,
+    or (in Eastern Orthodoxy, Catholicism, Anglicanism, etc.) an official in the church
+    hierarchy (actively or nominally) governing a diocese, supervising the church''s
+    priests, deacons, and property in its territory.'
+  def_wn: ''
+  name: black bishop
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+black king:
+  clean_name: black king
+  def_wiki: A male monarch; a man who heads a monarchy. If it is an absolute monarchy,
+    then he is the supreme ruler of his nation.
+  def_wn: ''
+  name: black king
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+black knight:
+  clean_name: black knight
+  def_wiki: A villain or evil character who masks their identity and that of their
+    liege by not displaying heraldry.
+  def_wn: ''
+  name: black knight
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+black pawn:
+  clean_name: black pawn
+  def_wiki: The most common chess piece, or a similar piece in a similar game. In
+    chess each side has eight; moves are only forward, and attacks are only forward
+    diagonally or en passant.
+  def_wn: ''
+  name: black pawn
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+black queen:
+  clean_name: black queen
+  def_wiki: 'A female monarch. Example: Queen Victoria.'
+  def_wn: ''
+  name: black queen
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+black rook:
+  clean_name: black rook
+  def_wiki: A European bird, Corvus frugilegus, of the crow family.
+  def_wn: ''
+  name: black rook
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+boat:
+  clean_name: boat
+  def_wiki: A craft used for transportation of goods, fishing, racing, recreational
+    cruising, or military use on or in the water, propelled by oars or outboard motor
+    or inboard motor or by wind.
+  def_wn: a small vessel for travel on water
+  name: boat
+  path_wn:
+  - boat
+  - vessel
+  - craft
+  - vehicle
+  - conveyance
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - boat
+  - vessel
+  - craft
+  - vehicle
+  - conveyance
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  path_wn3:
+  - boat
+  - vessel
+  - craft
+bottle:
+  clean_name: bottle
+  def_wiki: A container, typically made of glass or plastic and having a tapered neck,
+    used primarily for holding liquids.
+  def_wn: a glass or plastic vessel used for storing drinks or other liquids; typically
+    cylindrical without handles and with a narrow neck that can be plugged or capped
+  name: bottle
+  path_wn:
+  - bottle
+  - vessel
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - bottle
+  - vessel
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - bottle
+  - vessel
+  - container
+bus:
+  clean_name: bus
+  def_wiki: A motor vehicle for transporting large numbers of people along roads.
+  def_wn: a vehicle carrying many passengers; used for public transport
+  name: bus
+  path_wn:
+  - bus
+  - public_transport
+  - conveyance
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - bus
+  - public_transport
+  - conveyance
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - bus
+  - public_transport
+  - conveyance
+button:
+  clean_name: button
+  def_wiki: A knob or disc that is passed through a loop or (buttonhole), serving
+    as a fastener.
+  def_wn: a round fastener sewn to shirts and coats etc to fit through buttonholes
+  name: button
+  path_wn:
+  - button
+  - fastener
+  - restraint
+  - device
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - button
+  - fastener
+  - restraint
+  - device
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - button
+  - fastener
+  - restraint
+c:
+  clean_name: c
+  def_wiki: The third letter of the English alphabet, called cee and written in the
+    Latin script.
+  def_wn: a degree on the centigrade scale of temperature
+  name: c
+  path_wn:
+  - degree_centigrade
+  - degree
+  - temperature_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - degree_centigrade
+  - degree
+  - temperature_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - degree_centigrade
+  - degree
+  - temperature_unit
+car:
+  clean_name: car
+  def_wiki: A wheeled vehicle that moves independently, with at least three wheels,
+    powered mechanically, steered by a driver and mostly for personal transportation.
+  def_wn: a motor vehicle with four wheels; usually propelled by an internal combustion
+    engine
+  name: car
+  path_wn:
+  - car
+  - motor_vehicle
+  - self-propelled_vehicle
+  - wheeled_vehicle
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - car
+  - motor_vehicle
+  - self-propelled_vehicle
+  - wheeled_vehicle
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  path_wn3:
+  - car
+  - motor_vehicle
+  - self-propelled_vehicle
+cat:
+  clean_name: cat
+  def_wiki: "An animal of the family Felidae:\n Synonym: felid"
+  def_wn: 'feline mammal usually having thick soft fur and no ability to roar: domestic
+    cats; wildcats'
+  name: cat
+  path_wn:
+  - cat
+  - feline
+  - carnivore
+  - placental
+  - mammal
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - cat
+  - feline
+  - carnivore
+  - placental
+  - mammal
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  path_wn3:
+  - cat
+  - feline
+  - carnivore
+cat-Abyssinian:
+  clean_name: cat-Abyssinian
+  def_wiki: Of or pertaining to Ethiopia or its inhabitants; Ethiopian.
+  def_wn: ''
+  name: cat-Abyssinian
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+cat-Bengal:
+  clean_name: cat-Bengal
+  def_wiki: A region in the Indian subcontinent which is today divided between Bangladesh
+    and India (particularly the state of West Bengal).
+  def_wn: ''
+  name: cat-Bengal
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+cat-Birman:
+  clean_name: cat-Birman
+  def_wiki: A medium-sized semi-longhair domestic cat of a breed originating in Burma.
+  def_wn: ''
+  name: cat-Birman
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+cat-Bombay:
+  clean_name: cat-Bombay
+  def_wiki: Former name of Mumbai, the state capital of Maharashtra, India.
+  def_wn: ''
+  name: cat-Bombay
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+cat-British_Shorthair:
+  clean_name: cat-British_Shorthair
+  def_wiki: A medium-sized shorthaired domestic cat of a breed originating in Great
+    Britain.
+  def_wn: ''
+  name: cat-British_Shorthair
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+cat-Egyptian_Mau:
+  clean_name: cat-Egyptian_Mau
+  def_wiki: A domestic cat of a short-haired breed originating in Egypt, with a well-muscled
+    medium-length body.
+  def_wn: ''
+  name: cat-Egyptian_Mau
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+cat-Maine_Coon:
+  clean_name: cat-Maine_Coon
+  def_wiki: A large, fluffy semi-longhair domestic cat of a breed that originated
+    in Maine.
+  def_wn: ''
+  name: cat-Maine_Coon
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+cat-Persian:
+  clean_name: cat-Persian
+  def_wiki: The Persian language, or a family of languages spoken primarily in Iran,
+    Afghanistan, Tajikistan, and Uzbekistan.
+  def_wn: ''
+  name: cat-Persian
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+cat-Ragdoll:
+  clean_name: cat-Ragdoll
+  def_wiki: A modern American breed of domestic cat that relaxes completely when picked
+    up.
+  def_wn: ''
+  name: cat-Ragdoll
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+cat-Russian_Blue:
+  clean_name: cat-Russian_Blue
+  def_wiki: A domestic cat of a breed with dense silver to grey fur.
+  def_wn: ''
+  name: cat-Russian_Blue
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+cat-Siamese:
+  clean_name: cat-Siamese
+  def_wiki: Of, or relating to Siam; Thai.
+  def_wn: ''
+  name: cat-Siamese
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+cat-Sphynx:
+  clean_name: cat-Sphynx
+  def_wiki: A three-dimensional work of art, usually representing a person or animal,
+    usually created by sculpting, carving, molding, or casting.
+  def_wn: ''
+  name: cat-Sphynx
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+chair:
+  clean_name: chair
+  def_wiki: An item of furniture used to sit on or in, comprising a seat, legs or
+    wheels, back, and sometimes arm rests, for use by one person. Compare stool, couch,
+    sofa, settee, loveseat and bench.
+  def_wn: a seat for one person, with a support for the back
+  name: chair
+  path_wn:
+  - chair
+  - seat
+  - furniture
+  - furnishing
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - chair
+  - seat
+  - furniture
+  - furnishing
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - chair
+  - seat
+  - furniture
+cheetah:
+  clean_name: cheetah
+  def_wiki: A distinctive member (Acinonyx jubatus) of the cat family, slightly smaller
+    than the leopard, but with proportionately longer limbs and a smaller head. It
+    is native to Africa and also credited with being the fastest terrestrial animal.
+  def_wn: long-legged spotted cat of Africa and southwestern Asia having nonretractile
+    claws; the swiftest mammal; can be trained to run down game
+  name: cheetah
+  path_wn:
+  - cheetah
+  - big_cat
+  - feline
+  - carnivore
+  - placental
+  - mammal
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - cheetah
+  - big_cat
+  - feline
+  - carnivore
+  - placental
+  - mammal
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  path_wn3:
+  - cheetah
+  - big_cat
+  - feline
+cow:
+  clean_name: cow
+  def_wiki: An adult female of the species Bos taurus, especially one that has calved.
+  def_wn: 'female of domestic cattle:'
+  name: cow
+  path_wn:
+  - cow
+  - cattle
+  - bovine
+  - bovid
+  - ruminant
+  - even-toed_ungulate
+  - ungulate
+  - placental
+  - mammal
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - cow
+  - cattle
+  - bovine
+  - bovid
+  - ruminant
+  - even-toed_ungulate
+  - ungulate
+  - placental
+  - mammal
+  - vertebrate
+  path_wn3:
+  - cow
+  - cattle
+  - bovine
+crab:
+  clean_name: crab
+  def_wiki: A crustacean of the infraorder Brachyura, having five pairs of legs, the
+    foremost of which are in the form of claws, and a carapace.
+  def_wn: decapod having eyes on short stalks and a broad flattened carapace with
+    a small abdomen folded under the thorax and pincers
+  name: crab
+  path_wn:
+  - crab
+  - decapod_crustacean
+  - crustacean
+  - arthropod
+  - invertebrate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - crab
+  - decapod_crustacean
+  - crustacean
+  - arthropod
+  - invertebrate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  path_wn3:
+  - crab
+  - decapod_crustacean
+  - crustacean
+d:
+  clean_name: d
+  def_wiki: The fourth letter of the English alphabet, called dee and written in the
+    Latin script.
+  def_wn: a fat-soluble vitamin that prevents rickets
+  name: d
+  path_wn:
+  - vitamin_D
+  - fat-soluble_vitamin
+  - vitamin
+  - nutriment
+  - food
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - vitamin_D
+  - fat-soluble_vitamin
+  - vitamin
+  - nutriment
+  - food
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - vitamin_D
+  - fat-soluble_vitamin
+  - vitamin
+diningtable:
+  clean_name: diningtable
+  def_wiki: null
+  def_wn: ''
+  name: diningtable
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dock:
+  clean_name: dock
+  def_wiki: Any of the genus Rumex of coarse weedy plants with small green flowers
+    related to buckwheat, especially bitter dock (Rumex obtusifolius), and used as
+    potherbs and in folk medicine, especially in curing nettle rash.
+  def_wn: an enclosure in a court of law where the defendant sits during the trial
+  name: dock
+  path_wn:
+  - dock
+  - enclosure
+  - area
+  - structure
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - dock
+  - enclosure
+  - area
+  - structure
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - dock
+  - enclosure
+  - area
+dog:
+  clean_name: dog
+  def_wiki: A mammal, Canis familiaris or Canis lupus familiaris, that has been domesticated
+    for thousands of years, of highly variable appearance due to human breeding.
+  def_wn: a member of the genus Canis (probably descended from the common wolf) that
+    has been domesticated by man since prehistoric times; occurs in many breeds
+  name: dog
+  path_wn:
+  - dog
+  - canine
+  - carnivore
+  - placental
+  - mammal
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - dog
+  - canine
+  - carnivore
+  - placental
+  - mammal
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  path_wn3:
+  - dog
+  - canine
+  - carnivore
+dog-american_bulldog:
+  clean_name: dog-american_bulldog
+  def_wiki: A medium-sized breed of domestic dog.
+  def_wn: ''
+  name: dog-american_bulldog
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-american_pit_bull_terrier:
+  clean_name: dog-american_pit_bull_terrier
+  def_wiki: A medium-size dog historically bred for dogfighting.
+  def_wn: ''
+  name: dog-american_pit_bull_terrier
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-basset_hound:
+  clean_name: dog-basset_hound
+  def_wiki: a short-legged breed of dog of the hound family
+  def_wn: ''
+  name: dog-basset_hound
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-beagle:
+  clean_name: dog-beagle
+  def_wiki: A small short-legged smooth-coated scenthound, often tricolored and sometimes
+    used for hunting hares. Its friendly disposition makes it suitable as a family
+    pet.
+  def_wn: ''
+  name: dog-beagle
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-boxer:
+  clean_name: dog-boxer
+  def_wiki: A participant (fighter) in a boxing match.
+  def_wn: ''
+  name: dog-boxer
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-chihuahua:
+  clean_name: dog-chihuahua
+  def_wiki: A city, the state capital of Chihuahua, Mexico
+  def_wn: ''
+  name: dog-chihuahua
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-english_cocker_spaniel:
+  clean_name: dog-english_cocker_spaniel
+  def_wiki: A gun dog of a breed, for the sport of cocking, or bird hunting.
+  def_wn: ''
+  name: dog-english_cocker_spaniel
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-english_setter:
+  clean_name: dog-english_setter
+  def_wiki: A medium-sized breed of dog, having a silky "feathered" coat in a variety
+    of colours, such as black and white or orange and white, originally bred as a
+    gun dog.
+  def_wn: ''
+  name: dog-english_setter
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-german_shorthaired:
+  clean_name: dog-german_shorthaired
+  def_wiki: Having short hair.
+  def_wn: ''
+  name: dog-german_shorthaired
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-great_pyrenees:
+  clean_name: dog-great_pyrenees
+  def_wiki: A large breed of dog originating in France and often used to guard livestock.
+  def_wn: ''
+  name: dog-great_pyrenees
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-havanese:
+  clean_name: dog-havanese
+  def_wiki: Of or pertaining to Havana, in Cuba.
+  def_wn: ''
+  name: dog-havanese
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-japanese_chin:
+  clean_name: dog-japanese_chin
+  def_wiki: The bottom of a face, (specifically) the typically jutting jawline below
+    the mouth.
+  def_wn: ''
+  name: dog-japanese_chin
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-keeshond:
+  clean_name: dog-keeshond
+  def_wiki: A spitz bred in the Netherlands and Germany, characterized by a fluffy
+    coat of silver and black fur.
+  def_wn: ''
+  name: dog-keeshond
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-leonberger:
+  clean_name: dog-leonberger
+  def_wiki: A dog of a large, muscular breed with a black mask on the face.
+  def_wn: ''
+  name: dog-leonberger
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-miniature_pinscher:
+  clean_name: dog-miniature_pinscher
+  def_wiki: A small breed of pinscher bred in Germany to hunt small vermin, especially
+    rats.
+  def_wn: ''
+  name: dog-miniature_pinscher
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-newfoundland:
+  clean_name: dog-newfoundland
+  def_wiki: Ellipsis of Island of Newfoundland; A large island off the coast of eastern
+    Canada, which, along with Labrador, has composed the Canadian province of Newfoundland
+    and Labrador since 1949, and the Dominion of Newfoundland, before it.
+  def_wn: ''
+  name: dog-newfoundland
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-pomeranian:
+  clean_name: dog-pomeranian
+  def_wiki: A mammal, Canis familiaris or Canis lupus familiaris, that has been domesticated
+    for thousands of years, of highly variable appearance due to human breeding.
+  def_wn: ''
+  name: dog-pomeranian
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-pug:
+  clean_name: dog-pug
+  def_wiki: A small dog of an ancient breed originating in China, having a snub nose,
+    wrinkled face, squarish body, short smooth hair, and curled tail.
+  def_wn: ''
+  name: dog-pug
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-saint_bernard:
+  clean_name: dog-saint_bernard
+  def_wiki: One of a breed of large dog, famous for rescuing people on mountains.
+  def_wn: ''
+  name: dog-saint_bernard
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-samoyed:
+  clean_name: dog-samoyed
+  def_wiki: A mammal, Canis familiaris or Canis lupus familiaris, that has been domesticated
+    for thousands of years, of highly variable appearance due to human breeding.
+  def_wn: ''
+  name: dog-samoyed
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-scottish_terrier:
+  clean_name: dog-scottish_terrier
+  def_wiki: A breed of dog originating in Scotland.
+  def_wn: ''
+  name: dog-scottish_terrier
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-shiba_inu:
+  clean_name: dog-shiba_inu
+  def_wiki: A dog of a small, agile Japanese breed originally used for hunting.
+  def_wn: ''
+  name: dog-shiba_inu
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-staffordshire_bull_terrier:
+  clean_name: dog-staffordshire_bull_terrier
+  def_wiki: A medium-sized dog of a breed that is a cross between bulldog and terrier.
+  def_wn: ''
+  name: dog-staffordshire_bull_terrier
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-wheaten_terrier:
+  clean_name: dog-wheaten_terrier
+  def_wiki: A female given name; a spelling variant of Terry, diminutive of Teresa.
+  def_wn: ''
+  name: dog-wheaten_terrier
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+dog-yorkshire_terrier:
+  clean_name: dog-yorkshire_terrier
+  def_wiki: A breed of toy dog having a long, glossy coat.
+  def_wn: ''
+  name: dog-yorkshire_terrier
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+e:
+  clean_name: e
+  def_wiki: The fifth letter of the English alphabet, called e and written in the
+    Latin script.
+  def_wn: a fat-soluble vitamin that is essential for normal reproduction; an important
+    antioxidant that neutralizes free radicals in the body
+  name: e
+  path_wn:
+  - vitamin_E
+  - antioxidant
+  - inhibitor
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - vitamin_E
+  - antioxidant
+  - inhibitor
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - vitamin_E
+  - antioxidant
+  - inhibitor
+er:
+  clean_name: er
+  def_wiki: Said when hesitating in speech.
+  def_wn: a trivalent metallic element of the rare earth group; occurs with yttrium
+  name: er
+  path_wn:
+  - erbium
+  - metallic_element
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - erbium
+  - metallic_element
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - erbium
+  - metallic_element
+  - chemical_element
+f:
+  clean_name: f
+  def_wiki: The sixth letter of the English alphabet, called ef and written in the
+    Latin script.
+  def_wn: a degree on the Fahrenheit scale of temperature
+  name: f
+  path_wn:
+  - degree_Fahrenheit
+  - degree
+  - temperature_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - degree_Fahrenheit
+  - degree
+  - temperature_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - degree_Fahrenheit
+  - degree
+  - temperature_unit
+field:
+  clean_name: field
+  def_wiki: A land area free of woodland, cities, and towns; an area of open country.
+  def_wn: a piece of land cleared of trees and usually enclosed
+  name: field
+  path_wn:
+  - field
+  - tract
+  - geographical_area
+  - region
+  - location
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - field
+  - tract
+  - geographical_area
+  - region
+  - location
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - field
+  - tract
+  - geographical_area
+fish:
+  clean_name: fish
+  def_wiki: A cold-blooded vertebrate animal that lives in water, moving with the
+    help of fins and breathing with gills.
+  def_wn: any of various mostly cold-blooded aquatic vertebrates usually having scales
+    and breathing through gills
+  name: fish
+  path_wn:
+  - fish
+  - aquatic_vertebrate
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - fish
+  - aquatic_vertebrate
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  path_wn3:
+  - fish
+  - aquatic_vertebrate
+  - vertebrate
+flat mushroom:
+  clean_name: flat mushroom
+  def_wiki: Any of the fleshy fruiting bodies of fungi typically produced above ground
+    on soil or on their food sources (such as decaying wood).
+  def_wn: ''
+  name: flat mushroom
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+follow:
+  clean_name: follow
+  def_wiki: To go after; to pursue; to move behind in the same path or direction,
+    especially with the intent of catching.
+  def_wn: to travel behind, go after, come after
+  name: follow
+  path_wn:
+  - follow
+  - travel
+  path_wn10:
+  - follow
+  - travel
+  path_wn3:
+  - follow
+  - travel
+follow_hand:
+  clean_name: follow_hand
+  def_wiki: The part of the forelimb below the forearm or wrist in a human, and the
+    corresponding part in many other animals.
+  def_wn: ''
+  name: follow_hand
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+g:
+  clean_name: g
+  def_wiki: The seventh letter of the English alphabet, called gee and written in
+    the Latin script.
+  def_wn: a metric unit of weight equal to one thousandth of a kilogram
+  name: g
+  path_wn:
+  - gram
+  - metric_weight_unit
+  - mass_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - gram
+  - metric_weight_unit
+  - mass_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - gram
+  - metric_weight_unit
+  - mass_unit
+grape leaf:
+  clean_name: grape leaf
+  def_wiki: The usually green and flat organ that represents the most prominent feature
+    of most vegetative plants.
+  def_wn: ''
+  name: grape leaf
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+grape leaf black rot:
+  clean_name: grape leaf black rot
+  def_wiki: A disease of grapevines, attacking the leaves and fruit, caused by the
+    fungus Guignardia bidwellii.
+  def_wn: ''
+  name: grape leaf black rot
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+h:
+  clean_name: h
+  def_wiki: The eighth letter of the English alphabet, called aitch and written in
+    the Latin script.
+  def_wn: a nonmetallic univalent element that is normally a colorless and odorless
+    highly flammable diatomic gas; the simplest and lightest and most abundant element
+    in the universe
+  name: h
+  path_wn:
+  - hydrogen
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - hydrogen
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - hydrogen
+  - chemical_element
+  - substance
+hand:
+  clean_name: hand
+  def_wiki: The part of the forelimb below the forearm or wrist in a human, and the
+    corresponding part in many other animals.
+  def_wn: the (prehensile) extremity of the superior limb
+  name: hand
+  path_wn:
+  - hand
+  - extremity
+  - external_body_part
+  - body_part
+  - part
+  - thing
+  - physical_entity
+  - entity
+  path_wn10:
+  - hand
+  - extremity
+  - external_body_part
+  - body_part
+  - part
+  - thing
+  - physical_entity
+  - entity
+  path_wn3:
+  - hand
+  - extremity
+  - external_body_part
+he:
+  clean_name: he
+  def_wiki: A male (typically) person or animal already known or implied.
+  def_wn: a very light colorless element that is one of the six inert gasses; the
+    most difficult gas to liquefy; occurs in economically extractable amounts in certain
+    natural gases (as those found in Texas and Kansas)
+  name: he
+  path_wn:
+  - helium
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - helium
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - helium
+  - chemical_element
+  - substance
+head:
+  clean_name: head
+  def_wiki: The part of the body of an animal or human which contains the brain, mouth,
+    and main sense organs.
+  def_wn: the upper part of the human body or the front part of the body in animals;
+    contains the face and brains
+  name: head
+  path_wn:
+  - head
+  - external_body_part
+  - body_part
+  - part
+  - thing
+  - physical_entity
+  - entity
+  path_wn10:
+  - head
+  - external_body_part
+  - body_part
+  - part
+  - thing
+  - physical_entity
+  - entity
+  path_wn3:
+  - head
+  - external_body_part
+  - body_part
+heading:
+  clean_name: heading
+  def_wiki: The part of the body of an animal or human which contains the brain, mouth,
+    and main sense organs.
+  def_wn: a line of text serving to indicate what the passage below it is about
+  name: heading
+  path_wn:
+  - heading
+  - line
+  - text
+  - matter
+  - writing
+  - written_communication
+  - communication
+  - abstraction
+  - entity
+  path_wn10:
+  - heading
+  - line
+  - text
+  - matter
+  - writing
+  - written_communication
+  - communication
+  - abstraction
+  - entity
+  path_wn3:
+  - heading
+  - line
+  - text
+helmet:
+  clean_name: helmet
+  def_wiki: A hard, protective head covering, typically part of armour.
+  def_wn: armor plate that protects the head
+  name: helmet
+  path_wn:
+  - helmet
+  - armor_plate
+  - plate
+  - shield
+  - protective_covering
+  - covering
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - helmet
+  - armor_plate
+  - plate
+  - shield
+  - protective_covering
+  - covering
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  path_wn3:
+  - helmet
+  - armor_plate
+  - plate
+horse:
+  clean_name: horse
+  def_wiki: Any of several animals related to Equus ferus caballus.
+  def_wn: solid-hoofed herbivorous quadruped domesticated since prehistoric times
+  name: horse
+  path_wn:
+  - horse
+  - equine
+  - odd-toed_ungulate
+  - ungulate
+  - placental
+  - mammal
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - horse
+  - equine
+  - odd-toed_ungulate
+  - ungulate
+  - placental
+  - mammal
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  path_wn3:
+  - horse
+  - equine
+  - odd-toed_ungulate
+human:
+  clean_name: human
+  def_wiki: Of or belonging to the species Homo sapiens or its closest relatives.
+  def_wn: any living or extinct member of the family Hominidae characterized by superior
+    intelligence, articulate speech, and erect carriage
+  name: human
+  path_wn:
+  - homosexual
+  - person
+  - causal_agent
+  - physical_entity
+  - entity
+  path_wn10:
+  - homosexual
+  - person
+  - causal_agent
+  - physical_entity
+  - entity
+  path_wn3:
+  - homosexual
+  - person
+  - causal_agent
+i:
+  clean_name: i
+  def_wiki: The ninth letter of the English alphabet, called i and written in the
+    Latin script.
+  def_wn: a nonmetallic element belonging to the halogens; used especially in medicine
+    and photography and in dyes; occurs naturally only in combination in small quantities
+    (as in sea water or rocks)
+  name: i
+  path_wn:
+  - iodine
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - iodine
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - iodine
+  - chemical_element
+  - substance
+iframe:
+  clean_name: iframe
+  def_wiki: A section of a web page that can act as the container for a second separate
+    page or resource.
+  def_wn: ''
+  name: iframe
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+image:
+  clean_name: image
+  def_wiki: An optical or other representation of a real object; a graphic; a picture.
+  def_wn: an iconic mental representation
+  name: image
+  path_wn:
+  - image
+  - representation
+  - content
+  - cognition
+  - psychological_feature
+  - abstraction
+  - entity
+  path_wn10:
+  - image
+  - representation
+  - content
+  - cognition
+  - psychological_feature
+  - abstraction
+  - entity
+  path_wn3:
+  - image
+  - representation
+  - content
+in:
+  clean_name: in
+  def_wiki: Used to indicate location, inclusion, or position within spatial, temporal
+    or other limits.
+  def_wn: a unit of length equal to one twelfth of a foot
+  name: in
+  path_wn:
+  - inch
+  - linear_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - inch
+  - linear_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - inch
+  - linear_unit
+  - unit_of_measurement
+j:
+  clean_name: j
+  def_wiki: The tenth letter of the English alphabet, called jay and written in the
+    Latin script.
+  def_wn: a unit of electrical energy equal to the work done when a current of one
+    ampere passes through a resistance of one ohm for one second
+  name: j
+  path_wn:
+  - joule
+  - work_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - joule
+  - work_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - joule
+  - work_unit
+  - unit_of_measurement
+jellyfish:
+  clean_name: jellyfish
+  def_wiki: An almost transparent aquatic animal; any one of the acalephs, especially
+    one of the larger species, having a jellylike appearance.
+  def_wn: large siphonophore having a bladderlike float and stinging tentacles
+  name: jellyfish
+  path_wn:
+  - Portuguese_man-of-war
+  - siphonophore
+  - hydrozoan
+  - coelenterate
+  - invertebrate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - Portuguese_man-of-war
+  - siphonophore
+  - hydrozoan
+  - coelenterate
+  - invertebrate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  path_wn3:
+  - Portuguese_man-of-war
+  - siphonophore
+  - hydrozoan
+jetski:
+  clean_name: jetski
+  def_wiki: A powered watercraft with a seat and handlebars in a style similar to
+    a motorbike.
+  def_wn: ''
+  name: jetski
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+k:
+  clean_name: k
+  def_wiki: The eleventh letter of the English alphabet, called kay and written in
+    the Latin script.
+  def_wn: the basic unit of thermodynamic temperature adopted under the Systeme International
+    d'Unites
+  name: k
+  path_wn:
+  - kelvin
+  - temperature_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - kelvin
+  - temperature_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - kelvin
+  - temperature_unit
+  - unit_of_measurement
+l:
+  clean_name: l
+  def_wiki: The twelfth letter of the English alphabet, called el and written in the
+    Latin script.
+  def_wn: a metric unit of capacity, formerly defined as the volume of one kilogram
+    of pure water under standard conditions; now equal to 1,000 cubic centimeters
+    (or approximately 1.75 pints)
+  name: l
+  path_wn:
+  - liter
+  - metric_capacity_unit
+  - metric_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - liter
+  - metric_capacity_unit
+  - metric_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - liter
+  - metric_capacity_unit
+  - metric_unit
+label:
+  clean_name: label
+  def_wiki: A small ticket or sign giving information about something to which it
+    is attached or intended to be attached.
+  def_wn: a brief description given for purposes of identification
+  name: label
+  path_wn:
+  - label
+  - description
+  - speech_act
+  - act
+  - event
+  - psychological_feature
+  - abstraction
+  - entity
+  path_wn10:
+  - label
+  - description
+  - speech_act
+  - act
+  - event
+  - psychological_feature
+  - abstraction
+  - entity
+  path_wn3:
+  - label
+  - description
+  - speech_act
+land:
+  clean_name: land
+  def_wiki: The part of Earth which is not covered by oceans or other bodies of water.
+  def_wn: the land on which real estate is located
+  name: land
+  path_wn:
+  - land
+  - real_property
+  - property
+  - possession
+  - relation
+  - abstraction
+  - entity
+  path_wn10:
+  - land
+  - real_property
+  - property
+  - possession
+  - relation
+  - abstraction
+  - entity
+  path_wn3:
+  - land
+  - real_property
+  - property
+land_hand:
+  clean_name: land_hand
+  def_wiki: The part of the forelimb below the forearm or wrist in a human, and the
+    corresponding part in many other animals.
+  def_wn: ''
+  name: land_hand
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+lift:
+  clean_name: lift
+  def_wiki: To raise or rise.
+  def_wn: the act of giving temporary assistance
+  name: lift
+  path_wn:
+  - lift
+  - aid
+  - activity
+  - act
+  - event
+  - psychological_feature
+  - abstraction
+  - entity
+  path_wn10:
+  - lift
+  - aid
+  - activity
+  - act
+  - event
+  - psychological_feature
+  - abstraction
+  - entity
+  path_wn3:
+  - lift
+  - aid
+  - activity
+link:
+  clean_name: link
+  def_wiki: A connection between places, people, events, things, or ideas.
+  def_wn: the means of connection between things linked in series
+  name: link
+  path_wn:
+  - link
+  - linkage
+  - connection
+  - relation
+  - abstraction
+  - entity
+  path_wn10:
+  - link
+  - linkage
+  - connection
+  - relation
+  - abstraction
+  - entity
+  path_wn3:
+  - link
+  - linkage
+  - connection
+m:
+  clean_name: m
+  def_wiki: The thirteenth letter of the English alphabet, called em and written in
+    the Latin script.
+  def_wn: the basic unit of length adopted under the Systeme International d'Unites
+    (approximately 1.094 yards)
+  name: m
+  path_wn:
+  - meter
+  - metric_linear_unit
+  - linear_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - meter
+  - metric_linear_unit
+  - linear_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - meter
+  - metric_linear_unit
+  - linear_unit
+mask:
+  clean_name: mask
+  def_wiki: A cover, or partial cover, for the face, used for disguise or protection.
+  def_wn: a covering to disguise or conceal the face
+  name: mask
+  path_wn:
+  - mask
+  - covering
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - mask
+  - covering
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - mask
+  - covering
+  - artifact
+motorbike:
+  clean_name: motorbike
+  def_wiki: A motorcycle.
+  def_wn: small motorcycle with a low frame and small wheels and elevated handlebars
+  name: motorbike
+  path_wn:
+  - minibike
+  - motorcycle
+  - motor_vehicle
+  - self-propelled_vehicle
+  - wheeled_vehicle
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - minibike
+  - motorcycle
+  - motor_vehicle
+  - self-propelled_vehicle
+  - wheeled_vehicle
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  path_wn3:
+  - minibike
+  - motorcycle
+  - motor_vehicle
+myleft:
+  clean_name: myleft
+  def_wiki: null
+  def_wn: ''
+  name: myleft
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+myright:
+  clean_name: myright
+  def_wiki: null
+  def_wn: ''
+  name: myright
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+n:
+  clean_name: n
+  def_wiki: The fourteenth letter of the English alphabet, called en and written in
+    the Latin script.
+  def_wn: a common nonmetallic element that is normally a colorless odorless tasteless
+    inert diatomic gas; constitutes 78 percent of the atmosphere by volume; a constituent
+    of all living tissues
+  name: n
+  path_wn:
+  - nitrogen
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - nitrogen
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - nitrogen
+  - chemical_element
+  - substance
+no-mask:
+  clean_name: no-mask
+  def_wiki: null
+  def_wn: ''
+  name: no-mask
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+'null':
+  clean_name: 'null'
+  def_wiki: A non-existent or empty value or set of values.
+  def_wn: a quantity of no importance
+  name: 'null'
+  path_wn:
+  - nothing
+  - relative_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - nothing
+  - relative_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - nothing
+  - relative_quantity
+  - measure
+o:
+  clean_name: o
+  def_wiki: The fifteenth letter of the English alphabet, called o and written in
+    the Latin script.
+  def_wn: a nonmetallic bivalent element that is normally a colorless odorless tasteless
+    nonflammable diatomic gas; constitutes 21 percent of the atmosphere by volume;
+    the most abundant element in the earth's crust
+  name: o
+  path_wn:
+  - oxygen
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - oxygen
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - oxygen
+  - chemical_element
+  - substance
+object:
+  clean_name: object
+  def_wiki: A thing that has physical existence.
+  def_wn: a tangible and visible entity; an entity that can cast a shadow
+  name: object
+  path_wn:
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - object
+  - physical_entity
+  - entity
+p:
+  clean_name: p
+  def_wiki: The sixteenth letter of the English alphabet, called pee and written in
+    the Latin script.
+  def_wn: a multivalent nonmetallic element of the nitrogen family that occurs commonly
+    in inorganic phosphate rocks and as organic phosphates in all living cells; is
+    highly reactive and occurs in several allotropic forms
+  name: p
+  path_wn:
+  - phosphorus
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - phosphorus
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - phosphorus
+  - chemical_element
+  - substance
+package:
+  clean_name: package
+  def_wiki: Something which is packed, a parcel, a box, an envelope.
+  def_wn: a collection of things wrapped or boxed together
+  name: package
+  path_wn:
+  - package
+  - collection
+  - group
+  - abstraction
+  - entity
+  path_wn10:
+  - package
+  - collection
+  - group
+  - abstraction
+  - entity
+  path_wn3:
+  - package
+  - collection
+  - group
+pedestrian:
+  clean_name: pedestrian
+  def_wiki: Of or intended for those who are walking.
+  def_wn: a person who travels by foot
+  name: pedestrian
+  path_wn:
+  - pedestrian
+  - traveler
+  - person
+  - causal_agent
+  - physical_entity
+  - entity
+  path_wn10:
+  - pedestrian
+  - traveler
+  - person
+  - causal_agent
+  - physical_entity
+  - entity
+  path_wn3:
+  - pedestrian
+  - traveler
+  - person
+penguin:
+  clean_name: penguin
+  def_wiki: Any of several flightless sea birds, of order Sphenisciformes, found in
+    the Southern Hemisphere, marked by their usual upright stance, walking on short
+    legs, and (generally) their stark black and white plumage.
+  def_wn: short-legged flightless birds of cold southern especially Antarctic regions
+    having webbed feet and wings modified as flippers
+  name: penguin
+  path_wn:
+  - penguin
+  - sphenisciform_seabird
+  - seabird
+  - aquatic_bird
+  - bird
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - penguin
+  - sphenisciform_seabird
+  - seabird
+  - aquatic_bird
+  - bird
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  path_wn3:
+  - penguin
+  - sphenisciform_seabird
+  - seabird
+person:
+  clean_name: person
+  def_wiki: 'An individual; usually a human being. [from 13th c.]
+
+
+    Each person is unique, both mentally and physically.'
+  def_wn: a human being
+  name: person
+  path_wn:
+  - person
+  - causal_agent
+  - physical_entity
+  - entity
+  path_wn10:
+  - person
+  - causal_agent
+  - physical_entity
+  - entity
+  path_wn3:
+  - person
+  - causal_agent
+  - physical_entity
+pistol:
+  clean_name: pistol
+  def_wiki: A handgun, typically with a chamber integrated in the barrel, a semi-automatic
+    action and a box magazine.
+  def_wn: a firearm that is held and fired with one hand
+  name: pistol
+  path_wn:
+  - pistol
+  - firearm
+  - gun
+  - weapon
+  - instrument
+  - device
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - pistol
+  - firearm
+  - gun
+  - weapon
+  - instrument
+  - device
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  path_wn3:
+  - pistol
+  - firearm
+  - gun
+pothole:
+  clean_name: pothole
+  def_wiki: A shallow pit or other edged depression in a road's surface, especially
+    when caused by erosion by weather or traffic.
+  def_wn: a pit or hole produced by wear or weathering (especially in a road surface)
+  name: pothole
+  path_wn:
+  - pothole
+  - hole
+  - natural_depression
+  - geological_formation
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - pothole
+  - hole
+  - natural_depression
+  - geological_formation
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - pothole
+  - hole
+  - natural_depression
+pottedplant:
+  clean_name: pottedplant
+  def_wiki: null
+  def_wn: ''
+  name: pottedplant
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+puffin:
+  clean_name: puffin
+  def_wiki: The young of the Manx shearwater (Puffinus puffinus), especially eaten
+    as food.
+  def_wn: any of two genera of northern seabirds having short necks and brightly colored
+    compressed bills
+  name: puffin
+  path_wn:
+  - puffin
+  - seabird
+  - aquatic_bird
+  - bird
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - puffin
+  - seabird
+  - aquatic_bird
+  - bird
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  path_wn3:
+  - puffin
+  - seabird
+  - aquatic_bird
+q:
+  clean_name: q
+  def_wiki: The seventeenth letter of the English alphabet, called cue and written
+    in the Latin script.
+  def_wn: the 17th letter of the Roman alphabet
+  name: q
+  path_wn:
+  - Q
+  - letter
+  - character
+  - written_symbol
+  - symbol
+  - signal
+  - communication
+  - abstraction
+  - entity
+  path_wn10:
+  - Q
+  - letter
+  - character
+  - written_symbol
+  - symbol
+  - signal
+  - communication
+  - abstraction
+  - entity
+  path_wn3:
+  - Q
+  - letter
+  - character
+qu:
+  clean_name: qu
+  def_wiki: A surname​.
+  def_wn: ''
+  name: qu
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+r:
+  clean_name: r
+  def_wiki: The eighteenth letter of the English alphabet, called ar and written in
+    the Latin script.
+  def_wn: a unit of radiation exposure; the dose of ionizing radiation that will produce
+    1 electrostatic unit of electricity in 1 cc of dry air
+  name: r
+  path_wn:
+  - roentgen
+  - radioactivity_unit
+  - electromagnetic_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - roentgen
+  - radioactivity_unit
+  - electromagnetic_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - roentgen
+  - radioactivity_unit
+  - electromagnetic_unit
+rabbit:
+  clean_name: rabbit
+  def_wiki: A mammal of the family Leporidae, with long ears, long hind legs and a
+    short, fluffy tail.
+  def_wn: any of various burrowing animals of the family Leporidae having long ears
+    and short tails; some domesticated and raised for pets or food
+  name: rabbit
+  path_wn:
+  - rabbit
+  - leporid
+  - lagomorph
+  - placental
+  - mammal
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - rabbit
+  - leporid
+  - lagomorph
+  - placental
+  - mammal
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  path_wn3:
+  - rabbit
+  - leporid
+  - lagomorph
+raccoon:
+  clean_name: raccoon
+  def_wiki: A nocturnal omnivore native to North America, typically with a mixture
+    of gray, brown, and black fur, a mask-like marking around the eyes and a striped
+    tail; Procyon lotor.
+  def_wn: the fur of the North American racoon
+  name: raccoon
+  path_wn:
+  - raccoon
+  - fur
+  - animal_skin
+  - animal_product
+  - animal_material
+  - material
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - raccoon
+  - fur
+  - animal_skin
+  - animal_product
+  - animal_material
+  - material
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - raccoon
+  - fur
+  - animal_skin
+s:
+  clean_name: s
+  def_wiki: The nineteenth letter of the English alphabet, called ess and written
+    in the Latin script.
+  def_wn: 1/60 of a minute; the basic unit of time adopted under the Systeme International
+    d'Unites
+  name: s
+  path_wn:
+  - second
+  - time_unit
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - second
+  - time_unit
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - second
+  - time_unit
+  - measure
+shark:
+  clean_name: shark
+  def_wiki: A scaleless, predatory fish of the superorder Selachimorpha, with a cartilaginous
+    skeleton and 5 to 7 gill slits on each side of its head.
+  def_wn: any of numerous elongate mostly marine carnivorous fishes with heterocercal
+    caudal fins and tough skin covered with small toothlike scales
+  name: shark
+  path_wn:
+  - shark
+  - elasmobranch
+  - cartilaginous_fish
+  - fish
+  - aquatic_vertebrate
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - shark
+  - elasmobranch
+  - cartilaginous_fish
+  - fish
+  - aquatic_vertebrate
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  path_wn3:
+  - shark
+  - elasmobranch
+  - cartilaginous_fish
+sheep:
+  clean_name: sheep
+  def_wiki: A woolly ruminant of the genus Ovis.
+  def_wn: woolly usually horned ruminant mammal related to the goat
+  name: sheep
+  path_wn:
+  - sheep
+  - bovid
+  - ruminant
+  - even-toed_ungulate
+  - ungulate
+  - placental
+  - mammal
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - sheep
+  - bovid
+  - ruminant
+  - even-toed_ungulate
+  - ungulate
+  - placental
+  - mammal
+  - vertebrate
+  - chordate
+  - animal
+  path_wn3:
+  - sheep
+  - bovid
+  - ruminant
+shrimp:
+  clean_name: shrimp
+  def_wiki: Any of many swimming, often edible, crustaceans, chiefly of the infraorder
+    Caridea or the suborder Dendrobranchiata, with slender legs, long whiskers and
+    a long abdomen.
+  def_wn: disparaging terms for small people
+  name: shrimp
+  path_wn:
+  - runt
+  - small_person
+  - person
+  - causal_agent
+  - physical_entity
+  - entity
+  path_wn10:
+  - runt
+  - small_person
+  - person
+  - causal_agent
+  - physical_entity
+  - entity
+  path_wn3:
+  - runt
+  - small_person
+  - person
+small_fish:
+  clean_name: small_fish
+  def_wiki: A cold-blooded vertebrate animal that lives in water, moving with the
+    help of fins and breathing with gills.
+  def_wn: ''
+  name: small_fish
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+smoke:
+  clean_name: smoke
+  def_wiki: The visible vapor/vapour, gases, and fine particles given off by burning
+    or smoldering material.
+  def_wn: a cloud of fine particles suspended in a gas
+  name: smoke
+  path_wn:
+  - smoke
+  - aerosol
+  - cloud
+  - physical_phenomenon
+  - natural_phenomenon
+  - phenomenon
+  - process
+  - physical_entity
+  - entity
+  path_wn10:
+  - smoke
+  - aerosol
+  - cloud
+  - physical_phenomenon
+  - natural_phenomenon
+  - phenomenon
+  - process
+  - physical_entity
+  - entity
+  path_wn3:
+  - smoke
+  - aerosol
+  - cloud
+sofa:
+  clean_name: sofa
+  def_wiki: A raised area of a building's floor, usually covered with carpeting, used
+    for sitting.
+  def_wn: an upholstered seat for more than one person
+  name: sofa
+  path_wn:
+  - sofa
+  - seat
+  - furniture
+  - furnishing
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - sofa
+  - seat
+  - furniture
+  - furnishing
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - sofa
+  - seat
+  - furniture
+space-empty:
+  clean_name: space-empty
+  def_wiki: null
+  def_wn: ''
+  name: space-empty
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+space-occupied:
+  clean_name: space-occupied
+  def_wiki: null
+  def_wn: ''
+  name: space-occupied
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+starfish:
+  clean_name: starfish
+  def_wiki: Any of various asteroids or other echinoderms (not in fact fish) with
+    usually five arms, many of which eat bivalves or corals by everting their stomach.
+  def_wn: echinoderms characterized by five arms extending from a central disk
+  name: starfish
+  path_wn:
+  - starfish
+  - echinoderm
+  - invertebrate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - starfish
+  - echinoderm
+  - invertebrate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - starfish
+  - echinoderm
+  - invertebrate
+stingray:
+  clean_name: stingray
+  def_wiki: Any of various large, venomous rays, of the orders Rajiformes and Myliobatiformes,
+    having a barbed, whiplike tail.
+  def_wn: large venomous ray with large barbed spines near the base of a thin whiplike
+    tail capable of inflicting severe wounds
+  name: stingray
+  path_wn:
+  - stingray
+  - ray
+  - elasmobranch
+  - cartilaginous_fish
+  - fish
+  - aquatic_vertebrate
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  - living_thing
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - stingray
+  - ray
+  - elasmobranch
+  - cartilaginous_fish
+  - fish
+  - aquatic_vertebrate
+  - vertebrate
+  - chordate
+  - animal
+  - organism
+  path_wn3:
+  - stingray
+  - ray
+  - elasmobranch
+t:
+  clean_name: t
+  def_wiki: The twentieth letter of the English alphabet, called tee and written in
+    the Latin script.
+  def_wn: a base found in DNA (but not in RNA) and derived from pyrimidine; pairs
+    with adenine
+  name: t
+  path_wn:
+  - thymine
+  - pyrimidine
+  - base
+  - compound
+  - chemical
+  - material
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - thymine
+  - pyrimidine
+  - base
+  - compound
+  - chemical
+  - material
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - thymine
+  - pyrimidine
+  - base
+t\:
+  clean_name: t\
+  def_wiki: The twentieth letter of the English alphabet, called tee and written in
+    the Latin script.
+  def_wn: ''
+  name: t\
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+takeoff:
+  clean_name: takeoff
+  def_wiki: The rising or ascent of an aircraft or rocket into flight.
+  def_wn: a departure; especially of airplanes
+  name: takeoff
+  path_wn:
+  - takeoff
+  - departure
+  - act
+  - event
+  - psychological_feature
+  - abstraction
+  - entity
+  path_wn10:
+  - takeoff
+  - departure
+  - act
+  - event
+  - psychological_feature
+  - abstraction
+  - entity
+  path_wn3:
+  - takeoff
+  - departure
+  - act
+takeoff-hand:
+  clean_name: takeoff-hand
+  def_wiki: null
+  def_wn: ''
+  name: takeoff-hand
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+text:
+  clean_name: text
+  def_wiki: A writing consisting of multiple glyphs, characters, symbols or sentences.
+  def_wn: the words of something written
+  name: text
+  path_wn:
+  - text
+  - matter
+  - writing
+  - written_communication
+  - communication
+  - abstraction
+  - entity
+  path_wn10:
+  - text
+  - matter
+  - writing
+  - written_communication
+  - communication
+  - abstraction
+  - entity
+  path_wn3:
+  - text
+  - matter
+  - writing
+th:
+  clean_name: th
+  def_wiki: The upper portion of a page (or other) layout.
+  def_wn: the fifth day of the week; the fourth working day
+  name: th
+  path_wn:
+  - Thursday
+  - weekday
+  - day_of_the_week
+  - calendar_day
+  - time_period
+  - fundamental_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - Thursday
+  - weekday
+  - day_of_the_week
+  - calendar_day
+  - time_period
+  - fundamental_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - Thursday
+  - weekday
+  - day_of_the_week
+trafficLight:
+  clean_name: trafficLight
+  def_wiki: null
+  def_wn: ''
+  name: trafficLight
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+trafficLight-Green:
+  clean_name: trafficLight-Green
+  def_wiki: null
+  def_wn: ''
+  name: trafficLight-Green
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+trafficLight-GreenLeft:
+  clean_name: trafficLight-GreenLeft
+  def_wiki: null
+  def_wn: ''
+  name: trafficLight-GreenLeft
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+trafficLight-Red:
+  clean_name: trafficLight-Red
+  def_wiki: null
+  def_wn: ''
+  name: trafficLight-Red
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+trafficLight-RedLeft:
+  clean_name: trafficLight-RedLeft
+  def_wiki: null
+  def_wn: ''
+  name: trafficLight-RedLeft
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+trafficLight-Yellow:
+  clean_name: trafficLight-Yellow
+  def_wiki: null
+  def_wn: ''
+  name: trafficLight-Yellow
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+trafficLight-YellowLeft:
+  clean_name: trafficLight-YellowLeft
+  def_wiki: null
+  def_wn: ''
+  name: trafficLight-YellowLeft
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+train:
+  clean_name: train
+  def_wiki: Elongated portion.
+  def_wn: public transport provided by a line of railway cars coupled together and
+    drawn by a locomotive
+  name: train
+  path_wn:
+  - train
+  - public_transport
+  - conveyance
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - train
+  - public_transport
+  - conveyance
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn3:
+  - train
+  - public_transport
+  - conveyance
+truck:
+  clean_name: truck
+  def_wiki: A small wheel or roller, specifically the wheel of a gun carriage.
+  def_wn: an automotive vehicle suitable for hauling
+  name: truck
+  path_wn:
+  - truck
+  - motor_vehicle
+  - self-propelled_vehicle
+  - wheeled_vehicle
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  - entity
+  path_wn10:
+  - truck
+  - motor_vehicle
+  - self-propelled_vehicle
+  - wheeled_vehicle
+  - container
+  - instrumentality
+  - artifact
+  - whole
+  - object
+  - physical_entity
+  path_wn3:
+  - truck
+  - motor_vehicle
+  - self-propelled_vehicle
+tvmonitor:
+  clean_name: tvmonitor
+  def_wiki: null
+  def_wn: ''
+  name: tvmonitor
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+u:
+  clean_name: u
+  def_wiki: The twenty-first letter of the English alphabet, called u and written
+    in the Latin script.
+  def_wn: a base containing nitrogen that is found in RNA (but not in DNA) and derived
+    from pyrimidine; pairs with adenine
+  name: u
+  path_wn:
+  - uracil
+  - nucleotide
+  - ester
+  - organic_compound
+  - compound
+  - chemical
+  - material
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - uracil
+  - nucleotide
+  - ester
+  - organic_compound
+  - compound
+  - chemical
+  - material
+  - substance
+  - matter
+  - physical_entity
+  path_wn3:
+  - uracil
+  - nucleotide
+  - ester
+v:
+  clean_name: v
+  def_wiki: The twenty-second letter of the English alphabet, called vee and written
+    in the Latin script.
+  def_wn: a unit of potential equal to the potential difference between two points
+    on a conductor carrying a current of 1 ampere when the power dissipated between
+    the two points is 1 watt; equivalent to the potential difference across a resistance
+    of 1 ohm when 1 ampere of current flows through it
+  name: v
+  path_wn:
+  - volt
+  - potential_unit
+  - electromagnetic_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - volt
+  - potential_unit
+  - electromagnetic_unit
+  - unit_of_measurement
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - volt
+  - potential_unit
+  - electromagnetic_unit
+w:
+  clean_name: w
+  def_wiki: The twenty-third letter of the English alphabet, called double-u and written
+    in the Latin script.
+  def_wn: a heavy grey-white metallic element; the pure form is used mainly in electrical
+    applications; it is found in several ores including wolframite and scheelite
+  name: w
+  path_wn:
+  - tungsten
+  - metallic_element
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - tungsten
+  - metallic_element
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - tungsten
+  - metallic_element
+  - chemical_element
+white bishop:
+  clean_name: white bishop
+  def_wiki: 'An overseer of congregations: either any such overseer, generally speaking,
+    or (in Eastern Orthodoxy, Catholicism, Anglicanism, etc.) an official in the church
+    hierarchy (actively or nominally) governing a diocese, supervising the church''s
+    priests, deacons, and property in its territory.'
+  def_wn: ''
+  name: white bishop
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+white king:
+  clean_name: white king
+  def_wiki: A male monarch; a man who heads a monarchy. If it is an absolute monarchy,
+    then he is the supreme ruler of his nation.
+  def_wn: ''
+  name: white king
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+white knight:
+  clean_name: white knight
+  def_wiki: An individual or corporation that intends to acquire another company in
+    order to avert a hostile takeover.
+  def_wn: ''
+  name: white knight
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+white pawn:
+  clean_name: white pawn
+  def_wiki: The most common chess piece, or a similar piece in a similar game. In
+    chess each side has eight; moves are only forward, and attacks are only forward
+    diagonally or en passant.
+  def_wn: ''
+  name: white pawn
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+white queen:
+  clean_name: white queen
+  def_wiki: 'A female monarch. Example: Queen Victoria.'
+  def_wn: ''
+  name: white queen
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+white rook:
+  clean_name: white rook
+  def_wiki: A European bird, Corvus frugilegus, of the crow family.
+  def_wn: ''
+  name: white rook
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+wild:
+  clean_name: wild
+  def_wiki: Untamed; not domesticated; specifically, in an unbroken line of undomesticated
+    animals (as opposed to feral, referring to undomesticated animals whose ancestors
+    were domesticated).
+  def_wn: a wild primitive state untouched by civilization
+  name: wild
+  path_wn:
+  - wild
+  - state
+  - attribute
+  - abstraction
+  - entity
+  path_wn10:
+  - wild
+  - state
+  - attribute
+  - abstraction
+  - entity
+  path_wn3:
+  - wild
+  - state
+  - attribute
+x:
+  clean_name: x
+  def_wiki: The twenty-fourth letter of the English alphabet, called ex and written
+    in the Latin script.
+  def_wn: the cardinal number that is the sum of nine and one; the base of the decimal
+    system
+  name: x
+  path_wn:
+  - ten
+  - large_integer
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn10:
+  - ten
+  - large_integer
+  - integer
+  - number
+  - definite_quantity
+  - measure
+  - abstraction
+  - entity
+  path_wn3:
+  - ten
+  - large_integer
+  - integer
+y:
+  clean_name: y
+  def_wiki: The twenty-fifth letter of the English alphabet, called wy or wye and
+    written in the Latin script.
+  def_wn: a silvery metallic element that is common in rare-earth minerals; used in
+    magnesium and aluminum alloys
+  name: y
+  path_wn:
+  - yttrium
+  - metallic_element
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn10:
+  - yttrium
+  - metallic_element
+  - chemical_element
+  - substance
+  - matter
+  - physical_entity
+  - entity
+  path_wn3:
+  - yttrium
+  - metallic_element
+  - chemical_element
+yellow mushroom:
+  clean_name: yellow mushroom
+  def_wiki: Any of the fleshy fruiting bodies of fungi typically produced above ground
+    on soil or on their food sources (such as decaying wood).
+  def_wn: ''
+  name: yellow mushroom
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+yourleft:
+  clean_name: yourleft
+  def_wiki: null
+  def_wn: ''
+  name: yourleft
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+yourright:
+  clean_name: yourright
+  def_wiki: null
+  def_wn: ''
+  name: yourright
+  path_wn: ''
+  path_wn10: ''
+  path_wn3: ''
+z:
+  clean_name: z
+  def_wiki: The twenty-sixth letter of the English alphabet, called zed or zee and
+    written in the Latin script.
+  def_wn: the ending of a series or sequence; --Revelation
+  name: z
+  path_wn:
+  - omega
+  - ending
+  - happening
+  - event
+  - psychological_feature
+  - abstraction
+  - entity
+  path_wn10:
+  - omega
+  - ending
+  - happening
+  - event
+  - psychological_feature
+  - abstraction
+  - entity
+  path_wn3:
+  - omega
+  - ending
+  - happening

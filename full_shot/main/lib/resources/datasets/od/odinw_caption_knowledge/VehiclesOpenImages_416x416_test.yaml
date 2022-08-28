@@ -1,0 +1,63 @@
+DATALOADER:
+  ASPECT_RATIO_GROUPING: false
+  SIZE_DIVISIBILITY: 32
+DATASETS:
+  GENERAL_COPY: 16
+  KNOWLEDGE: '[{"id": 1, "name": "Ambulance", "supercategory": "vehicles", "def_wiki":
+    "An emergency vehicle designed for transporting seriously ill or injured people
+    to a hospital.", "path_wn": ["ambulance", "car", "motor_vehicle", "self-propelled_vehicle",
+    "wheeled_vehicle", "container", "instrumentality", "artifact", "whole", "object",
+    "physical_entity", "entity"], "def_wn": "a vehicle that takes people to and from
+    hospitals"}, {"id": 2, "name": "Bus", "supercategory": "vehicles", "def_wiki":
+    "A motor vehicle for transporting large numbers of people along roads.", "path_wn":
+    ["bus", "public_transport", "conveyance", "instrumentality", "artifact", "whole",
+    "object", "physical_entity", "entity"], "def_wn": "a vehicle carrying many passengers;
+    used for public transport"}, {"id": 3, "name": "Car", "supercategory": "vehicles",
+    "def_wiki": "A wheeled vehicle that moves independently, with at least three wheels,
+    powered mechanically, steered by a driver and mostly for personal transportation.",
+    "path_wn": ["car", "motor_vehicle", "self-propelled_vehicle", "wheeled_vehicle",
+    "container", "instrumentality", "artifact", "whole", "object", "physical_entity",
+    "entity"], "def_wn": "a motor vehicle with four wheels; usually propelled by an
+    internal combustion engine"}, {"id": 4, "name": "Motorcycle", "supercategory":
+    "vehicles", "def_wiki": "An open-seated motor vehicle with handlebars instead
+    of a steering wheel, and having two (or sometimes three) wheels.", "path_wn":
+    ["motorcycle", "motor_vehicle", "self-propelled_vehicle", "wheeled_vehicle", "container",
+    "instrumentality", "artifact", "whole", "object", "physical_entity", "entity"],
+    "def_wn": "a motor vehicle with two wheels and a strong frame"}, {"id": 5, "name":
+    "Truck", "supercategory": "vehicles", "def_wiki": "A small wheel or roller, specifically
+    the wheel of a gun carriage.", "path_wn": ["truck", "motor_vehicle", "self-propelled_vehicle",
+    "wheeled_vehicle", "container", "instrumentality", "artifact", "whole", "object",
+    "physical_entity", "entity"], "def_wn": "an automotive vehicle suitable for hauling"}]'
+  PREDEFINED_TEXT: odinw/pothole/category_description.json
+  REGISTER:
+    VehiclesOpenImages_Test:
+      ann_file: odinw/original/VehiclesOpenImages/416x416/test/annotations_without_background.json
+      img_dir: odinw/original/VehiclesOpenImages/416x416/test
+    VehiclesOpenImages_Train:
+      ann_file: odinw/original/VehiclesOpenImages/416x416/train/annotations_without_background.json
+      img_dir: odinw/original/VehiclesOpenImages/416x416/train
+    VehiclesOpenImages_Val:
+      ann_file: odinw/original/VehiclesOpenImages/416x416/mini_val/annotations_without_background.json
+      img_dir: odinw/original/VehiclesOpenImages/416x416/mini_val
+  TEST: ("VehiclesOpenImages_Test",)
+  TRAIN: ("VehiclesOpenImages_Train",)
+INPUT:
+  MAX_SIZE_TEST: 1333
+  MAX_SIZE_TRAIN: 1333
+  MIN_SIZE_TEST: 800
+  MIN_SIZE_TRAIN: 800
+MODEL:
+  ATSS:
+    NUM_CLASSES: 6
+  DYHEAD:
+    NUM_CLASSES: 6
+  FCOS:
+    NUM_CLASSES: 6
+  ROI_BOX_HEAD:
+    NUM_CLASSES: 6
+SOLVER:
+  CHECKPOINT_PERIOD: 100
+  MAX_EPOCH: 12
+  WARMUP_ITERS: 0
+TEST:
+  IMS_PER_BATCH: 8

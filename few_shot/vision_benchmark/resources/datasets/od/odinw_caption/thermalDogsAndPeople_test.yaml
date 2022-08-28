@@ -1,0 +1,40 @@
+DATALOADER:
+  ASPECT_RATIO_GROUPING: false
+  SIZE_DIVISIBILITY: 32
+DATASETS:
+  GENERAL_COPY: 16
+  # OVERRIDE_CATEGORY: '[{"id": 1, "name": "dog", "supercategory": "dogs-person"}, {"id": 2, "name": "person", "supercategory": "dogs-person"}]'
+  PREDEFINED_TEXT: odinw/pothole/category_description.json
+  REGISTER:
+    thermalDogsAndPeople_Test:
+      ann_file: odinw/original/thermalDogsAndPeople/test/annotations_without_background.json
+      img_dir: odinw/original/thermalDogsAndPeople/test
+    thermalDogsAndPeople_Train:
+      ann_file: odinw/original/thermalDogsAndPeople/train/annotations_without_background.json
+      img_dir: odinw/original/thermalDogsAndPeople/train
+    thermalDogsAndPeople_Val:
+      ann_file: odinw/original/thermalDogsAndPeople/valid/annotations_without_background.json
+      img_dir: odinw/original/thermalDogsAndPeople/valid
+  SUPRESS_QUERY: "['bird', 'plane', 'bicycle', 'boat', 'bus', 'car', 'motorbike', 'train', 'bottle', 'chair', 'dining table', 'potted plant', 'sofa', 'tv', 'cloud']"
+  TEST: ("thermalDogsAndPeople_Test",)
+  TRAIN: ("thermalDogsAndPeople_Train",)
+INPUT:
+  MAX_SIZE_TEST: 1333
+  MAX_SIZE_TRAIN: 1333
+  MIN_SIZE_TEST: 800
+  MIN_SIZE_TRAIN: 800
+MODEL:
+  ATSS:
+    NUM_CLASSES: 3
+  DYHEAD:
+    NUM_CLASSES: 3
+  FCOS:
+    NUM_CLASSES: 3
+  ROI_BOX_HEAD:
+    NUM_CLASSES: 3
+SOLVER:
+  CHECKPOINT_PERIOD: 100
+  MAX_EPOCH: 12
+  WARMUP_ITERS: 0
+TEST:
+  IMS_PER_BATCH: 8

@@ -1,0 +1,14 @@
+# GPUS: (0,)
+DATA_DIR: ''
+
+DATASET:
+  DATASET: 'sun397'
+  DATA_FORMAT: 'jpg'
+  ROOT: '../DATASET/sun397/'
+  TRAIN_SET: 'train'
+  TEST_SET: 'val'
+  NUM_CLASSES: 397
+TEST:
+  METRIC: 'accuracy'
+DEBUG:
+  DEBUG: false

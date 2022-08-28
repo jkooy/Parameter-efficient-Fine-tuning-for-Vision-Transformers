@@ -1,0 +1,12 @@
+BASE: ['r50s3a-aug4-w5c300-bnwd0.yaml']
+
+MODEL:
+  SPEC:
+    DY_RELU:
+      ENABLE: True
+      REDUCTION: 16
+      LAMBDA_A: 1.0
+      K2: True
+      USE_BIAS: True
+      INIT_A: [1.0, 0.0]
+      INIT_B: [0.0, 0.0]

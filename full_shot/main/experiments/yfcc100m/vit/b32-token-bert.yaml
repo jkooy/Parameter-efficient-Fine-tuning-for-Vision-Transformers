@@ -1,0 +1,7 @@
+BASE: ['b32.yaml']
+MODEL:
+  NAME: clip_openai
+  SPEC:
+    TEXT:
+      TOKENIZER: hf_bert-base-uncased
+      VOCAB_SIZE: 28996

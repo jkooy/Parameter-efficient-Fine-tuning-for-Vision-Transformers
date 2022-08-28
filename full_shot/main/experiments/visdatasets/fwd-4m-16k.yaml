@@ -1,0 +1,13 @@
+BASE: ['base/r50s3a-aug4-w5c300-bnwd0.yaml']
+PRINT_FREQ: 1000
+
+MODEL:
+  NUM_CLASSES: 16738
+DATASET:
+  LABELMAP: 'imagenet.label2idx'
+  ROOT: 'DATASET/mswebdata/'
+  TRAIN_TSV_LIST: ['FWD-4M-16K.tsv']
+  TEST_TSV_LIST: ['val-imagenet-4partitions.tsv']
+TRAIN:
+  SAMPLER: 'default'
+  END_EPOCH: 300

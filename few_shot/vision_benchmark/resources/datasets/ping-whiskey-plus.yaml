@@ -1,0 +1,7 @@
+# GPUS: (0,)
+DATASET:
+  DATASET: 'ping-whiskey-plus'
+  ROOT: '../DATASET/ping-whiskey-plus/'
+  NUM_CLASSES: 8
+TEST:
+  METRIC: 'accuracy'

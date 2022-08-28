@@ -1,0 +1,13 @@
+BASE: ['base/r50s3a-aug4-w5c300-bnwd0.yaml']
+PRINT_FREQ: 2000
+
+MODEL:
+  NUM_CLASSES: 17270
+DATASET:
+  LABELMAP: 'mswebdata.label2idx'
+  ROOT: 'DATASET/mswebdata/'
+  TRAIN_TSV_LIST: ['train-000.tsv', 'train-001.tsv', 'train-002.tsv', 'train-003.tsv', 'train-004.tsv', 'train-005.tsv', 'train-006.tsv', 'train-007.tsv', 'train-008.tsv', 'train-009.tsv', 'train-010.tsv', 'train-011.tsv', 'train-012.tsv', 'train-013.tsv', 'train-014.tsv', 'train-015.tsv']
+  TEST_TSV_LIST: ['val-imagenet-4partitions.tsv', 'val-places.tsv', 'val-food101.tsv']
+TRAIN:
+  SAMPLER: 'chunk'
+  END_EPOCH: 300

@@ -1,0 +1,5 @@
+BASE: ['se-x101-32x16d-s3a-aug4-w5c300-bnwd0.yaml']
+TRAIN:
+  LARC: True
+  END_EPOCH: 120
+  EVAL_BEGIN_EPOCH: 110

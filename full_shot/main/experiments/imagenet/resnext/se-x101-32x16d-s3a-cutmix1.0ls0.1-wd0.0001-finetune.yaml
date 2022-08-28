@@ -1,0 +1,7 @@
+BASE: ['se-x101-32x16d-s3a-finetune.yaml']
+AUG:
+  MIXCUT: 1.0
+LOSS:
+  LABEL_SMOOTHING: 0.1
+TRAIN:
+  WD: 0.0001

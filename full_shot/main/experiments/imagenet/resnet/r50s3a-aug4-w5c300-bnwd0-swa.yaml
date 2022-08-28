@@ -1,0 +1,9 @@
+BASE: ['r50s3a-aug4-w5c300-bnwd0.yaml']
+SWA:
+  ENABLED: True
+  BEGIN_EPOCH: 225
+  LR_RATIO: 0.125
+TRAIN:
+  BATCH_SIZE_PER_GPU: 256
+  LR: 0.1
+  LARC: True

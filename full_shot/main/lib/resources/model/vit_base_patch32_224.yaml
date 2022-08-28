@@ -1,0 +1,40 @@
+# GPUS: (0,)
+OUTPUT_DIR: '../../OUTPUT/VIT_BASE_PATCH32_224/'
+
+MODEL:
+  NAME: vit_base_patch32_224
+  NUM_PARAMS_IN_M: 88.2
+  AUTHOR: 'timm'
+  PRETRAINED_DATA: 'ImageNet22K'
+  CREATION_TIME: '2020-10-13'
+  SPEC:
+    EMBED_DIM: 768
+
+    PATCH_SIZE: 32
+    QKV_BIAS: true
+    DEPTH: 12
+    NUM_HEADS: 12
+    MLP_RATIO: 4.0
+    ATTN_DROP_RATE: 0.0
+    # no drop rate here for match pretrained model
+    DROP_PATH_RATE: 0.0
+    DROP_RATE: 0.0
+    USE_CLS_TOKEN: true
+
+TEST:
+  BATCH_SIZE_PER_GPU: 128
+  MODEL_FILE: ''
+
+TRAIN:
+  BATCH_SIZE_PER_GPU: 64
+  BEGIN_EPOCH: 0
+  END_EPOCH: 10
+  EXTRA_FINAL_TRAIN_EPOCH: 40
+  OPTIMIZER: sgd
+  WD: 0.
+  MOMENTUM: 0.9
+  NESTEROV: false
+  SHUFFLE: true
+  LR_SCHEDULER:
+    METHOD: 'WarmupCosine'
+    WARMUP_EPOCH: 5

@@ -1,0 +1,8 @@
+BASE: ['attn-mlp-conv.yaml']
+MODEL:
+  NAME: cls_vit_conv
+  SPEC:
+    DEPTH: 12
+    HAS_ATTN: True
+    HAS_MLP: False
+    HAS_CONV: True

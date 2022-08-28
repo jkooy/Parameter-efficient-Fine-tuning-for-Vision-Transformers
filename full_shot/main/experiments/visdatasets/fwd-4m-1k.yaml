@@ -1,0 +1,9 @@
+BASE: ['base/r50s3a-aug4-w5c300-bnwd0.yaml']
+PRINT_FREQ: 1000
+
+DATASET:
+  ROOT: 'DATASET/msdatav200/'
+  LABELMAP: 'imagenet_1k.label2idx'
+  TRAIN_TSV_LIST: ['train_1k.tsv']
+TRAIN:
+  END_EPOCH: 300

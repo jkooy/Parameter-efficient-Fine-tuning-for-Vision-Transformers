@@ -1,0 +1,4 @@
+BASE: ['r50s3a-aug4-w5c120-bnwd0.yaml']
+TRAIN:
+  LARC: True
+  END_EPOCH: 300

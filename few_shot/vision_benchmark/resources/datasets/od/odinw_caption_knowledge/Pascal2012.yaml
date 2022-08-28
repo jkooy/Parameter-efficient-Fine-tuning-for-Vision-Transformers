@@ -1,0 +1,143 @@
+DATALOADER:
+  ASPECT_RATIO_GROUPING: false
+  SIZE_DIVISIBILITY: 32
+DATASETS:
+  GENERAL_COPY: 4
+  KNOWLEDGE: '[{"id": 1, "name": "aeroplane", "supercategory": "VOC", "def_wiki":
+    "A powered heavier-than-air aircraft with fixed wings.", "path_wn": ["airplane",
+    "heavier-than-air_craft", "aircraft", "craft", "vehicle", "conveyance", "instrumentality",
+    "artifact", "whole", "object", "physical_entity", "entity"], "def_wn": "an aircraft
+    that has a fixed wing and is powered by propellers or jets"}, {"id": 2, "name":
+    "bicycle", "supercategory": "VOC", "def_wiki": "A vehicle that has two wheels,
+    one behind the other, a steering handle, and a saddle seat or seats and is usually
+    propelled by the action of a rider\u2019s feet upon pedals.", "path_wn": ["bicycle",
+    "wheeled_vehicle", "container", "instrumentality", "artifact", "whole", "object",
+    "physical_entity", "entity"], "def_wn": "a wheeled vehicle that has two wheels
+    and is moved by foot pedals"}, {"id": 3, "name": "bird", "supercategory": "VOC",
+    "def_wiki": "A member of the class of animals Aves in the phylum Chordata, characterized
+    by being warm-blooded, having feathers and wings usually capable of flight, having
+    a beaked mouth, and laying eggs.", "path_wn": ["bird", "vertebrate", "chordate",
+    "animal", "organism", "living_thing", "whole", "object", "physical_entity", "entity"],
+    "def_wn": "warm-blooded egg-laying vertebrates characterized by feathers and forelimbs
+    modified as wings"}, {"id": 4, "name": "boat", "supercategory": "VOC", "def_wiki":
+    "A craft used for transportation of goods, fishing, racing, recreational cruising,
+    or military use on or in the water, propelled by oars or outboard motor or inboard
+    motor or by wind.", "path_wn": ["boat", "vessel", "craft", "vehicle", "conveyance",
+    "instrumentality", "artifact", "whole", "object", "physical_entity", "entity"],
+    "def_wn": "a small vessel for travel on water"}, {"id": 5, "name": "bottle", "supercategory":
+    "VOC", "def_wiki": "A container, typically made of glass or plastic and having
+    a tapered neck, used primarily for holding liquids.", "path_wn": ["bottle", "vessel",
+    "container", "instrumentality", "artifact", "whole", "object", "physical_entity",
+    "entity"], "def_wn": "a glass or plastic vessel used for storing drinks or other
+    liquids; typically cylindrical without handles and with a narrow neck that can
+    be plugged or capped"}, {"id": 6, "name": "bus", "supercategory": "VOC", "def_wiki":
+    "A motor vehicle for transporting large numbers of people along roads.", "path_wn":
+    ["bus", "public_transport", "conveyance", "instrumentality", "artifact", "whole",
+    "object", "physical_entity", "entity"], "def_wn": "a vehicle carrying many passengers;
+    used for public transport"}, {"id": 7, "name": "car", "supercategory": "VOC",
+    "def_wiki": "A wheeled vehicle that moves independently, with at least three wheels,
+    powered mechanically, steered by a driver and mostly for personal transportation.",
+    "path_wn": ["car", "motor_vehicle", "self-propelled_vehicle", "wheeled_vehicle",
+    "container", "instrumentality", "artifact", "whole", "object", "physical_entity",
+    "entity"], "def_wn": "a motor vehicle with four wheels; usually propelled by an
+    internal combustion engine"}, {"id": 8, "name": "cat", "supercategory": "VOC",
+    "def_wiki": "An animal of the family Felidae:\n Synonym: felid", "path_wn": ["cat",
+    "feline", "carnivore", "placental", "mammal", "vertebrate", "chordate", "animal",
+    "organism", "living_thing", "whole", "object", "physical_entity", "entity"], "def_wn":
+    "feline mammal usually having thick soft fur and no ability to roar: domestic
+    cats; wildcats"}, {"id": 9, "name": "chair", "supercategory": "VOC", "def_wiki":
+    "An item of furniture used to sit on or in, comprising a seat, legs or wheels,
+    back, and sometimes arm rests, for use by one person. Compare stool, couch, sofa,
+    settee, loveseat and bench.", "path_wn": ["chair", "seat", "furniture", "furnishing",
+    "instrumentality", "artifact", "whole", "object", "physical_entity", "entity"],
+    "def_wn": "a seat for one person, with a support for the back"}, {"id": 10, "name":
+    "cow", "supercategory": "VOC", "def_wiki": "An adult female of the species Bos
+    taurus, especially one that has calved.", "path_wn": ["cow", "cattle", "bovine",
+    "bovid", "ruminant", "even-toed_ungulate", "ungulate", "placental", "mammal",
+    "vertebrate", "chordate", "animal", "organism", "living_thing", "whole", "object",
+    "physical_entity", "entity"], "def_wn": "female of domestic cattle:"}, {"id":
+    11, "name": "diningtable", "supercategory": "VOC", "def_wiki": null, "path_wn":
+    "", "def_wn": ""}, {"id": 12, "name": "dog", "supercategory": "VOC", "def_wiki":
+    "A mammal, Canis familiaris or Canis lupus familiaris, that has been domesticated
+    for thousands of years, of highly variable appearance due to human breeding.",
+    "path_wn": ["dog", "canine", "carnivore", "placental", "mammal", "vertebrate",
+    "chordate", "animal", "organism", "living_thing", "whole", "object", "physical_entity",
+    "entity"], "def_wn": "a member of the genus Canis (probably descended from the
+    common wolf) that has been domesticated by man since prehistoric times; occurs
+    in many breeds"}, {"id": 13, "name": "horse", "supercategory": "VOC", "def_wiki":
+    "Any of several animals related to Equus ferus caballus.", "path_wn": ["horse",
+    "equine", "odd-toed_ungulate", "ungulate", "placental", "mammal", "vertebrate",
+    "chordate", "animal", "organism", "living_thing", "whole", "object", "physical_entity",
+    "entity"], "def_wn": "solid-hoofed herbivorous quadruped domesticated since prehistoric
+    times"}, {"id": 14, "name": "motorbike", "supercategory": "VOC", "def_wiki": "A
+    motorcycle.", "path_wn": ["minibike", "motorcycle", "motor_vehicle", "self-propelled_vehicle",
+    "wheeled_vehicle", "container", "instrumentality", "artifact", "whole", "object",
+    "physical_entity", "entity"], "def_wn": "small motorcycle with a low frame and
+    small wheels and elevated handlebars"}, {"id": 15, "name": "person", "supercategory":
+    "VOC", "def_wiki": "An individual; usually a human being. [from 13th c.]\n\nEach
+    person is unique, both mentally and physically.", "path_wn": ["person", "causal_agent",
+    "physical_entity", "entity"], "def_wn": "a human being"}, {"id": 16, "name": "pottedplant",
+    "supercategory": "VOC", "def_wiki": null, "path_wn": "", "def_wn": ""}, {"id":
+    17, "name": "sheep", "supercategory": "VOC", "def_wiki": "A woolly ruminant of
+    the genus Ovis.", "path_wn": ["sheep", "bovid", "ruminant", "even-toed_ungulate",
+    "ungulate", "placental", "mammal", "vertebrate", "chordate", "animal", "organism",
+    "living_thing", "whole", "object", "physical_entity", "entity"], "def_wn": "woolly
+    usually horned ruminant mammal related to the goat"}, {"id": 18, "name": "sofa",
+    "supercategory": "VOC", "def_wiki": "A raised area of a building''s floor, usually
+    covered with carpeting, used for sitting.", "path_wn": ["sofa", "seat", "furniture",
+    "furnishing", "instrumentality", "artifact", "whole", "object", "physical_entity",
+    "entity"], "def_wn": "an upholstered seat for more than one person"}, {"id": 19,
+    "name": "train", "supercategory": "VOC", "def_wiki": "Elongated portion.", "path_wn":
+    ["train", "public_transport", "conveyance", "instrumentality", "artifact", "whole",
+    "object", "physical_entity", "entity"], "def_wn": "public transport provided by
+    a line of railway cars coupled together and drawn by a locomotive"}, {"id": 20,
+    "name": "tvmonitor", "supercategory": "VOC", "def_wiki": null, "path_wn": "",
+    "def_wn": ""}]'
+  OVERRIDE_CATEGORY: '[{''id'': 1, ''name'': ''airplane'', ''supercategory'': ''VOC''},
+    {''id'': 2, ''name'': ''bicycle'', ''supercategory'': ''VOC''}, {''id'': 3, ''name'':
+    ''bird'', ''supercategory'': ''VOC''}, {''id'': 4, ''name'': ''boat'', ''supercategory'':
+    ''VOC''}, {''id'': 5, ''name'': ''bottle'', ''supercategory'': ''VOC''}, {''id'':
+    6, ''name'': ''bus'', ''supercategory'': ''VOC''}, {''id'': 7, ''name'': ''car'',
+    ''supercategory'': ''VOC''}, {''id'': 8, ''name'': ''cat'', ''supercategory'':
+    ''VOC''}, {''id'': 9, ''name'': ''chair'', ''supercategory'': ''VOC''}, {''id'':
+    10, ''name'': ''cow'', ''supercategory'': ''VOC''}, {''id'': 11, ''name'': ''dining
+    table'', ''supercategory'': ''VOC''}, {''id'': 12, ''name'': ''dog'', ''supercategory'':
+    ''VOC''}, {''id'': 13, ''name'': ''horse'', ''supercategory'': ''VOC''}, {''id'':
+    14, ''name'': ''motorbike'', ''supercategory'': ''VOC''}, {''id'': 15, ''name'':
+    ''person'', ''supercategory'': ''VOC''}, {''id'': 16, ''name'': ''potted plant'',
+    ''supercategory'': ''VOC''}, {''id'': 17, ''name'': ''sheep'', ''supercategory'':
+    ''VOC''}, {''id'': 18, ''name'': ''sofa'', ''supercategory'': ''VOC''}, {''id'':
+    19, ''name'': ''train'', ''supercategory'': ''VOC''}, {''id'': 20, ''name'': ''tv
+    monitor'', ''supercategory'': ''VOC''}]'
+  REGISTER:
+    PascalVOC_Test:
+      ann_file: odinw/original/PascalVOC/valid/annotations_without_background.json
+      img_dir: odinw/original/PascalVOC/valid
+    PascalVOC_Train:
+      ann_file: odinw/original/PascalVOC/train/annotations_without_background.json
+      img_dir: odinw/original/PascalVOC/train
+    PascalVOC_Val:
+      ann_file: odinw/original/PascalVOC/minival/annotations_without_background.json
+      img_dir: odinw/original/PascalVOC/minival
+  TEST: ("PascalVOC_Test",)
+  TRAIN: ("PascalVOC_Train",)
+INPUT:
+  MAX_SIZE_TEST: 1333
+  MAX_SIZE_TRAIN: 1333
+  MIN_SIZE_TEST: 800
+  MIN_SIZE_TRAIN: 800
+MODEL:
+  ATSS:
+    NUM_CLASSES: 21
+  DYHEAD:
+    NUM_CLASSES: 21
+  FCOS:
+    NUM_CLASSES: 21
+  ROI_BOX_HEAD:
+    NUM_CLASSES: 21
+SOLVER:
+  CHECKPOINT_PERIOD: 100
+  MAX_EPOCH: 12
+  WARMUP_ITERS: 0
+TEST:
+  IMS_PER_BATCH: 8

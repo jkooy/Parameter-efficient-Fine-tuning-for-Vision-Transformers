@@ -1,0 +1,67 @@
+GPUS: (0,)
+DATA_DIR: ''
+OUTPUT_DIR: 'OUTPUT/'
+WORKERS: 6
+PRINT_FREQ: 100
+
+MODEL:
+  NAME: cls_hrnet_v3
+  EXTRA:
+    WITH_SE: False
+    STAGES_SPEC:
+      NUM_STAGES: 3
+      NUM_MODULES: [1, 2, 1]
+      NUM_BRANCHES: [2, 3, 4]
+      NUM_BLOCKS:
+      - [2, 2]
+      - [2, 2, 2]
+      - [2, 2, 2, 2]
+      NUM_CHANNELS:
+      - [18, 36]
+      - [18, 36, 72]
+      - [18, 36, 72, 144]
+      BLOCK: [INVERTED, INVERTED, INVERTED]
+      FUSE_METHOD: ['SUM', 'SUM', 'SUM']
+    HEAD_SPEC:
+      BLOCK: [INVERTED, INVERTED, INVERTED, INVERTED]
+      NUM_CHANNELS: [32, 64, 128, 256]
+      NUM_CHANNELS_PROJ: 2048
+INPUT:
+  AUG:
+    DROPBLOCK_LAYERS: [3, 4]
+    DROPBLOCK_KEEP_PROB: 1.0
+    DROPBLOCK_BLOCK_SIZE: 7
+    COLOR_JITTER: [0.4, 0.4, 0.4, 0.1, 0.8]
+    GRAY_SCALE: 0.2
+CUDNN:
+  BENCHMARK: true
+  DETERMINISTIC: false
+  ENABLED: true
+DATASET:
+  DATASET: 'imagenet'
+  DATA_FORMAT: 'tsv'
+  ROOT: 'DATASET/imagenet-tsv/'
+  TEST_SET: 'val'
+  TRAIN_SET: 'train'
+TEST:
+  BATCH_SIZE_PER_GPU: 32
+  IMAGE_SIZE: [224, 224]
+  MODEL_FILE: ''
+TRAIN:
+  BATCH_SIZE_PER_GPU: 64
+  IMAGE_SIZE: [224, 224]
+  BEGIN_EPOCH: 0
+  END_EPOCH: 300
+  LR_SCHEDULER:
+    METHOD: 'WarmupCosine'
+    WARMUP_EPOCH: 5
+  OPTIMIZER: sgd
+  LR: 0.025
+  WD: 0.00001
+  WITHOUT_WD_LIST: ['bn', 'depthwise']
+  MOMENTUM: 0.9
+  NESTEROV: true
+  SHUFFLE: true
+  MIXCUT: 1.0
+DEBUG:
+  DEBUG: false

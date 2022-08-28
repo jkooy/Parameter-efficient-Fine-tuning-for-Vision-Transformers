@@ -1,0 +1,867 @@
+? ''
+: clean_name: ''
+  name: ''
+'0':
+  clean_name: '0'
+  name: '0'
+'1':
+  clean_name: '1'
+  name: '1'
+'10':
+  clean_name: '10'
+  name: '10'
+'11':
+  clean_name: '11'
+  name: '11'
+'12':
+  clean_name: '12'
+  name: '12'
+'13':
+  clean_name: '13'
+  name: '13'
+'14':
+  clean_name: '14'
+  name: '14'
+'2':
+  clean_name: '2'
+  name: '2'
+'3':
+  clean_name: '3'
+  name: '3'
+'4':
+  clean_name: '4'
+  name: '4'
+'5':
+  clean_name: '5'
+  name: '5'
+'6':
+  clean_name: '6'
+  name: '6'
+'7':
+  clean_name: '7'
+  name: '7'
+'8':
+  clean_name: '8'
+  name: '8'
+'9':
+  clean_name: '9'
+  name: '9'
+A:
+  clean_name: A
+  name: A
+Ambulance:
+  clean_name: Ambulance
+  name: Ambulance
+American Typewriter:
+  clean_name: American Typewriter
+  name: American Typewriter
+Andale Mono:
+  clean_name: Andale Mono
+  name: Andale Mono
+Apple Chancery:
+  clean_name: Apple Chancery
+  name: Apple Chancery
+Apple Scab Leaf:
+  clean_name: Apple Scab Leaf
+  name: Apple Scab Leaf
+Apple leaf:
+  clean_name: Apple leaf
+  name: Apple leaf
+Apple rust leaf:
+  clean_name: Apple rust leaf
+  name: Apple rust leaf
+Arial:
+  clean_name: Arial
+  name: Arial
+Avenir:
+  clean_name: Avenir
+  name: Avenir
+B:
+  clean_name: B
+  name: B
+Baskerville:
+  clean_name: Baskerville
+  name: Baskerville
+Bell_pepper leaf:
+  clean_name: Bell_pepper leaf
+  name: Bell pepper leaf
+Bell_pepper leaf spot:
+  clean_name: Bell_pepper leaf spot
+  name: Bell pepper leaf spot
+Big Caslon:
+  clean_name: Big Caslon
+  name: Big Caslon
+Blueberry leaf:
+  clean_name: Blueberry leaf
+  name: Blueberry leaf
+Bradley Hand:
+  clean_name: Bradley Hand
+  name: Bradley Hand
+Brush Script MT:
+  clean_name: Brush Script MT
+  name: Brush Script MT
+Bus:
+  clean_name: Bus
+  name: Bus
+C:
+  clean_name: C
+  name: C
+Car:
+  clean_name: Car
+  name: Car
+Chalkboard:
+  clean_name: Chalkboard
+  name: Chalkboard
+Cherry leaf:
+  clean_name: Cherry leaf
+  name: Cherry leaf
+Comic Sans MS:
+  clean_name: Comic Sans MS
+  name: Comic Sans MS
+Copperplate:
+  clean_name: Copperplate
+  name: Copperplate
+Corn Gray leaf spot:
+  clean_name: Corn Gray leaf spot
+  name: Corn Gray leaf spot
+Corn leaf blight:
+  clean_name: Corn leaf blight
+  name: Corn leaf blight
+Corn rust leaf:
+  clean_name: Corn rust leaf
+  name: Corn rust leaf
+Courier:
+  clean_name: Courier
+  name: Courier
+Crab:
+  clean_name: Crab
+  name: Crab
+D:
+  clean_name: D
+  name: D
+Didot:
+  clean_name: Didot
+  name: Didot
+E:
+  clean_name: E
+  name: E
+F:
+  clean_name: F
+  name: F
+Futura:
+  clean_name: Futura
+  name: Futura
+G:
+  clean_name: G
+  name: G
+Geneva:
+  clean_name: Geneva
+  name: Geneva
+Georgia:
+  clean_name: Georgia
+  name: Georgia
+Gill Sans:
+  clean_name: Gill Sans
+  name: Gill Sans
+H:
+  clean_name: H
+  name: H
+Helvetica:
+  clean_name: Helvetica
+  name: Helvetica
+Herculanum:
+  clean_name: Herculanum
+  name: Herculanum
+I:
+  clean_name: I
+  name: I
+Impact:
+  clean_name: Impact
+  name: Impact
+J:
+  clean_name: J
+  name: J
+K:
+  clean_name: K
+  name: K
+Kefa:
+  clean_name: Kefa
+  name: Kefa
+L:
+  clean_name: L
+  name: L
+Lobster:
+  clean_name: Lobster
+  name: Lobster
+Lucida Grande:
+  clean_name: Lucida Grande
+  name: Lucida Grande
+Luminari:
+  clean_name: Luminari
+  name: Luminari
+M:
+  clean_name: M
+  name: M
+Marker Felt:
+  clean_name: Marker Felt
+  name: Marker Felt
+Menlo:
+  clean_name: Menlo
+  name: Menlo
+Monaco:
+  clean_name: Monaco
+  name: Monaco
+Motorcycle:
+  clean_name: Motorcycle
+  name: Motorcycle
+N:
+  clean_name: N
+  name: N
+Noteworthy:
+  clean_name: Noteworthy
+  name: Noteworthy
+O:
+  clean_name: O
+  name: O
+Optima:
+  clean_name: Optima
+  name: Optima
+P:
+  clean_name: P
+  name: P
+PT Sans:
+  clean_name: PT Sans
+  name: PT Sans
+PT Serif:
+  clean_name: PT Serif
+  name: PT Serif
+Palatino:
+  clean_name: Palatino
+  name: Palatino
+Papyrus:
+  clean_name: Papyrus
+  name: Papyrus
+Peach leaf:
+  clean_name: Peach leaf
+  name: Peach leaf
+Phosphate:
+  clean_name: Phosphate
+  name: Phosphate
+Platelets:
+  clean_name: Platelets
+  name: Platelets
+Potato leaf:
+  clean_name: Potato leaf
+  name: Potato leaf
+Potato leaf early blight:
+  clean_name: Potato leaf early blight
+  name: Potato leaf early blight
+Potato leaf late blight:
+  clean_name: Potato leaf late blight
+  name: Potato leaf late blight
+Q:
+  clean_name: Q
+  name: Q
+R:
+  clean_name: R
+  name: R
+RBC:
+  clean_name: RBC
+  name: RBC
+Raspberry leaf:
+  clean_name: Raspberry leaf
+  name: Raspberry leaf
+Rockwell:
+  clean_name: Rockwell
+  name: Rockwell
+S:
+  clean_name: S
+  name: S
+SF Pro:
+  clean_name: SF Pro
+  name: SF Pro
+Shrimp:
+  clean_name: Shrimp
+  name: Shrimp
+SignPainter:
+  clean_name: SignPainter
+  name: SignPainter
+Skia:
+  clean_name: Skia
+  name: Skia
+Snell Roundhand:
+  clean_name: Snell Roundhand
+  name: Snell Roundhand
+Soyabean leaf:
+  clean_name: Soyabean leaf
+  name: Soyabean leaf
+Soybean leaf:
+  clean_name: Soybean leaf
+  name: Soybean leaf
+Squash Powdery mildew leaf:
+  clean_name: Squash Powdery mildew leaf
+  name: Squash Powdery mildew leaf
+Strawberry leaf:
+  clean_name: Strawberry leaf
+  name: Strawberry leaf
+T:
+  clean_name: T
+  name: T
+Tahoma:
+  clean_name: Tahoma
+  name: Tahoma
+Times New Roman:
+  clean_name: Times New Roman
+  name: Times New Roman
+Tomato Early blight leaf:
+  clean_name: Tomato Early blight leaf
+  name: Tomato Early blight leaf
+Tomato Septoria leaf spot:
+  clean_name: Tomato Septoria leaf spot
+  name: Tomato Septoria leaf spot
+Tomato leaf:
+  clean_name: Tomato leaf
+  name: Tomato leaf
+Tomato leaf bacterial spot:
+  clean_name: Tomato leaf bacterial spot
+  name: Tomato leaf bacterial spot
+Tomato leaf late blight:
+  clean_name: Tomato leaf late blight
+  name: Tomato leaf late blight
+Tomato leaf mosaic virus:
+  clean_name: Tomato leaf mosaic virus
+  name: Tomato leaf mosaic virus
+Tomato leaf yellow virus:
+  clean_name: Tomato leaf yellow virus
+  name: Tomato leaf yellow virus
+Tomato mold leaf:
+  clean_name: Tomato mold leaf
+  name: Tomato mold leaf
+Tomato two spotted spider mites leaf:
+  clean_name: Tomato two spotted spider mites leaf
+  name: Tomato two spotted spider mites leaf
+Trebuchet MS:
+  clean_name: Trebuchet MS
+  name: Trebuchet MS
+Truck:
+  clean_name: Truck
+  name: Truck
+U:
+  clean_name: U
+  name: U
+V:
+  clean_name: V
+  name: V
+Verdana:
+  clean_name: Verdana
+  name: Verdana
+W:
+  clean_name: W
+  name: W
+WBC:
+  clean_name: WBC
+  name: WBC
+X:
+  clean_name: X
+  name: X
+Y:
+  clean_name: Y
+  name: Y
+Z:
+  clean_name: Z
+  name: Z
+a:
+  clean_name: a
+  name: a
+aeroplane:
+  clean_name: aeroplane
+  name: aeroplane
+an:
+  clean_name: an
+  name: an
+b:
+  clean_name: b
+  name: b
+bicycle:
+  clean_name: bicycle
+  name: bicycle
+biker:
+  clean_name: biker
+  name: biker
+bird:
+  clean_name: bird
+  name: bird
+black bishop:
+  clean_name: black bishop
+  name: black bishop
+black king:
+  clean_name: black king
+  name: black king
+black knight:
+  clean_name: black knight
+  name: black knight
+black pawn:
+  clean_name: black pawn
+  name: black pawn
+black queen:
+  clean_name: black queen
+  name: black queen
+black rook:
+  clean_name: black rook
+  name: black rook
+boat:
+  clean_name: boat
+  name: boat
+bottle:
+  clean_name: bottle
+  name: bottle
+bus:
+  clean_name: bus
+  name: bus
+button:
+  clean_name: button
+  name: button
+c:
+  clean_name: c
+  name: c
+car:
+  clean_name: car
+  name: car
+cat:
+  clean_name: cat
+  name: cat
+cat-Abyssinian:
+  clean_name: cat-Abyssinian
+  name: cat-Abyssinian
+cat-Bengal:
+  clean_name: cat-Bengal
+  name: cat-Bengal
+cat-Birman:
+  clean_name: cat-Birman
+  name: cat-Birman
+cat-Bombay:
+  clean_name: cat-Bombay
+  name: cat-Bombay
+cat-British_Shorthair:
+  clean_name: cat-British_Shorthair
+  name: cat-British Shorthair
+cat-Egyptian_Mau:
+  clean_name: cat-Egyptian_Mau
+  name: cat-Egyptian Mau
+cat-Maine_Coon:
+  clean_name: cat-Maine_Coon
+  name: cat-Maine Coon
+cat-Persian:
+  clean_name: cat-Persian
+  name: cat-Persian
+cat-Ragdoll:
+  clean_name: cat-Ragdoll
+  name: cat-Ragdoll
+cat-Russian_Blue:
+  clean_name: cat-Russian_Blue
+  name: cat-Russian Blue
+cat-Siamese:
+  clean_name: cat-Siamese
+  name: cat-Siamese
+cat-Sphynx:
+  clean_name: cat-Sphynx
+  name: cat-Sphynx
+chair:
+  clean_name: chair
+  name: chair
+cheetah:
+  clean_name: cheetah
+  name: cheetah
+cow:
+  clean_name: cow
+  name: cow
+crab:
+  clean_name: crab
+  name: crab
+d:
+  clean_name: d
+  name: d
+diningtable:
+  clean_name: diningtable
+  name: diningtable
+dock:
+  clean_name: dock
+  name: dock
+dog:
+  clean_name: dog
+  name: dog
+dog-american_bulldog:
+  clean_name: dog-american_bulldog
+  name: dog-american bulldog
+dog-american_pit_bull_terrier:
+  clean_name: dog-american_pit_bull_terrier
+  name: dog-american pit bull terrier
+dog-basset_hound:
+  clean_name: dog-basset_hound
+  name: dog-basset hound
+dog-beagle:
+  clean_name: dog-beagle
+  name: dog-beagle
+dog-boxer:
+  clean_name: dog-boxer
+  name: dog-boxer
+dog-chihuahua:
+  clean_name: dog-chihuahua
+  name: dog-chihuahua
+dog-english_cocker_spaniel:
+  clean_name: dog-english_cocker_spaniel
+  name: dog-english cocker spaniel
+dog-english_setter:
+  clean_name: dog-english_setter
+  name: dog-english setter
+dog-german_shorthaired:
+  clean_name: dog-german_shorthaired
+  name: dog-german shorthaired
+dog-great_pyrenees:
+  clean_name: dog-great_pyrenees
+  name: dog-great pyrenees
+dog-havanese:
+  clean_name: dog-havanese
+  name: dog-havanese
+dog-japanese_chin:
+  clean_name: dog-japanese_chin
+  name: dog-japanese chin
+dog-keeshond:
+  clean_name: dog-keeshond
+  name: dog-keeshond
+dog-leonberger:
+  clean_name: dog-leonberger
+  name: dog-leonberger
+dog-miniature_pinscher:
+  clean_name: dog-miniature_pinscher
+  name: dog-miniature pinscher
+dog-newfoundland:
+  clean_name: dog-newfoundland
+  name: dog-newfoundland
+dog-pomeranian:
+  clean_name: dog-pomeranian
+  name: dog-pomeranian
+dog-pug:
+  clean_name: dog-pug
+  name: dog-pug
+dog-saint_bernard:
+  clean_name: dog-saint_bernard
+  name: dog-saint bernard
+dog-samoyed:
+  clean_name: dog-samoyed
+  name: dog-samoyed
+dog-scottish_terrier:
+  clean_name: dog-scottish_terrier
+  name: dog-scottish terrier
+dog-shiba_inu:
+  clean_name: dog-shiba_inu
+  name: dog-shiba inu
+dog-staffordshire_bull_terrier:
+  clean_name: dog-staffordshire_bull_terrier
+  name: dog-staffordshire bull terrier
+dog-wheaten_terrier:
+  clean_name: dog-wheaten_terrier
+  name: dog-wheaten terrier
+dog-yorkshire_terrier:
+  clean_name: dog-yorkshire_terrier
+  name: dog-yorkshire terrier
+e:
+  clean_name: e
+  name: e
+er:
+  clean_name: er
+  name: er
+f:
+  clean_name: f
+  name: f
+field:
+  clean_name: field
+  name: field
+fish:
+  clean_name: fish
+  name: fish
+flat mushroom:
+  clean_name: flat mushroom
+  name: flat mushroom
+follow:
+  clean_name: follow
+  name: follow
+follow_hand:
+  clean_name: follow_hand
+  name: follow hand
+g:
+  clean_name: g
+  name: g
+grape leaf:
+  clean_name: grape leaf
+  name: grape leaf
+grape leaf black rot:
+  clean_name: grape leaf black rot
+  name: grape leaf black rot
+h:
+  clean_name: h
+  name: h
+hand:
+  clean_name: hand
+  name: hand of a person
+he:
+  clean_name: he
+  name: he
+head:
+  clean_name: head
+  name: head
+heading:
+  clean_name: heading
+  name: heading
+helmet:
+  clean_name: helmet
+  name: helmet
+horse:
+  clean_name: horse
+  name: horse
+human:
+  clean_name: human
+  name: human
+i:
+  clean_name: i
+  name: i
+iframe:
+  clean_name: iframe
+  name: iframe
+image:
+  clean_name: image
+  name: image
+in:
+  clean_name: in
+  name: in
+j:
+  clean_name: j
+  name: j
+jellyfish:
+  clean_name: jellyfish
+  name: jellyfish
+jetski:
+  clean_name: jetski
+  name: jetski
+k:
+  clean_name: k
+  name: k
+l:
+  clean_name: l
+  name: l
+label:
+  clean_name: label
+  name: label
+land:
+  clean_name: land
+  name: land
+land_hand:
+  clean_name: land_hand
+  name: land hand
+lift:
+  clean_name: lift
+  name: lift
+link:
+  clean_name: link
+  name: link
+m:
+  clean_name: m
+  name: m
+mask:
+  clean_name: mask
+  name: mask
+motorbike:
+  clean_name: motorbike
+  name: motorbike
+myleft:
+  clean_name: myleft
+  name: myleft
+myright:
+  clean_name: myright
+  name: myright
+n:
+  clean_name: n
+  name: n
+no-mask:
+  clean_name: no-mask
+  name: no-mask
+'null':
+  clean_name: 'null'
+  name: 'null'
+o:
+  clean_name: o
+  name: o
+object:
+  clean_name: object
+  name: object
+p:
+  clean_name: p
+  name: p
+package:
+  clean_name: package
+  name: there is a package on the porch
+pedestrian:
+  clean_name: pedestrian
+  name: pedestrian
+penguin:
+  clean_name: penguin
+  name: penguin , which is black and white
+person:
+  clean_name: person
+  name: person
+pistol:
+  clean_name: pistol
+  name: pistol
+pothole:
+  clean_name: pothole
+  name: there are some holes on the road
+pottedplant:
+  clean_name: pottedplant
+  name: pottedplant
+puffin:
+  clean_name: puffin
+  name: puffin with orange beaks
+q:
+  clean_name: q
+  name: q
+qu:
+  clean_name: qu
+  name: qu
+r:
+  clean_name: r
+  name: r
+rabbit:
+  clean_name: rabbit
+  name: rabbit
+raccoon:
+  clean_name: raccoon
+  name: raccoon
+s:
+  clean_name: s
+  name: s
+shark:
+  clean_name: shark
+  name: shark
+sheep:
+  clean_name: sheep
+  name: sheep
+shrimp:
+  clean_name: shrimp
+  name: shrimp
+small_fish:
+  clean_name: small_fish
+  name: small fish
+smoke:
+  clean_name: smoke
+  name: smoke
+sofa:
+  clean_name: sofa
+  name: sofa
+space-empty:
+  clean_name: space-empty
+  name: space-empty
+space-occupied:
+  clean_name: space-occupied
+  name: space-occupied
+starfish:
+  clean_name: starfish
+  name: starfish
+stingray:
+  clean_name: stingray
+  name: stingray which is flat and round
+t:
+  clean_name: t
+  name: t
+t\:
+  clean_name: t\
+  name: t\
+takeoff:
+  clean_name: takeoff
+  name: takeoff
+takeoff-hand:
+  clean_name: takeoff-hand
+  name: takeoff-hand
+text:
+  clean_name: text
+  name: text
+th:
+  clean_name: th
+  name: th
+trafficLight:
+  clean_name: trafficLight
+  name: trafficLight
+trafficLight-Green:
+  clean_name: trafficLight-Green
+  name: trafficLight-Green
+trafficLight-GreenLeft:
+  clean_name: trafficLight-GreenLeft
+  name: trafficLight-GreenLeft
+trafficLight-Red:
+  clean_name: trafficLight-Red
+  name: trafficLight-Red
+trafficLight-RedLeft:
+  clean_name: trafficLight-RedLeft
+  name: trafficLight-RedLeft
+trafficLight-Yellow:
+  clean_name: trafficLight-Yellow
+  name: trafficLight-Yellow
+trafficLight-YellowLeft:
+  clean_name: trafficLight-YellowLeft
+  name: trafficLight-YellowLeft
+train:
+  clean_name: train
+  name: train
+truck:
+  clean_name: truck
+  name: truck
+tvmonitor:
+  clean_name: tvmonitor
+  name: tvmonitor
+u:
+  clean_name: u
+  name: u
+v:
+  clean_name: v
+  name: v
+w:
+  clean_name: w
+  name: w
+white bishop:
+  clean_name: white bishop
+  name: white bishop
+white king:
+  clean_name: white king
+  name: white king
+white knight:
+  clean_name: white knight
+  name: white knight
+white pawn:
+  clean_name: white pawn
+  name: white pawn
+white queen:
+  clean_name: white queen
+  name: white queen
+white rook:
+  clean_name: white rook
+  name: white rook
+wild:
+  clean_name: wild
+  name: wild
+x:
+  clean_name: x
+  name: x
+y:
+  clean_name: y
+  name: y
+yellow mushroom:
+  clean_name: yellow mushroom
+  name: yellow mushroom
+yourleft:
+  clean_name: yourleft
+  name: yourleft
+yourright:
+  clean_name: yourright
+  name: yourright
+z:
+  clean_name: z
+  name: z

@@ -1,0 +1,17 @@
+BASE: ['se-x101-32x16d-s3a-cutmix1.0ls0.1-wd0.0001-finetune.yaml']
+MODEL:
+  NAME: cls_resnet
+  SPEC:
+    STEM_FACTOR: 2
+    DEEP_STEM: True
+  PRETRAINED_LAYERS:
+    - conv1
+    - conv2
+    - conv3
+    - bn1
+    - bn2
+    - bn3
+    - layer1
+    - layer2
+    - layer3
+    - layer4

@@ -1,0 +1,10 @@
+BASE: ['r50s3a-finetune.yaml']
+
+AMP:
+  ENABLED: True
+MODEL:
+  PRETRAINED: 'DATASET/models/openimage-v4/r50s3a-aug4-w5c120-bnwd0-larc/model_best.pth'
+
+TRAIN:
+  BATCH_SIZE_PER_GPU: 32
+  IMAGE_SIZE: [480, 480]

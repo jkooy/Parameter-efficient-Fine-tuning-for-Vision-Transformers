@@ -1,0 +1,10 @@
+BASE: ['./se-x50-32x4d-s3a-aug4-w5c300-bnwd0.yaml']
+MODEL:
+  NAME: cls_resnet
+  SPEC:
+    NUM_LAYERS: 50
+    KERNEL_SIZE_STEM: 3
+    AVG_DOWN: true
+    NUM_GROUPS: 32
+    WIDTH_PER_GROUP: 16
+    WITH_SE: true

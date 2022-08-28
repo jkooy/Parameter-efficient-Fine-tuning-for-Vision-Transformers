@@ -1,0 +1,5 @@
+BASE: ['r50s3a-aug4-w5c300-bnwd0.yaml']
+TRAIN:
+  LARC: True
+  BATCH_SIZE_PER_GPU: 128
+  LR: 0.05

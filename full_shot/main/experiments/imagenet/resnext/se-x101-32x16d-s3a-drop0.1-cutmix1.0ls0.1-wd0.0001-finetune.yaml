@@ -1,0 +1,4 @@
+BASE: ['se-x101-32x16d-s3a-cutmix1.0ls0.1-wd0.0001-finetune.yaml']
+MODEL:
+  SPEC:
+    DROPOUT: 0.1

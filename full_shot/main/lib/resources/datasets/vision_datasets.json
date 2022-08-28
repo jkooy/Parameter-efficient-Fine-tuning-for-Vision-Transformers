@@ -1,0 +1,1264 @@
+[
+  {
+    "name": "imagenet-1k",
+    "version": 1,
+    "description": "imagenet 1k dataset. Copy from Lu Yuan' team",
+    "type": "classification_multiclass",
+    "root_folder": "classification/imagenet_1k_20220105/",
+    "format": "coco",
+    "train": {
+      "index_path": "train.json",
+      "files_for_local_usage": [
+        "train_images.zip"
+      ],
+      "num_images": 1281167
+    },
+    "test": {
+      "index_path": "val.json",
+      "files_for_local_usage": [
+        "val_images.zip"
+      ],
+      "num_images": 50000
+    }
+  },
+  {
+    "name": "mscoco-2017",
+    "version": 1,
+    "description": "MSCOCO 2017 detection dataset, directly downloaded from official website.",
+    "type": "object_detection",
+    "root_folder": "detection/mscoco2017_20220105/",
+    "format": "coco",
+    "train": {
+      "index_path": "instances_train2017_full_filepath.json",
+      "files_for_local_usage": [
+        "train2017.zip"
+      ],
+      "num_images": 118287
+    },
+    "test": {
+      "index_path": "instances_val2017_full_filepath.json",
+      "files_for_local_usage": [
+        "val2017.zip"
+      ],
+      "num_images": 5000
+    }
+  },
+  {
+    "name": "oxfordpets-by-species",
+    "description": "The Oxford Pets dataset (also known as the dogs vs cats dataset) is a collection of images and annotations labeling various breeds of dogs and cats. There are approximately 100 examples of each of the 37 breeds.",
+    "contact": "pinjin",
+    "version": 1,
+    "format": "coco",
+    "type": "object_detection",
+    "root_folder": "detection/oxfordpets_by_species_20211101",
+    "num_classes": 2,
+    "train": {
+      "index_path": "annotations_train.json",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 2523
+    },
+    "val": {
+      "index_path": "annotations_valid.json",
+      "files_for_local_usage": [
+        "valid.zip"
+      ],
+      "num_images": 720
+    },
+    "test": {
+      "index_path": "annotations_test.json",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 358
+    }
+  },
+  {
+    "name": "aquarium",
+    "description": "This dataset consists of 638 images collected by Roboflow from two aquariums in the United States: The Henry Doorly Zoo in Omaha (October 16, 2020) and the National Aquarium in Baltimore (November 14, 2020).",
+    "contact": "pinjin",
+    "version": 1,
+    "format": "coco",
+    "type": "object_detection",
+    "root_folder": "detection/aquarium_20211101",
+    "num_classes": 7,
+    "train": {
+      "index_path": "annotations_train.json",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 448
+    },
+    "val": {
+      "index_path": "annotations_valid.json",
+      "files_for_local_usage": [
+        "valid.zip"
+      ],
+      "num_images": 127
+    },
+    "test": {
+      "index_path": "annotations_test.json",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 63
+    }
+  },
+  {
+    "name": "bccd",
+    "description": "This is a dataset of blood cells photos, originally open sourced by cosmicad and akshaylambda.",
+    "contact": "pinjin",
+    "version": 1,
+    "format": "coco",
+    "type": "object_detection",
+    "root_folder": "detection/bccd_20211101",
+    "num_classes": 3,
+    "train": {
+      "index_path": "annotations_train.json",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 255
+    },
+    "val": {
+      "index_path": "annotations_valid.json",
+      "files_for_local_usage": [
+        "valid.zip"
+      ],
+      "num_images": 73
+    },
+    "test": {
+      "index_path": "annotations_test.json",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 36
+    }
+  },
+  {
+    "name": "maskwearing",
+    "description": "The Mask Wearing dataset is an object detection dataset of individuals wearing various types of masks and those without masks. The images were originally collected by Cheng Hsun Teng from Eden Social Welfare Foundation, Taiwan and relabled by the Roboflow team.",
+    "contact": "pinjin",
+    "version": 1,
+    "format": "coco",
+    "type": "object_detection",
+    "root_folder": "detection/maskwearing_20211101",
+    "num_classes": 2,
+    "train": {
+      "index_path": "annotations_train.json",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 105
+    },
+    "val": {
+      "index_path": "annotations_valid.json",
+      "files_for_local_usage": [
+        "valid.zip"
+      ],
+      "num_images": 29
+    },
+    "test": {
+      "index_path": "annotations_test.json",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 15
+    }
+  },
+  {
+    "name": "oxfordpets-by-breed",
+    "description": "The Oxford Pets dataset (also known as the dogs vs cats dataset) is a collection of images and annotations labeling various breeds of dogs and cats. There are approximately 100 examples of each of the 37 breeds.",
+    "contact": "pinjin",
+    "version": 1,
+    "format": "coco",
+    "type": "object_detection",
+    "root_folder": "detection/oxfordpets_by_breed_20211101",
+    "num_classes": 37,
+    "train": {
+      "index_path": "annotations_train.json",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 2437
+    },
+    "val": {
+      "index_path": "annotations_valid.json",
+      "files_for_local_usage": [
+        "valid.zip"
+      ],
+      "num_images": 698
+    },
+    "test": {
+      "index_path": "annotations_test.json",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 345
+    }
+  },
+  {
+    "name": "packages",
+    "description": "The Roboflow Packages dataset is a collection of packages located at the doors of various apartments and homes. Packages are flat envelopes, small boxes, and large boxes. Some images contain multiple annotated packages.",
+    "contact": "pinjin",
+    "version": 1,
+    "format": "coco",
+    "type": "object_detection",
+    "root_folder": "detection/packages_20211101",
+    "num_classes": 1,
+    "train": {
+      "index_path": "annotations_train.json",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 19
+    },
+    "val": {
+      "index_path": "annotations_valid.json",
+      "files_for_local_usage": [
+        "valid.zip"
+      ],
+      "num_images": 4
+    },
+    "test": {
+      "index_path": "annotations_test.json",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 3
+    }
+  },
+  {
+    "name": "pklot",
+    "description": "The PKLot dataset contains 12,416 images of parking lots extracted from surveilance camera frames. There are images on sunny, cloudy, and rainy days and the parking spaces are labeled as occupied or empty. We have converted the original annotations to a variety of standard object detection formats by enclosing a bounding box around the original dataset's rotated rectangle annotations.",
+    "contact": "pinjin",
+    "version": 1,
+    "format": "coco",
+    "type": "object_detection",
+    "root_folder": "detection/pklot_20211101",
+    "num_classes": 2,
+    "train": {
+      "index_path": "annotations_train.json",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 8691
+    },
+    "val": {
+      "index_path": "annotations_valid.json",
+      "files_for_local_usage": [
+        "valid.zip"
+      ],
+      "num_images": 2483
+    },
+    "test": {
+      "index_path": "annotations_test.json",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 1242
+    }
+  },
+  {
+    "name": "pothole",
+    "description": "This is a collection of 665 images of roads with the potholes labeled. The dataset was created and shared by Atikur Rahman Chitholian as part of his undergraduate thesis and was originally shared on Kaggle.",
+    "contact": "pinjin",
+    "version": 1,
+    "format": "coco",
+    "type": "object_detection",
+    "root_folder": "detection/pothole_20211101",
+    "num_classes": 1,
+    "train": {
+      "index_path": "annotations_train.json",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 465
+    },
+    "val": {
+      "index_path": "annotations_valid.json",
+      "files_for_local_usage": [
+        "valid.zip"
+      ],
+      "num_images": 133
+    },
+    "test": {
+      "index_path": "annotations_test.json",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 67
+    }
+  },
+  {
+    "name": "thermaldogsandpeople",
+    "description": "The Roboflow Thermal Dogs and People dataset is a collection of 203 thermal infrared images captured at various distances from people and dogs in a park and near a home. Some images are deliberately unannotated as they do not contain a person or dog (see the Dataset Health Check for more). Images were captured both portrait and landscape. (Roboflow auto-orient assures the annotations align regardless of the image orientation.)",
+    "contact": "pinjin",
+    "version": 1,
+    "format": "coco",
+    "type": "object_detection",
+    "root_folder": "detection/thermaldogsandpeople_20211101",
+    "num_classes": 2,
+    "train": {
+      "index_path": "annotations_train.json",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 142
+    },
+    "val": {
+      "index_path": "annotations_valid.json",
+      "files_for_local_usage": [
+        "valid.zip"
+      ],
+      "num_images": 41
+    },
+    "test": {
+      "index_path": "annotations_test.json",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 20
+    }
+  },
+  {
+    "name": "wildfiresmoke",
+    "description": "This dataset is released by AI for Mankind in collaboration with HPWREN under a Creative Commons by Attribution Non-Commercial Share Alike license. The original dataset (and additional images without bounding boxes) can be found in their GitHub repo.",
+    "contact": "pinjin",
+    "version": 1,
+    "format": "coco",
+    "type": "object_detection",
+    "root_folder": "detection/wildfiresmoke_20211101",
+    "num_classes": 1,
+    "train": {
+      "index_path": "annotations_train.json",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 516
+    },
+    "val": {
+      "index_path": "annotations_valid.json",
+      "files_for_local_usage": [
+        "valid.zip"
+      ],
+      "num_images": 147
+    },
+    "test": {
+      "index_path": "annotations_test.json",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 74
+    }
+  },
+  {
+    "name": "ping-whiskey-plus",
+    "description": "This is an expansion over ping-whiskey with one additional class and more images for existing classes.",
+    "contact": "pinjin",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/ping_whiskey_plus_20210914",
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 299
+    },
+    "val": {
+      "index_path": "val.txt",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 221
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 289
+    },
+    "labelmap": "labelmap.txt",
+    "num_classes": 8
+  },
+  {
+    "name": "voc-2007-classification",
+    "description": "Voc2007 classification dataset.",
+    "contact": "pinjin",
+    "version": 1,
+    "type": "classification_multilabel",
+    "root_folder": "classification/voc2007_20211007",
+    "train": {
+      "index_path": "train_ic.txt",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 2501
+    },
+    "val": {
+      "index_path": "val_ic.txt",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 2510
+    },
+    "test": {
+      "index_path": "test_ic.txt",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 4952
+    },
+    "labelmap": "labels.txt",
+    "num_classes": 20
+  },
+  {
+    "name": "ping-attack-on-titan-plus",
+    "version": 1,
+    "type": "classification_multiclass",
+    "description": "An extension of ping-attack-on-titan, which is a fine-grained classification dataset classifying different characters in attack on titan anime, created by Ping Jin. The plus version removes a few duplicates, does some clean up, adds some new images and offers an official val split",
+    "contact": "pinjin",
+    "root_folder": "classification/ping_attack_on_titan_plus_20210926",
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 453
+    },
+    "val": {
+      "index_path": "val.txt",
+      "files_for_local_usage": [
+        "val.zip"
+      ],
+      "num_images": 226
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 260
+    },
+    "labelmap": "labels.txt",
+    "num_classes": 11
+  },
+  {
+    "name": "gtsrb",
+    "version": 1,
+    "type": "classification_multiclass",
+    "description": "The German Traffic Sign Recognition Benchmark (GTSRB) is a multi-class image classification benchmark in the domain of advanced driver assistance systems and autonomous driving. It was first published at IJCNN 2011.",
+    "root_folder": "classification/gtsrb_20210923",
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 26640
+    },
+    "val": {
+      "index_path": "val.txt",
+      "files_for_local_usage": [
+        "val.zip"
+      ],
+      "num_images": 12569
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "final_test.zip"
+      ],
+      "num_images": 12630
+    },
+    "num_classes": 43,
+    "labelmap": "labelmap.txt"
+  },
+  {
+    "name": "country211",
+    "version": 1,
+    "type": "classification_multiclass",
+    "description": "Country211 is an internal OpenAI dataset designed to assess the geolocation capability of visual representations. It filters the YFCC100m dataset (Thomee et al., 2016) to find 211 countries (defined as having an ISO-3166 country code) that have at least 300 photos with GPS coordinates. OpenAI built a balanced dataset with 211 categories, by sampling 200 photos for training and 100 photos for testing, for each country.",
+    "root_folder": "classification/country211_20210924",
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 31650
+    },
+    "val": {
+      "index_path": "valid.txt",
+      "files_for_local_usage": [
+        "valid.zip"
+      ],
+      "num_images": 10550
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 21100
+    },
+    "num_classes": 211,
+    "labelmap": "labels.txt"
+  },
+  {
+    "name": "rendered-sst2",
+    "version": 1,
+    "type": "classification_multiclass",
+    "description": "Dataset is from CLIP: The Rendered SST2 dataset is designed to measure the optical character recognition capability of visual representations. To do so, we used the sentences from the Stanford Sentiment Treebank dataset (Socher et al., 2013) and rendered them into images, with black texts on a white background, in a 448×448 resolution.",
+    "root_folder": "classification/rendered_sst2_20210924",
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 6920
+    },
+    "val": {
+      "index_path": "valid.txt",
+      "files_for_local_usage": [
+        "valid.zip"
+      ],
+      "num_images": 827
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 1821
+    },
+    "num_classes": 2,
+    "labelmap": "labels.txt"
+  },
+  {
+    "name": "severstal-steel-defect-ic-with-negative-set",
+    "description": "Steel defect classification with negative set of images without defects or unknown defect categories.",
+    "version": 1,
+    "type": "classification_multilabel",
+    "root_folder": "classification/severstal_steel_defect_multilabel_ic_20210401",
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 10054
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 2514
+    },
+    "labelmap": "labels.txt",
+    "num_classes": 5
+  },
+  {
+    "name": "gc10det-metallic-surface-defect-ic",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/gc10_metallic_surface_defect_ic_20201104",
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 1840
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 466
+    },
+    "labelmap": "labels.txt",
+    "num_classes": 10
+  },
+  {
+    "name": "inaturalist-2019-plants",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/inaturalist-2019-fgvc6_20200727",
+    "train": {
+      "index_path": "Plants_train_images.txt",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 7108
+    },
+    "test": {
+      "index_path": "Plants_test_images.txt",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 7108
+    },
+    "labelmap": "Plants_label.txt",
+    "num_classes": 500
+  },
+  {
+    "name": "inaturalist-2019-insects",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/inaturalist-2019-fgvc6_20200727",
+    "train": {
+      "index_path": "Insects_train_images.txt",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 3027
+    },
+    "test": {
+      "index_path": "Insects_test_images.txt",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 3027
+    },
+    "labelmap": "Insects_label.txt",
+    "num_classes": 141
+  },
+  {
+    "name": "deep-fashion",
+    "description": "Subset of Large-scale Fashion (DeepFashion) Database with 46 classes.",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/deepfashion_subset_20200620",
+    "train": {
+      "index_path": "train_images.txt",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 2144
+    },
+    "test": {
+      "index_path": "test_images.txt",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 40000
+    },
+    "labelmap": "labels.txt",
+    "num_classes": 46
+  },
+  {
+    "name": "sports",
+    "description": "Classify a picture of sports from one of 7 categories, including badminton, climbing, croquet, etc.",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/sports_20210519",
+    "train": {
+      "index_path": "train_images.txt",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 1187
+    },
+    "test": {
+      "index_path": "test_images.txt",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 392
+    },
+    "labelmap": "labels.txt",
+    "num_classes": 8
+  },
+  {
+    "name": "kitti-distance",
+    "version": 1,
+    "type": "classification_multiclass",
+    "description": "The kitti-distance dataset was taken from the VTAB benchmark, and the task was to predict how distant a vehicle is in the photo. More details: https://github.com/openai/CLIP/issues/86",
+    "format": "coco",
+    "root_folder": "classification/kitti_distance_20210923",
+    "train": {
+      "index_path": "train_meta.json",
+      "files_for_local_usage": [
+        "train_images.zip"
+      ],
+      "num_images": 6347
+    },
+    "val": {
+      "index_path": "validation_meta.json",
+      "files_for_local_usage": [
+        "validation_images.zip"
+      ],
+      "num_images": 423
+    },
+    "test": {
+      "index_path": "test_meta.json",
+      "files_for_local_usage": [
+        "test_images.zip"
+      ],
+      "num_images": 711
+    },
+    "num_classes": 4
+  },
+  {
+    "name": "eurosat_clip",
+    "version": 1,
+    "type": "classification_multiclass",
+    "description": "Dataset sampled by CLIP from Eurosat (EuroSAT dataset is based on Sentinel-2 satellite images covering 13 spectral bands and consisting of 10 classes with 27000 labeled and geo-referenced samples.), see: https://github.com/openai/CLIP/issues/45 ",
+    "root_folder": "classification/eurosat_clip_20210930",
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "2750.zip"
+      ],
+      "num_images": 5000
+    },
+    "val": {
+      "index_path": "val.txt",
+      "files_for_local_usage": [
+        "2750.zip"
+      ],
+      "num_images": 5000
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "2750.zip"
+      ],
+      "num_images": 5000
+    },
+    "num_classes": 10,
+    "labelmap": "labels.txt"
+  },
+  {
+    "name": "resisc45_clip",
+    "version": 1,
+    "type": "classification_multiclass",
+    "description": "Dataset sampled by CLIP, see: https://github.com/openai/CLIP/issues/45. RESISC45 dataset is a publicly available benchmark for Remote Sensing Image Scene Classification",
+    "format": "coco",
+    "root_folder": "classification/resisc45_clip_20210924",
+    "train": {
+      "index_path": "train.json",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 3150
+    },
+    "val": {
+      "index_path": "val.json",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 3150
+    },
+    "test": {
+      "index_path": "test.json",
+      "files_for_local_usage": [
+        "images.zip"
+      ],
+      "num_images": 25200
+    },
+    "num_classes": 45
+  },
+  {
+    "name": "caltech-101",
+    "description": "Pictures of objects belonging to 101 categories. About 40 to 800 images per category. Most categories have about 50 images. Collected in September 2003 by Fei-Fei Li, Marco Andreetto, and Marc 'Aurelio Ranzato.  The size of each image is roughly 300 x 200 pixels. ",
+    "contact": "pinjin",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/caltech_101_20211007",
+    "labelmap": "labels.txt",
+    "num_classes": 102,
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 3060
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 6084
+    }
+  },
+  {
+    "name": "cifar-10",
+    "description": "The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.",
+    "contact": "pinjin",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/cifar_10_20211007",
+    "labelmap": "labels.txt",
+    "num_classes": 10,
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 50000
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "val.zip"
+      ],
+      "num_images": 10000
+    }
+  },
+  {
+    "name": "cifar-100",
+    "description": "This dataset is just like the CIFAR-10, except it has 100 classes containing 600 images each. There are 500 training images and 100 testing images per class. The 100 classes in the CIFAR-100 are grouped into 20 superclasses. Each image comes with a 'fine' label (the class to which it belongs) and a 'coarse' label (the superclass to which it belongs).",
+    "contact": "pinjin",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/cifar100_20200721",
+    "labelmap": "labels.txt",
+    "num_classes": 100,
+    "train": {
+      "index_path": "train_images.txt",
+      "files_for_local_usage": [
+        "train_images.zip"
+      ],
+      "num_images": 50000
+    },
+    "test": {
+      "index_path": "test_images.txt",
+      "files_for_local_usage": [
+        "test_images.zip"
+      ],
+      "num_images": 10000
+    }
+  },
+  {
+    "name": "dtd",
+    "description": "The Describable Textures Dataset (DTD) is an evolving collection of textural images in the wild, annotated with a series of human-centric attributes, inspired by the perceptual properties of textures. This data is made available to the computer vision community for research purposes.",
+    "contact": "pinjin",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/dtd_20211007",
+    "labelmap": "labels.txt",
+    "num_classes": 47,
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 1880
+    },
+    "val": {
+      "index_path": "val.txt",
+      "files_for_local_usage": [
+        "val.zip"
+      ],
+      "num_images": 1880
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 1880
+    }
+  },
+  {
+    "name": "fgvc-aircraft-2013b-variants102",
+    "description": "Fine-Grained Visual Classification of Aircraft (FGVC-Aircraft) is a benchmark dataset for the fine grained visual categorization of aircraft.",
+    "contact": "pinjin",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/fgvc_aircraft_2013b_variants102_20211007",
+    "labelmap": "labels.txt",
+    "num_classes": 100,
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 3334
+    },
+    "val": {
+      "index_path": "val.txt",
+      "files_for_local_usage": [
+        "val.zip"
+      ],
+      "num_images": 3333
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 3333
+    }
+  },
+  {
+    "name": "food-101",
+    "description": "This dataset consists of 101 food categories, with 101000 images. For each class, 250 manually reviewed test images are provided as well as 750 training images. On purpose, the training images were not cleaned, and thus still contain some amount of noise. This comes mostly in the form of intense colors and sometimes wrong labels. All images were rescaled to have a maximum side length of 512 pixels.",
+    "contact": "pinjin",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/food_101_20211007",
+    "labelmap": "labels.txt",
+    "num_classes": 101,
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 75750
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "val.zip"
+      ],
+      "num_images": 25250
+    }
+  },
+  {
+    "name": "mnist",
+    "description": "The MNIST database of handwritten digits, available from this page, has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.",
+    "contact": "pinjin",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/mnist_20211008",
+    "labelmap": "labels.txt",
+    "num_classes": 10,
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 60000
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "val.zip"
+      ],
+      "num_images": 10000
+    }
+  },
+  {
+    "name": "oxford-flower-102",
+    "description": "A dataset consisting of 102 flower categories. The flowers chosen to be flower commonly occuring in the United Kingdom. Each class consists of between 40 and 258 images.",
+    "contact": "pinjin",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/oxford_flower_102_20211007",
+    "labelmap": "labels.txt",
+    "num_classes": 102,
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 1020
+    },
+    "val": {
+      "index_path": "val.txt",
+      "files_for_local_usage": [
+        "val.zip"
+      ],
+      "num_images": 1020
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 6149
+    }
+  },
+  {
+    "name": "oxford-iiit-pets",
+    "description": "A 37-category pet dataset with roughly 200 images for each class. The images have a large variations in scale, pose and lighting.",
+    "contact": "pinjin",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/oxford_iiit_pets_20211007",
+    "labelmap": "labels.txt",
+    "num_classes": 37,
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 3680
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "val.zip"
+      ],
+      "num_images": 3669
+    }
+  },
+  {
+    "name": "patch-camelyon",
+    "description": "The PatchCamelyon benchmark is a new and challenging image classification dataset. It consists of 327.680 color images (96 x 96px) extracted from histopathologic scans of lymph node sections. Each image is annoted with a binary label indicating presence of metastatic tissue. PCam provides a new benchmark for machine learning models: bigger than CIFAR10, smaller than imagenet, trainable on a single GPU.",
+    "contact": "pinjin",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/patch_camelyon_20211007",
+    "labelmap": "labels.txt",
+    "num_classes": 2,
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 262144
+    },
+    "val": {
+      "index_path": "val.txt",
+      "files_for_local_usage": [
+        "validation.zip"
+      ],
+      "num_images": 32768
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 32768
+    }
+  },
+  {
+    "name": "stanford-cars",
+    "description": "The Cars dataset contains 16,185 images of 196 classes of cars. The data is split into 8,144 training images and 8,041 testing images, where each class has been split roughly in a 50-50 split. Classes are typically at the level of Make, Model, Year, e.g. 2012 Tesla Model S or 2012 BMW M3 coupe.",
+    "contact": "pinjin",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/stanford_cars_20211007",
+    "labelmap": "labels.txt",
+    "num_classes": 196,
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 8144
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "val.zip"
+      ],
+      "num_images": 8041
+    }
+  },
+  {
+    "name": "fer-2013",
+    "description": "The data consists of 48x48 pixel grayscale images of faces. The task is to categorize each face based on the emotion shown in the facial expression into one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral).",
+    "contact": "pinjin",
+    "version": 1,
+    "type": "classification_multiclass",
+    "root_folder": "classification/fer_2013_20211008",
+    "labelmap": "labels.txt",
+    "num_classes": 7,
+    "train": {
+      "index_path": "train.txt",
+      "files_for_local_usage": [
+        "train.zip"
+      ],
+      "num_images": 28709
+    },
+    "val": {
+      "index_path": "val.txt",
+      "files_for_local_usage": [
+        "val.zip"
+      ],
+      "num_images": 3589
+    },
+    "test": {
+      "index_path": "test.txt",
+      "files_for_local_usage": [
+        "test.zip"
+      ],
+      "num_images": 3589
+    }
+  },
+  {
+    "name": "hateful-memes",
+    "version": 1,
+    "type": "classification_multiclass",
+    "description": "At the massive scale of the internet, the task of detecting multimodal hate is both extremely important and particularly difficult. Relying on just text or just images to determine whether a meme is hateful is insufficient. By using certain types of images, text, or combinations, a meme can become a multimodal type of hate speech.",
+    "format": "coco",
+    "root_folder": "classification/hateful_memes_20211014",
+    "train": {
+      "index_path": "train_meta.json",
+      "files_for_local_usage": [
+        "img.zip"
+      ],
+      "num_images": 8500
+    },
+    "test": {
+      "index_path": "test_meta.json",
+      "files_for_local_usage": [
+        "img.zip"
+      ],
+      "num_images": 500
+    },
+    "num_classes": 2
+  },
+  {
+    "name": "ping-logo",
+    "version": 1,
+    "type": "object_detection",
+    "description": "A logo in the wild detection dataset collected and labeled by Ping Jin.",
+    "contact": "pinjin",
+    "root_folder": "detection/ping_logo_20200401",
+    "train": {
+      "index_path": "train_images.txt",
+      "files_for_local_usage": [
+        "train_images.zip",
+        "train_labels.zip"
+      ],
+      "num_images": 1534
+    },
+    "test": {
+      "index_path": "test_images.txt",
+      "files_for_local_usage": [
+        "test_images.zip",
+        "test_labels.zip"
+      ],
+      "num_images": 769
+    },
+    "labelmap": "labels.txt",
+    "image_metadata_path": "image_meta_info.txt",
+    "num_classes": 54
+  },
+  {
+    "name": "ping-nba",
+    "version": 1,
+    "type": "object_detection",
+    "description": "A dataset detecting basketballs, jerseys, hook and shoes, created by Ping Jin.",
+    "contact": "pinjin",
+    "root_folder": "detection/ping_nba_20200401",
+    "train": {
+      "index_path": "train_images.txt",
+      "files_for_local_usage": [
+        "train_images.zip",
+        "train_labels.zip"
+      ],
+      "num_images": 140
+    },
+    "test": {
+      "index_path": "test_images.txt",
+      "files_for_local_usage": [
+        "test_images.zip",
+        "test_labels.zip"
+      ],
+      "num_images": 93
+    },
+    "labelmap": "labels.txt",
+    "image_metadata_path": "image_meta_info.txt",
+    "num_classes": 4
+  },
+  {
+    "name": "ping-office-env",
+    "version": 1,
+    "type": "object_detection",
+    "description": "A dataset detecting common office items, created by Ping Jin.",
+    "contact": "pinjin",
+    "root_folder": "detection/ping_office_20200401",
+    "train": {
+      "index_path": "train_images.txt",
+      "files_for_local_usage": [
+        "train_images.zip",
+        "train_labels.zip"
+      ],
+      "num_images": 244
+    },
+    "test": {
+      "index_path": "test_images.txt",
+      "files_for_local_usage": [
+        "test_images.zip",
+        "test_labels.zip"
+      ],
+      "num_images": 156
+    },
+    "labelmap": "labels.txt",
+    "image_metadata_path": "image_meta_info.txt",
+    "num_classes": 8
+  },
+  {
+    "name": "b92-regular",
+    "version": 1,
+    "type": "object_detection",
+    "description": "A product detection and recognition benchmark dataset, where the images are cropped from regular B92 dataset by the bbox annotations, collected and labeled by Vision ML Platform team under ACV (houhu@microsoft.com).",
+    "root_folder": "detection/b92_regular_20200828",
+    "train": {
+      "index_path": "train_images.txt",
+      "files_for_local_usage": [
+        "train_images.zip",
+        "train_labels.zip"
+      ],
+      "num_images": 303
+    },
+    "test": {
+      "index_path": "test_images.txt",
+      "files_for_local_usage": [
+        "test_images.zip",
+        "test_labels.zip"
+      ],
+      "num_images": 87
+    },
+    "labelmap": "labels.txt",
+    "image_metadata_path": "image_meta_info.txt",
+    "num_classes": 193
+  },
+  {
+    "name": "b92-regular-ic-benchmark",
+    "version": 1,
+    "type": "classification_multiclass",
+    "description": "A product recognition benchmark dataset, where the images are cropped from regular B92 dataset by the bbox annotations, collected and labeled by Vision ML Platform team under ACV (houhu@microsoft.com).",
+    "contact": "xingpeng",
+    "root_folder": "classification/b92_regular_ic_benchmark_20210904",
+    "train": {
+      "index_path": "train_images.txt",
+      "files_for_local_usage": [
+        "train_images.zip"
+      ],
+      "num_images": 14175
+    },
+    "val": {
+      "index_path": "val_images.txt",
+      "files_for_local_usage": [
+        "val_images.zip"
+      ],
+      "num_images": 3968
+    },
+    "test": {
+      "index_path": "test_images.txt",
+      "files_for_local_usage": [
+        "test_images.zip"
+      ],
+      "num_images": 3458
+    },
+    "labels_in_index_file": true,
+    "labelmap": "labels.txt",
+    "num_classes": 193
+  },
+  {
+    "name": "im_cap_coco",
+    "version": 1,
+    "type": "image_caption",
+    "format": "coco",
+    "description": "COCO image caption dataset. https://cocodataset.org/#captions-2015",
+    "root_folder": "imagecaption/image_caption_coco_20211115",
+    "test": {
+      "index_path": "coco_image_caption_gt.json",
+      "files_for_local_usage": [
+        "val_images.zip"
+      ],
+      "num_images": 81434
+    }
+  }
+]

@@ -1,0 +1,6 @@
+BASE: ['b32-gpt2.yaml']
+MODEL:
+  SPEC:
+    GATHER_TENSORS: True
+    POOL_TYPE: 'average'
+    SKIP_CLS: True

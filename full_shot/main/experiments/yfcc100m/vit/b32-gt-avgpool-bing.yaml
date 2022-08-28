@@ -1,0 +1,11 @@
+BASE: ['b32.yaml']
+MODEL:
+  SPEC:
+    GATHER_TENSORS: True
+    POOL_TYPE: 'average'
+DATASET:
+  DATASET: 'image_text_pairs'
+  DATA_FORMAT: 'tsv'
+  ROOT: 'DATASET/bing-image-caption/'
+  TEST_SET: 'val'
+  TRAIN_SET: 'train'

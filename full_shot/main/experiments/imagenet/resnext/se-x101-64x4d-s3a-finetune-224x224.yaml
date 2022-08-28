@@ -1,0 +1,8 @@
+BASE: ['se-x101-64x4d-s3a-finetune.yaml']
+
+TEST:
+  BATCH_SIZE_PER_GPU: 32
+  IMAGE_SIZE: [224, 224]
+TRAIN:
+  BATCH_SIZE_PER_GPU: 32
+  IMAGE_SIZE: [224, 224]

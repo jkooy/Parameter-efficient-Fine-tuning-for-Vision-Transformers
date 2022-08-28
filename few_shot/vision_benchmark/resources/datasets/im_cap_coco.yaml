@@ -1,0 +1,5 @@
+DATASET:
+  DATASET: 'im_cap_coco'
+  ROOT: '../DATASET/im_cap_coco/'
+TEST:
+  METRIC: 'Bleu,METEOR,ROUGE_L,CIDEr,SPICE'

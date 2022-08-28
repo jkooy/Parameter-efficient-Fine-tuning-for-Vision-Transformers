@@ -1,0 +1,14 @@
+BASE: ['se-x101-32x8d-s3a-cutmix1.0mixup0.2ls0.1-wd0.0001-finetune.yaml']
+MODEL:
+  NAME: cls_resnet
+  NUM_CLASSES: 1000
+  SPEC:
+    NUM_LAYERS: 101
+    KERNEL_SIZE_STEM: 3
+    NUM_GROUPS: 32
+    AVG_DOWN: true
+    WIDTH_PER_GROUP: 32
+    WITH_SE: true
+  PRETRAINED: 'DATASET/models/IN-22k/se-x101-32x32d-s3a-aug4-w5c120-bnwd0-larc/model_best.pth'
+TRAIN:
+  BATCH_SIZE_PER_GPU: 8

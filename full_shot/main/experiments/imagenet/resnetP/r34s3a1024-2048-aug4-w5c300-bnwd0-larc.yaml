@@ -1,0 +1,3 @@
+BASE: ['r34s3a1024-2048-aug4-w5c300-bnwd0.yaml']
+TRAIN:
+  LARC: True

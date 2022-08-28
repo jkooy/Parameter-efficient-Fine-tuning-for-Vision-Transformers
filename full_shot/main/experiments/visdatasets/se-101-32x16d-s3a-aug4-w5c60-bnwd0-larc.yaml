@@ -1,0 +1,18 @@
+BASE: ['../imagenet22k/resnext/se-x101-32x16d-s3a-aug4-w5c120-bnwd0-larc.yaml']
+PRINT_FREQ: 2000
+
+MODEL:
+  NUM_CLASSES: 17270
+DATASET:
+  DATASET: 'visdataset'
+  DATA_FORMAT: 'tsv'
+  LABELMAP: 'mswebdata.label2idx'
+  ROOT: 'DATASET/mswebdata/'
+  TRAIN_TSV_LIST: ['train-000.tsv', 'train-001.tsv', 'train-002.tsv', 'train-003.tsv', 'train-004.tsv', 'train-005.tsv', 'train-006.tsv', 'train-007.tsv', 'train-008.tsv', 'train-009.tsv', 'train-010.tsv', 'train-011.tsv', 'train-012.tsv', 'train-013.tsv', 'train-014.tsv', 'train-015.tsv']
+  TEST_TSV_LIST: ['val-imagenet-4partitions.tsv', 'val-places.tsv', 'val-food101.tsv']
+  TEST_SET: 'val'
+  TRAIN_SET: 'train'
+TRAIN:
+  SAMPLER: 'chunk'
+  BATCH_SIZE_PER_GPU: 64
+  END_EPOCH: 60

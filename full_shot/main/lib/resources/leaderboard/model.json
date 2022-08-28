@@ -1,0 +1,7 @@
+{
+    "name": "vit-pinjin-test",
+    "author": "pinjin",
+    "num_params_in_millions": 200.0,
+    "pretrained_data": "webcrawl",
+    "creation_time": "2019-05-27"
+}

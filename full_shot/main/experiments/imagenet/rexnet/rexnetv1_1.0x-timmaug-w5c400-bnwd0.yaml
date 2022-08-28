@@ -1,0 +1,33 @@
+BASE: ['../base/aug4-w5c300-bnwd0.yaml']
+MODEL:
+  NAME: cls_rexnet
+  SPEC:
+    INPUT_CH: 16
+    FINAL_CH: 180
+    WIDTH_MULT: 1.0
+    DEPTH_MULT: 1.0
+    WITH_SE: True
+    SE_RATIO: 12
+    DROPOUT: 0.2
+
+TRAIN:
+  BATCH_SIZE_PER_GPU: 128
+  END_EPOCH: 400
+  LR: 0.125
+  WD: 0.00001
+
+AUG:
+  MIXCUT: 0.0
+  TIMM_LOADER:
+    ENABLED: True
+    RE_COUNT: 1
+    RE_MODE: pixel
+    RE_SPLIT: 1
+    RE_PROB: 0.2
+    AUTO_AUGMENT: rand-m9-mstd0.5
+    SCALE: [0.08, 1.0]
+    RATIO: [0.75, 1.33]
+    HFLIP: 0.5
+    VFLIP: 0.0
+    COLOR_JITTER: 0.4
+    INTERPOLATION: random

@@ -1,0 +1,31 @@
+BASE: ['../base/aug4-w5c300-bnwd0.yaml']
+MODEL:
+  NAME: cls_hrnet_v2
+  SPEC:
+    WITH_SE: True
+    STAGES:
+      NUM_STAGES: 3
+      NUM_MODULES: [1, 4, 3]
+      NUM_BRANCHES: [2, 3, 4]
+      GROUPS:
+      - [4, 8]
+      - [4, 8, 16]
+      - [4, 8, 16, 32]
+      NUM_BLOCKS:
+      - [1, 2]
+      - [1, 2, 4]
+      - [1, 2, 4, 8]
+      NUM_CHANNELS:
+      - [60, 120]
+      - [60, 120, 240]
+      - [60, 120, 240, 480]
+      BLOCK: [BASIC, BASIC, BASIC]
+      FUSE_METHOD: ['SUM', 'SUM', 'SUM']
+    HEAD:
+      BLOCK: [BOTTLENECK, BOTTLENECK, BOTTLENECK, BOTTLENECK]
+      NUM_CHANNELS: [32, 64, 128, 256]
+      NUM_CHANNELS_PROJ: 2048
+TRAIN:
+  END_EPOCH: 120
+  BATCH_SIZE_PER_GPU: 128
+  LR: 0.05

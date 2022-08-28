@@ -1,0 +1,7 @@
+# GPUS: (0,)
+
+DATASET:
+  DATASET: 'b92-regular-ic-benchmark'
+  ROOT: '../DATASET/b92-regular-ic-benchmark/'
+TEST:
+  METRIC: 'accuracy'

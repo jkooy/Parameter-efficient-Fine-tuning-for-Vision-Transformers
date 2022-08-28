@@ -1,0 +1,49 @@
+OUTPUT_DIR: OUTPUT/VITB16_CLIP_MS/
+INPUT:
+  MEAN:
+  - 0.485
+  - 0.456
+  - 0.406
+  STD:
+  - 0.229
+  - 0.224
+  - 0.225
+MODEL:
+  INIT_WEIGHTS: true
+  NAME: clip_openai
+  NUM_CLASSES: 1000
+  PRETRAINED: ''
+  PRETRAINED_LAYERS:
+  - '*'
+  SPEC:
+    EMBED_DIM: 512
+    GATHER_TENSORS: true
+    TEXT:
+      CONTEXT_LENGTH: 77
+      HEADS: 8
+      LAYERS: 12
+      STYLE: clip
+      TOKENIZER: clip
+      VOCAB_SIZE: 49408
+      WIDTH: 512
+    VISION:
+      LAYERS: 12
+      MODEL: vit
+      PATCH_SIZE: 16
+      WIDTH: 768
+TEST:
+  MODEL_FILE: './OUTPUT/VITB16_CLIP_MS/b16/model_best.pth'
+
+TRAIN:
+  BATCH_SIZE_PER_GPU: 64
+  BEGIN_EPOCH: 0
+  END_EPOCH: 100
+  EXTRA_FINAL_TRAIN_EPOCH: 100
+  OPTIMIZER: sgd
+  WD: 0.
+  MOMENTUM: 0.9
+  NESTEROV: false
+  SHUFFLE: true
+  LR_SCHEDULER:
+    METHOD: 'WarmupCosine'
+    WARMUP_EPOCH: 5

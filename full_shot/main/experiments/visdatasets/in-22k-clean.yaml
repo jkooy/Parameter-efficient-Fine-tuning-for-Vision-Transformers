@@ -1,0 +1,12 @@
+BASE: ['base/r50s3a-aug4-w5c300-bnwd0.yaml']
+PRINT_FREQ: 2000
+
+MODEL:
+  NUM_CLASSES: 21841
+DATASET:
+  LABELMAP: 'labelmap_22k_reorder.txt'
+  ROOT: 'DATASET/imagenet22k-clean/'
+  TRAIN_TSV_LIST: ['train-01.tsv', 'train-02.tsv']
+TRAIN:
+  SAMPLER: 'default'
+  END_EPOCH: 30

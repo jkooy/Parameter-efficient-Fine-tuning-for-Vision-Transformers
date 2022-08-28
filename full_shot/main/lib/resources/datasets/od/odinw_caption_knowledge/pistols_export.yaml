@@ -1,0 +1,44 @@
+DATALOADER:
+  ASPECT_RATIO_GROUPING: false
+  SIZE_DIVISIBILITY: 32
+DATASETS:
+  GENERAL_COPY: 16
+  KNOWLEDGE: '[{"id": 1, "name": "pistol", "supercategory": "Guns", "def_wiki": "A
+    handgun, typically with a chamber integrated in the barrel, a semi-automatic action
+    and a box magazine.", "path_wn": ["pistol", "firearm", "gun", "weapon", "instrument",
+    "device", "instrumentality", "artifact", "whole", "object", "physical_entity",
+    "entity"], "def_wn": "a firearm that is held and fired with one hand"}]'
+  OVERRIDE_CATEGORY: '[{"id": 1, "name": "pistol", "supercategory": "Guns"}]'
+  PREDEFINED_TEXT: odinw/pothole/category_description.json
+  REGISTER:
+    Pistols_Test:
+      ann_file: odinw/original/pistols/export/test_annotations_without_background.json
+      img_dir: odinw/original/pistols/export
+    Pistols_Train:
+      ann_file: odinw/original/pistols/export/train_annotations_without_background.json
+      img_dir: odinw/original/pistols/export
+    Pistols_Val:
+      ann_file: odinw/original/pistols/export/val_annotations_without_background.json
+      img_dir: odinw/original/pistols/export
+  TEST: ("Pistols_Val",)
+  TRAIN: ("Pistols_Train",)
+INPUT:
+  MAX_SIZE_TEST: 1333
+  MAX_SIZE_TRAIN: 1333
+  MIN_SIZE_TEST: 800
+  MIN_SIZE_TRAIN: 800
+MODEL:
+  ATSS:
+    NUM_CLASSES: 297
+  DYHEAD:
+    NUM_CLASSES: 297
+  FCOS:
+    NUM_CLASSES: 297
+  ROI_BOX_HEAD:
+    NUM_CLASSES: 297
+SOLVER:
+  CHECKPOINT_PERIOD: 100
+  MAX_EPOCH: 12
+  WARMUP_ITERS: 0
+TEST:
+  IMS_PER_BATCH: 8

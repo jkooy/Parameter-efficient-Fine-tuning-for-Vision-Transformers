@@ -1,0 +1,63 @@
+BASE: ['../base/r50s3a-aug4-w5c300-bnwd0.yaml']
+OUTPUT_DIR: 'OUTPUT/'
+WORKERS: 6
+PRINT_FREQ: 2000
+
+MODEL:
+  NAME: cls_resnet
+  PRETRAINED: ''
+  PRETRAINED_LAYERS:
+    - conv1
+    - conv2
+    - bn1
+    - bn2
+    - layer1
+    - layer2
+    - layer3
+    - layer4
+  SPEC:
+    NUM_LAYERS: 50
+    KERNEL_SIZE_STEM: 3
+    AVG_DOWN: true
+    NUM_GROUPS: 1
+    WIDTH_PER_GROUP: 64
+  NUM_CLASSES: 8999
+DATASET:
+  DATASET: 'visdataset'
+  DATA_FORMAT: 'tsv'
+  ROOT: 'DATASET/imagenet-subset/'
+  LABELMAP: 'imagenet-9k.label2idx'
+  TRAIN_SET: 'train'
+  TEST_SET: 'val'
+  TRAIN_TSV_LIST: [ 'train-1k.tsv', 'train-1k-5k.tsv', 'train-5k-9k.tsv']
+  TEST_TSV_LIST: [ 'val-1k.tsv', 'val-1k-5k.tsv', 'val-5k-9k.tsv']
+TEST:
+  BATCH_SIZE_PER_GPU: 16
+  IMAGE_SIZE: [480, 480]
+  CENTER_CROP: False
+  MODEL_FILE: ''
+TRAIN:
+  BATCH_SIZE_PER_GPU: 16
+  IMAGE_SIZE: [480, 480]
+  LR_SCHEDULER:
+    METHOD: 'BitHyperRule'
+  OPTIMIZER: sgd
+  WD: 0.0
+  WITHOUT_WD_LIST: ['bn']
+  MOMENTUM: 0.9
+  NESTEROV: true
+  SHUFFLE: true
+FINETUNE:
+  FINETUNE: true
+  EVAL_EVERY: 2000
+  FROZEN_LAYERS:
+    - conv1
+    - conv2
+    - bn1
+    - bn2
+    - layer1
+    - layer2
+    - layer3
+    - layer4
+DEBUG:
+  DEBUG: false

@@ -1,0 +1,5 @@
+BASE: ['se-x101-32x16d-s3a-finetune.yaml']
+AUG:
+  MIXUP: 0.2
+TRAIN:
+  WD: 0.0001

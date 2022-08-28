@@ -1,0 +1,11 @@
+BASE: ['se-x50-32x4d-s3a-aug4-w5c300-bnwd0.yaml']
+AMP:
+  ENABLED: True
+MODEL:
+  SPEC:
+    WITH_SE: False
+
+TRAIN:
+  LARC: True
+  BATCH_SIZE_PER_GPU: 256
+  LR: 0.1

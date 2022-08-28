@@ -1,0 +1,19 @@
+BASE: ['b32.yaml']
+DATASET:
+  TRAIN_TSV_LIST:
+  - 'train-image-00.tsv'
+  - 'train-text-00.tsv'
+  - 'train-image-01.tsv'
+  - 'train-text-01.tsv'
+  - 'train-image-02.tsv'
+  - 'train-text-02.tsv'
+  - 'train-image-03.tsv'
+  - 'train-text-03.tsv'
+  - 'train-image-04.tsv'
+  - 'train-text-04.tsv'
+  - 'train-image-05.tsv'
+  - 'train-text-05.tsv'
+  - 'train-image-06.tsv'
+  - 'train-text-06.tsv'
+  - 'train-image-07.tsv'
+  - 'train-text-07.tsv'

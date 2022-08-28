@@ -1,0 +1,41 @@
+DATALOADER:
+  ASPECT_RATIO_GROUPING: false
+  SIZE_DIVISIBILITY: 32
+DATASETS:
+  GENERAL_COPY: 16
+  OVERRIDE_CATEGORY: '[{"id": 1, "name": "hole", "supercategory": "potholes"}]'
+  PREDEFINED_TEXT: odinw/pothole/category_description.json
+  CAPTION_PROMPT: '[{"prefix": "there are some ", "name": "holes", "suffix": " on the road"}]'
+  REGISTER:
+    Pothole_Test:
+      ann_file: odinw/original/pothole/test/annotations_without_background.json
+      img_dir: odinw/original/pothole/test
+    Pothole_Train:
+      ann_file: odinw/original/pothole/train/annotations_without_background.json
+      img_dir: odinw/original/pothole/train
+    Pothole_Val:
+      ann_file: odinw/original/pothole/valid/annotations_without_background.json
+      img_dir: odinw/original/pothole/valid
+  SUPRESS_QUERY: "['person', 'plane', 'bicycle', 'boat', 'bus', 'car', 'motorbike', 'train', 'bottle', 'chair', 'dining table', 'potted plant', 'sofa', 'tv']"
+  TEST: ("Pothole_Test",)
+  TRAIN: ("Pothole_Train",)
+INPUT:
+  MAX_SIZE_TEST: 1333
+  MAX_SIZE_TRAIN: 1333
+  MIN_SIZE_TEST: 800
+  MIN_SIZE_TRAIN: 800
+MODEL:
+  ATSS:
+    NUM_CLASSES: 2
+  DYHEAD:
+    NUM_CLASSES: 2
+  FCOS:
+    NUM_CLASSES: 2
+  ROI_BOX_HEAD:
+    NUM_CLASSES: 2
+SOLVER:
+  CHECKPOINT_PERIOD: 100
+  MAX_EPOCH: 12
+  WARMUP_ITERS: 0
+TEST:
+  IMS_PER_BATCH: 8

@@ -1,0 +1,13 @@
+BASE: ['base/r50s3a-aug4-w5c300-bnwd0.yaml']
+PRINT_FREQ: 2000
+
+MODEL:
+  NUM_CLASSES: 42470
+DATASET:
+  LABELMAP: 'fwd-105m.label2idx'
+  ROOT: 'DATASET/fwd105m-in22k/'
+  TRAIN_TSV_LIST: ['FWD-105M-000.tsv', 'FWD-105M-001.tsv', 'FWD-105M-002.tsv', 'FWD-105M-003.tsv']
+  TEST_TSV_LIST: ['val-IN-1K.tsv', 'val-places.tsv', 'val-food101.tsv']
+TRAIN:
+  SAMPLER: 'chunk'
+  END_EPOCH: 30

@@ -1,0 +1,60 @@
+OUTPUT_DIR: 'OUTPUT/'
+WORKERS: 6
+PRINT_FREQ: 4000
+AMP:
+  ENABLED: true
+
+AUG:
+  GRAY_SCALE: 0.2
+  COLOR_JITTER: [0.4, 0.4, 0.4, 0.1, 0.8]
+  MIXCUT: 1.0
+CUDNN:
+  BENCHMARK: true
+  DETERMINISTIC: false
+  ENABLED: true
+
+MODEL:
+  NAME: cls_resnet
+  NUM_CLASSES: 33525
+  SPEC:
+    NUM_LAYERS: 101
+    KERNEL_SIZE_STEM: 3
+    AVG_DOWN: true
+    NUM_GROUPS: 32
+    WIDTH_PER_GROUP: 16
+    WITH_SE: true
+    DEEP_STEM: true
+    DROPOUT: 0.1
+    STEM_FACTOR: 2
+DATASET:
+  DATASET: 'visdataset'
+  DATA_FORMAT: 'tsv'
+  LABELMAP: 'fwd63m-imagenet22k.label2idx'
+  ROOT: 'DATASET/fwd63m-imagenet22k/'
+  TRAIN_TSV_LIST: ['train-000.tsv', 'train-001.tsv', 'train-002.tsv', 'train-003.tsv', 'train-004.tsv', 'train-005.tsv', 'train-006.tsv', 'train-007.tsv', 'train-008.tsv', 'train-009.tsv', 'train-010.tsv', 'train-011.tsv', 'train-012.tsv', 'train-013.tsv', 'train-014.tsv', 'train-015.tsv']
+  TEST_TSV_LIST: ['val-IN22K.tsv', 'val-places.tsv', 'val-food101.tsv']
+  TEST_SET: 'val'
+  TRAIN_SET: 'train'
+TEST:
+  BATCH_SIZE_PER_GPU: 32
+  IMAGE_SIZE: [224, 224]
+  MODEL_FILE: ''
+TRAIN:
+  SAMPLER: 'chunk'
+  END_EPOCH: 120
+  BATCH_SIZE_PER_GPU: 96
+  IMAGE_SIZE: [224, 224]
+  BEGIN_EPOCH: 0
+  LR_SCHEDULER:
+    METHOD: 'WarmupCosine'
+    WARMUP_EPOCH: 5
+  OPTIMIZER: sgd
+  LARC: True
+  LR: 0.0375
+  WD: 0.0001
+  WITHOUT_WD_LIST: ['bn']
+  MOMENTUM: 0.9
+  NESTEROV: true
+  SHUFFLE: true
+DEBUG:
+  DEBUG: false

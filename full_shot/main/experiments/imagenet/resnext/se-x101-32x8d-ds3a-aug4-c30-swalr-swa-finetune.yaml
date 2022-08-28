@@ -1,0 +1,14 @@
+BASE: ['se-x101-32x8d-ds3a-drop0.1-aug4-w5c120-bnwd0-larc.yaml']
+SWA:
+  ENABLED: True
+  BEGIN_EPOCH: 0
+MODEL:
+  PRETRAINED: 'DATASET/models/IN-1k/se-x101-32x8d-ds3a-drop0.1-aug4-w5c120-bnwd0-larc/final_state.pth'
+  PRETRAINED_LAYERS: ['*']
+TRAIN:
+  END_EPOCH: 30
+  BATCH_SIZE_PER_GPU: 64
+  LARC: False
+  LR: 0.000025
+  LR_SCHEDULER:
+    METHOD: SWALR

@@ -1,0 +1,7 @@
+# GPUS: (0,)
+DATASET:
+  DATASET: 'ping-attack-on-titan-plus'
+  ROOT: '../DATASET/ping-attack-on-titan-plus/'
+  NUM_CLASSES: 11
+TEST:
+  METRIC: 'accuracy'

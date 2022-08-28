@@ -1,0 +1,14 @@
+# GPUS: (0,)
+DATA_DIR: ''
+
+DATASET:
+  DATASET: 'isic'
+  DATA_FORMAT: 'jpg'
+  ROOT: '../DATASET/isic/'
+  TRAIN_SET: 'train'
+  TEST_SET: 'val'
+  NUM_CLASSES: 7
+TEST:
+  METRIC: 'accuracy'
+DEBUG:
+  DEBUG: false
